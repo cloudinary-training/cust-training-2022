@@ -6,7 +6,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 // execute Cloudinary config to break out credentials from CLOUDINARY_URL
-const credentials = cloudinary.config()
+const credentials = cloudinary.config({'secure':'true'})
 console.log(credentials.cloud_name)
 console.log(credentials.api_key)
 
