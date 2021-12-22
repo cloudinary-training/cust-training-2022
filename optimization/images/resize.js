@@ -8,29 +8,75 @@
 // lpad	    Same as pad, but only scales down the image.
 // mpad     Same as pad, but only scales up the image.
 
-require('dotenv').config()
-const cloudinary = require('cloudinary').v2
-cloudinary.config({secure: 'true'})
+require("dotenv").config();
+const cloudinary = require("cloudinary").v2;
+cloudinary.config({ secure: "true" });
 
 //adjusting a single dimension maintains aspect ratio
-console.log(cloudinary.url('doctor',{crop: 'scale', width:900,format:'jpg'}))
-console.log(cloudinary.url('doctor',{crop: 'scale', height:600,format:'jpg'}))
+console.log(
+  cloudinary.url("doctor", { crop: "scale", width: 900, format: "jpg" })
+);
+console.log(
+  cloudinary.url("doctor", { crop: "scale", height: 600, format: "jpg" })
+);
 //skew
-console.log(cloudinary.url('doctor',{crop: 'scale', width:900,height:600,format:'jpg'}))
+console.log(
+  cloudinary.url("doctor", {
+    crop: "scale",
+    width: 900,
+    height: 600,
+    format: "jpg",
+  })
+);
 // correct skew with fit, limit
-console.log('-----')
-console.log(cloudinary.url('doctor',{crop: 'fit', width:900,height:600,format:'jpg'}))
-console.log(cloudinary.url('doctor',{crop: 'limit', width:900,height:600,format:'jpg'}))
+console.log("-----");
+console.log(
+  cloudinary.url("doctor", {
+    crop: "fit",
+    width: 900,
+    height: 600,
+    format: "jpg",
+  })
+);
+console.log(
+  cloudinary.url("doctor", {
+    crop: "limit",
+    width: 900,
+    height: 600,
+    format: "jpg",
+  })
+);
 
 // change the apsect ratio and pad
-console.log('-----')
-console.log(cloudinary.url('doctor',{crop: 'pad', width:600,height:900,background:'auto',format:'jpg'}))
-console.log(cloudinary.url('doctor',{crop: 'lpad', width:600,height:900,background: 'auto',format:'jpg'}))
+console.log("-----");
+console.log(
+  cloudinary.url("doctor", {
+    crop: "pad",
+    width: 600,
+    height: 900,
+    background: "auto",
+    format: "jpg",
+  })
+);
+console.log(
+  cloudinary.url("doctor", {
+    crop: "lpad",
+    width: 600,
+    height: 900,
+    background: "auto",
+    format: "jpg",
+  })
+);
 
 // still a large image
-console.log('-----')
+console.log("-----");
 // this is for upscaling and won't help with making the image smaller
-console.log(cloudinary.url('doctor',{crop: 'mpad', width:900,height:600,background: 'auto',format:'jpg'}))
-
-
-
+console.log(
+  cloudinary.url("doctor", {
+    crop: "mpad",
+    width: 900,
+    height: 600,
+    background: "auto",
+    format: "jpg",
+  })
+);

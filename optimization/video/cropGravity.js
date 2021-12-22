@@ -10,28 +10,86 @@
 
 // gravity: 'face' not supported in video - use gravity: 'auto'
 
-require('dotenv').config()
-const cloudinary = require('cloudinary').v2
-cloudinary.config({ secure: 'true' })
+require("dotenv").config();
+const cloudinary = require("cloudinary").v2;
+cloudinary.config({ secure: "true" });
 
-console.log('----- no gravity')
-console.log(cloudinary.url('hat', { crop: 'crop', width: 200, height: 200, format: 'mp4', resource_type: 'video' }))
-console.log(cloudinary.url('hat', { crop: 'fill', width: 200, height: 200, format: 'mp4', resource_type: 'video' }))
+console.log("----- no gravity");
+console.log(
+  cloudinary.url("hat", {
+    crop: "crop",
+    width: 200,
+    height: 200,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+console.log(
+  cloudinary.url("hat", {
+    crop: "fill",
+    width: 200,
+    height: 200,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
 
-console.log('----- gravity auto')
+console.log("----- gravity auto");
 // add gravity
-console.log(cloudinary.url('hat', { crop: 'crop', gravity: 'auto', width: 200, height: 200, format: 'mp4', resource_type: 'video' }))
-console.log(cloudinary.url('hat', { crop: 'fill', gravity: 'auto', width: 200, height: 200, format: 'mp4', resource_type: 'video' }))
-console.log(cloudinary.url('hat', { crop: 'fill_pad', gravity: 'auto', gravity: 'auto', width: 200, height: 200, format: 'mp4', resource_type: 'video' }))
-
+console.log(
+  cloudinary.url("hat", {
+    crop: "crop",
+    gravity: "auto",
+    width: 200,
+    height: 200,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+console.log(
+  cloudinary.url("hat", {
+    crop: "fill",
+    gravity: "auto",
+    width: 200,
+    height: 200,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+console.log(
+  cloudinary.url("hat", {
+    crop: "fill_pad",
+    gravity: "auto",
+    gravity: "auto",
+    width: 200,
+    height: 200,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
 
 // video looks like it came from mobile - how to change aspect ratio
 // gravity face not supported for video
-console.log('----- aspect ratio')
-console.log(cloudinary.url('hat', { crop: 'fill', gravity:'auto', width: 900, width:600,  format: 'mp4', resource_type: 'video' }))
+console.log("----- aspect ratio");
+console.log(
+  cloudinary.url("hat", {
+    crop: "fill",
+    gravity: "auto",
+    width: 900,
+    width: 600,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
 // must include the ar option to change the aspect ratio
-console.log(cloudinary.url('hat', { crop: 'fill', gravity:'auto', width: 900, width:600, aspect_ratio:'16:9', format: 'mp4', resource_type: 'video' }))
-
-
-
-
+console.log(
+  cloudinary.url("hat", {
+    crop: "fill",
+    gravity: "auto",
+    width: 900,
+    width: 600,
+    aspect_ratio: "16:9",
+    format: "mp4",
+    resource_type: "video",
+  })
+);

@@ -1,7 +1,7 @@
-require('dotenv').config()
-const cloudinary = require('cloudinary').v2
-cloudinary.config({'secure':'true'})
+require("dotenv").config();
+const cloudinary = require("cloudinary").v2;
+cloudinary.config({ secure: "true" });
 
-// .ur(lpublicID, options)
+// .url(publicID, options)
 // must supply resource_type
-console.log(cloudinary.url("hat",{resource_type:"video",format:"mp4"}))
+console.log(cloudinary.url("hat", { resource_type: "video", format: "mp4" }));
