@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+  </head>
+
+  <body>
+    <div class="image-link">
+      <input
+        type="text"
+        size="100"
+        name="input1"
+        id="input1"
+        placeholder="Paste in link for original image"
+      />
+    </div>
+
+    <div class="image-link">
+      <input
+        type="text"
+        size="100"
+        name="input2"
+        id="input2"
+        placeholder="Paste in link for optimized"
+      />
+    </div>
+
+    <div class="image-link-button">
+      <button>Click to Juxtapose</button>
+    </div>
+
+    <div id="juxtapose-wrapper" class="juxtapose"></div>
+
+    <div>
+      <p>Samples:</p>
+      <p>
+        Original:
+        https://res.cloudinary.com/pictures77/image/upload/c_scale,w_400/doctor.jpg
+      </p>
+      <p> Optimized: 
+        https://res.cloudinary.com/pictures77/image/upload/c_scale,q_auto,w_400/doctor.jpg
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
