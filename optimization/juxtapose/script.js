@@ -4,17 +4,18 @@ document.addEventListener('DOMContentLoaded', e=>{
         const original = document.getElementById("input1").value;
         const optimized = document.getElementById("input2").value;
 
+        document.getElementById("juxtapose-wrapper").innerHTML=""
         const slider = new juxtapose.JXSlider(
             '#juxtapose-wrapper',
            [
              {
                src: original,
-               label: "Original",
+               label: original,
                credit: 'Pexels'
              },
              {
                src: optimized,
-               label: "Optimized",
+               label: optimized,
                credit: "Pexels"
              }
            ],
