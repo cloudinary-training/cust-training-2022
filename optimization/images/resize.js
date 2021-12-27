@@ -14,38 +14,30 @@ cloudinary.config({ secure: "true" });
 
 console.log("adjusting a single dimension maintains aspect ratio");
 console.log(
-  cloudinary.url("doctor", { crop: "scale", width: 900, format: "jpg" })
+  cloudinary.url("doctor", { crop: "scale", width: 400, format: "jpg" })
 );
 
-console.log('-----skew by scaling with 2 dimensions');
+console.log("-----skew by scaling with 2 dimensions");
 console.log(
   cloudinary.url("doctor", {
     crop: "scale",
-    width: 600,
-    height: 900,
+    width: 400,
+    height: 400,
     format: "jpg",
   })
 );
-console.log('----- correct skew with fit, limit')
+console.log("----- correct skew with fit, limit");
 
 console.log(
   cloudinary.url("doctor", {
     crop: "fit",
-    width: 7000,
-    height: 7000,
-    format: "jpg",
-  })
-);
-console.log(
-  cloudinary.url("doctor", {
-    crop: "limit",
-    width: 600,
-    height: 900,
+    width: 400,
+    height: 400,
     format: "jpg",
   })
 );
 
-console.log('----- change the aspect ratio using pad and lpad')
+console.log("----- change the aspect ratio using pad and lpad");
 console.log(
   cloudinary.url("doctor", {
     crop: "pad",
@@ -55,6 +47,7 @@ console.log(
     format: "jpg",
   })
 );
+
 console.log(
   cloudinary.url("doctor", {
     crop: "lpad",
@@ -65,8 +58,20 @@ console.log(
   })
 );
 
+// MORE EXAMPLES
+
+console.log(
+  cloudinary.url("doctor", {
+    crop: "limit",
+    width: 400,
+    height: 400,
+    format: "jpg",
+  })
+);
 // still a large image
-console.log("t----- this is for upscaling and won't help with making the image much smaller")
+console.log(
+  "t----- this is for upscaling and won't help with making the image much smaller"
+);
 console.log(
   cloudinary.url("doctor", {
     crop: "mpad",
