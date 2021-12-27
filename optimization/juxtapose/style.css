@@ -215,7 +215,7 @@ div.jx-image.jx-right img {
 
 
 div.jx-image div.jx-label {
-	font-size: 1em;
+	font-size: .65em;
 	padding: .25em .75em;
 	position: relative;
 	display: inline-block;
@@ -351,4 +351,9 @@ a.jx-knightlab:focus span.juxtapose-name{
 }
 .juxtapose-wrapper{
 	max-width: 100%;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
 }
