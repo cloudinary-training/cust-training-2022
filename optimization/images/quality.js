@@ -8,20 +8,26 @@ console.log(
   cloudinary.url("doctor", { crop: "scale", width: 400, format: "jpg" })
 );
 
+
+// chain quality (q_) because it is a different action
 console.log(
   cloudinary.url("doctor", {
-    crop: "scale",
-    width: 400,
-    quality: "40",
-    format: "jpg",
+    transformation: [
+      { crop: "scale", width: 400, format: "jpg" },
+      { quality: "40" }
+    ],
   })
 );
 console.log(
   cloudinary.url("doctor", {
-    crop: "scale",
-    width: 400,
-    quality: "auto",
-    format: "jpg",
+    transformation: [
+      {
+        crop: "scale",
+        width: 400,
+        format: "jpg",
+      },
+      { quality: "auto" },
+    ],
   })
 );
 
@@ -36,13 +42,18 @@ console.log(
     format: "jpg",
   })
 );
+// add quality
 console.log(
   cloudinary.url("doctor", {
-    crop: "thumb",
-    gravity: "face",
-    width: 400,
-    height: 400,
-    quality: "auto",
-    format: "jpg",
+    transformation: [
+      {
+        crop: "thumb",
+        gravity: "face",
+        width: 400,
+        height: 400,
+        format: "jpg",
+      },
+      { quality: "auto" },
+    ],
   })
 );
