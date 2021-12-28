@@ -15,97 +15,51 @@ cloudinary.config({ secure: "true" });
 //we can use all of the same resizing transformations as we did with images except mpad
 
 //adjusting a single dimension maintains aspect ratio
+console.log("-----scale single dimension and keep aspect ratio");
 console.log(
   cloudinary.url("hat", {
     crop: "scale",
-    width: 900,
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-console.log(
-  cloudinary.url("hat", {
-    crop: "scale",
-    height: 600,
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-//skew
-console.log(
-  cloudinary.url("hat", {
-    crop: "scale",
-    width: 900,
-    height: 600,
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-// correct skew with fit, limit
-console.log("-----");
-console.log(
-  cloudinary.url("hat", {
-    crop: "fit",
-    width: 900,
-    height: 600,
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-console.log(
-  cloudinary.url("hat", {
-    crop: "limit",
-    width: 900,
-    height: 600,
+    width: 400,
     format: "mp4",
     resource_type: "video",
   })
 );
 
-// change the aspect ratio and pad
+//skew
+console.log("-----skew");
+console.log(
+  cloudinary.url("hat", {
+    crop: "scale",
+    width: 400,
+    height: 400,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+// correct skew with fit 
+console.log("-----correct skew with fit");
+console.log(
+  cloudinary.url("hat", {
+    crop: "fit",
+    width: 400,
+    height: 400,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+
+
+// change the aspect ratio with pad with a color
 console.log("-----");
 console.log(
   cloudinary.url("hat", {
     crop: "pad",
-    width: 600,
-    height: 900,
-    background: "auto",
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-console.log(
-  cloudinary.url("hat", {
-    crop: "lpad",
-    width: 600,
-    height: 900,
-    background: "auto",
+    width: 400,
+    height: 400,
+    background: "gold",
     format: "mp4",
     resource_type: "video",
   })
 );
 
-// video looks like it came from mobile - how to change aspect ratio
-// gravity face not supported for video
-console.log("----- aspect ratio");
-console.log(
-  cloudinary.url("hat", {
-    crop: "fill",
-    gravity: "auto",
-    width: 900,
-    width: 600,
-    aspect_ratio: "16:9",
-    format: "mp4",
-    resource_type: "video",
-  })
-);
-console.log(
-  cloudinary.url("hat", {
-    crop: "fill",
-    gravity: "auto",
-    width: 900,
-    width: 600,
-    format: "mp4",
-    resource_type: "video",
-  })
-);
+
