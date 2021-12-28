@@ -17,19 +17,19 @@ console.log("----- crop no gravity");
 console.log(
   cloudinary.url("doctor", {
     crop: "crop",
-    width: 200,
-    height: 200,
+    width: 400,
+    height: 400,
     format: "jpg",
   })
 );
 
-console.log("----- crop gravity auto");
+console.log("----- crop gravity face");
 console.log(
   cloudinary.url("doctor", {
     crop: "crop",
-    gravity: "auto",
-    width: 200,
-    height: 200,
+    gravity: "face",
+    width: 400,
+    height: 400,
     format: "jpg",
   })
 );
@@ -38,22 +38,44 @@ console.log("----- fill no gravity");
 console.log(
   cloudinary.url("doctor", {
     crop: "fill",
-    width: 200,
-    height: 200,
+    width: 400,
+    height: 400,
     format: "jpg",
   })
 );
-console.log("----- fill gravity auto");
+console.log("----- fill with gravity auto");
 console.log(
     cloudinary.url("doctor", {
       crop: "fill",
       gravity: "auto",
+      width: 400,
+      height: 400,
+      format: "jpg",
+    })
+  );
+
+
+  console.log("----- thumb no gravity"); 
+  console.log(
+    cloudinary.url("doctor", {
+      crop: "thumb",
       width: 200,
       height: 200,
       format: "jpg",
     })
   );
-
+  console.log("----- thumb gravity face"); 
+  console.log(
+      cloudinary.url("doctor", {
+        crop: "thumb",
+        gravity: "face",
+        width: 200,
+        height: 200,
+        format: "jpg",
+      })
+    );
+  
+// MORE EXAMPLES 
 
 console.log("----- lfill no gravity"); 
 console.log(
@@ -74,29 +96,19 @@ console.log(
       format: "jpg",
     })
   );
-
-console.log("----- thumb no gravity"); 
+console.log("----- lfill with gravity face");
 console.log(
   cloudinary.url("doctor", {
-    crop: "thumb",
+    crop: "lfill",
+    gravity: "face",
     width: 200,
     height: 200,
     format: "jpg",
   })
 );
-console.log("----- thumb gravity auto"); 
-console.log(
-    cloudinary.url("doctor", {
-      crop: "thumb",
-      gravity: "auto",
-      width: 200,
-      height: 200,
-      format: "jpg",
-    })
-  );
 
 
-console.log("----- fill_pad gravity auto -- must have gravity"); 
+console.log("----- fill_pad gravity auto -- must have gravity or error"); 
 console.log(
   cloudinary.url("doctor", {
     crop: "fill_pad",
@@ -109,68 +121,7 @@ console.log(
 );
 
 
-console.log("----- crop with gravity face");
-console.log(
-  cloudinary.url("doctor", {
-    crop: "crop",
-    gravity: "face",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
 
-console.log("----- fill with gravity face");
-console.log(
-  cloudinary.url("doctor", {
-    crop: "fill",
-    gravity: "face",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
 
-console.log("----- lfill with gravity face");
-console.log(
-  cloudinary.url("doctor", {
-    crop: "lfill",
-    gravity: "face",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
-console.log("----- thumb with gravity face");
-console.log(
-  cloudinary.url("doctor", {
-    crop: "thumb",
-    gravity: "face",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
 
-// lfill and fill only show difference if you are cropping to a size larger than the original
-console.log('----- fill and lfill with gravity on an image smaller than crop sizes')
-console.log(
-    cloudinary.url("sample", {
-      crop: "fill",
-      gravity: "auto",
-      width: 900,
-      height: 900,
-      format: "jpg",
-    })
-  );
-
-  console.log(
-    cloudinary.url("sample", {
-      crop: "lfill",
-      gravity: "auto",
-      width: 800,
-      height: 800,
-      format: "jpg",
-    })
-  );
 

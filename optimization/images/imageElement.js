@@ -7,6 +7,7 @@ console.log(
     crop: "thumb",
     gravity: "face",
     fetch_format: "auto",
+    quality: "auto"
     width: 400,
     height: 400,
   })

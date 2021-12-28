@@ -7,6 +7,15 @@ console.log("----resizing/gravity/quality");
 console.log(
   cloudinary.url("doctor", { crop: "scale", width: 400, format: "jpg" })
 );
+
+console.log(
+  cloudinary.url("doctor", {
+    crop: "scale",
+    width: 400,
+    quality: "40",
+    format: "jpg",
+  })
+);
 console.log(
   cloudinary.url("doctor", {
     crop: "scale",
