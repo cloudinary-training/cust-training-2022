@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Element</title>
-</head>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
+  </head>
 
-<body>
-    <h1> HTML Elements</h1>
-    <p>f_auto Image</p>
-    <img src='https://res.cloudinary.com/pictures77/image/upload/c_thumb,f_auto,g_face,h_400,w_400/doctor' height='400'
-        width='400' />
-    <p>avif Image</p>
-    <img src='https://res.cloudinary.com/pictures77/image/upload/c_thumb,g_face,h_400,w_400/doctor.avif' height='400'
-        width='400' />
-</body>
-
+  <body>
+    <h1>HTML Elements</h1>
+    <div class="container">
+      <div class="img-display">
+        <p>f_auto Image Format</p>
+        <img
+          src="https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,g_face,h_400,w_400/q_auto/f_auto/doctor"
+          alt="Doctor"
+        />
+      </div>
+      <div class="img-display">
+        <p>avif Image Format</p>
+        <img
+          src="https://res.cloudinary.com/cloudinary-training/image/upload/c_thumb,g_face,h_400,w_400/doctor.avif"
+          alt="Doctor"
+        />
+      </div>
+    </div>
+  </body>
 </html>

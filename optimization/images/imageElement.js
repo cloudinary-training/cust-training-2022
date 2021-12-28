@@ -4,20 +4,28 @@ cloudinary.config({ secure: "true" });
 
 console.log(
   cloudinary.image("doctor", {
-    crop: "thumb",
-    gravity: "face",
-    fetch_format: "auto",
-    quality: "auto"
-    width: 400,
-    height: 400,
+    alt: "Doctor",
+    transformation: [
+      {
+        crop: "thumb",
+        gravity: "face",
+        width: 400,
+        height: 400,
+      },
+      { quality: "auto" },
+      { fetch_format: "auto" },
+    ],
   })
 );
 console.log(
   cloudinary.image("doctor", {
-    crop: "thumb",
-    gravity: "face",
+    alt: "Doctor",
     format: "avif",
-    width: 400,
-    height: 400,
+    transformation: {
+      crop: "thumb",
+      gravity: "face",
+      width: 400,
+      height: 400,
+    },
   })
 );
