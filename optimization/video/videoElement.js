@@ -7,6 +7,7 @@ cloudinary.config({ secure: "true" });
 console.log(
   cloudinary.video("hat", {
     resource_type: "video",
+    controls: "true",
     transformation: [
       { height: 400, width:400, crop:"fit", aspect_ratio: "1:1" },
       { quality: "auto" },

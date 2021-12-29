@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Compare</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: flex-start;
+        margin: 1rem;
+      }
+      .container div {
+        margin: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>Video Compare</h1>
+    <div class="container">
+      <div id="video1">
+          <p>no q_auto</p>
+        <video
+          controls="true"
+          poster="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/hat.jpg"
+        >
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/hat.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/hat.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/hat.ogv"
+            type="video/ogg"
+          />
+        </video>
+      </div>
+      <div id="video2">
+        <p>with q_auto</p>
+        <video
+          controls="true"
+          poster="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/hat.jpg"
+        >
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/hat.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/hat.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/hat.ogv"
+            type="video/ogg"
+          />
+        </video>
+      </div>
+      <div id="video2">
+        <p>with q_auto and f_auto</p>
+        <video
+          controls="true"
+          poster="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/f_auto/hat.jpg"
+        >
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/f_auto/hat.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/f_auto/hat.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://res.cloudinary.com/pictures77/video/upload/ar_1:1,c_fit,h_400,w_400/q_auto/f_auto/hat.ogv"
+            type="video/ogg"
+          />
+        </video>
+      </div>
+    </div>
+  </body>
+</html>
