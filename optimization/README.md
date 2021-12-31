@@ -31,3 +31,5 @@ In this module we look at optimizing images and video.  We're using the node.js 
 Photo by Gustavo Fring: https://www.pexels.com/photo/crop-doctor-in-medical-uniform-with-stethoscope-standing-in-clinic-corridor-4173251/
 
 Video by Ron Lach from Pexels:https://www.pexels.com/video/a-woman-trying-on-items-in-a-store-8322396/
+
+Video by RODNAE Productions from Pexels: https://www.pexels.com/video/people-dancing-in-roller-skates-7334909/
