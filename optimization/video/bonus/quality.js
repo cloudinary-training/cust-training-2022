@@ -34,12 +34,6 @@ console.log(
 console.log("----cropping with fill/gravity");
 console.log(
   cloudinary.url("hat", {
-    crop: "fill",
-    gravity: "auto",
-    aspect_ratio: "1:1",
-    width: 400,
-    height: 400,
-    format: "mp4",
     resource_type: "video",
   })
 );
@@ -47,15 +41,7 @@ console.log("----cropping with fill/gravity/quality");
 console.log(
   cloudinary.url("hat", {
     resource_type: "video",
-    format: "mp4",
     transformation: [
-      {
-        crop: "fill",
-        gravity: "auto",
-        aspect_ratio: "1:1",
-        width: 400,
-        height: 400,
-      },
       { quality: "auto" }
     ]
   })
