@@ -10,7 +10,7 @@ cloudinary.uploader
     overwrite: true,
     invalidate: true,
     resource_type: "image",
-    tag: "cust-training-2022",
+    tags: "cust-training-2022",
   })
   .then((result) => {
     console.log(result);

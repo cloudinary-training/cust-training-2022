@@ -11,7 +11,7 @@ cloudinary.uploader
     overwrite: true,
     invalidate: true,
     resource_type: "video",
-    tag: "cust-training-2022",
+    tags: "cust-training-2022",
     eager: [
       { raw_transformation: "f_webm,vc_vp9,q_auto/mp4" },
       { raw_transformation: "f_mp4,vc_h265,q_auto/mp4" },
