@@ -77,48 +77,48 @@ console.log(
   
 // MORE EXAMPLES 
 
-console.log("----- lfill no gravity"); 
-console.log(
-  cloudinary.url("doctor", {
-    crop: "lfill",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
-console.log("----- lfill gravity auto"); 
-console.log(
-    cloudinary.url("doctor", {
-      crop: "lfill",
-      gravity: "auto",
-      width: 200,
-      height: 200,
-      format: "jpg",
-    })
-  );
-console.log("----- lfill with gravity face");
-console.log(
-  cloudinary.url("doctor", {
-    crop: "lfill",
-    gravity: "face",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
+// console.log("----- lfill no gravity"); 
+// console.log(
+//   cloudinary.url("doctor", {
+//     crop: "lfill",
+//     width: 200,
+//     height: 200,
+//     format: "jpg",
+//   })
+// );
+// console.log("----- lfill gravity auto"); 
+// console.log(
+//     cloudinary.url("doctor", {
+//       crop: "lfill",
+//       gravity: "auto",
+//       width: 200,
+//       height: 200,
+//       format: "jpg",
+//     })
+//   );
+// console.log("----- lfill with gravity face");
+// console.log(
+//   cloudinary.url("doctor", {
+//     crop: "lfill",
+//     gravity: "face",
+//     width: 200,
+//     height: 200,
+//     format: "jpg",
+//   })
+// );
 
 
-console.log("----- fill_pad gravity auto -- must have gravity or error"); 
-console.log(
-  cloudinary.url("doctor", {
-    crop: "fill_pad",
-    background: "blue",
-    gravity: "auto",
-    width: 200,
-    height: 200,
-    format: "jpg",
-  })
-);
+// console.log("----- fill_pad gravity auto -- must have gravity or error"); 
+// console.log(
+//   cloudinary.url("doctor", {
+//     crop: "fill_pad",
+//     background: "blue",
+//     gravity: "auto",
+//     width: 200,
+//     height: 200,
+//     format: "jpg",
+//   })
+// );
 
 
 

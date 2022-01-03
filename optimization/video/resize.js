@@ -48,6 +48,18 @@ console.log(
   })
 );
 
+// correct skew with limit 
+console.log("-----correct skew with limit");
+console.log(
+  cloudinary.url("hat", {
+    crop: "limit",
+    width: 400,
+    height: 400,
+    format: "mp4",
+    resource_type: "video",
+  })
+);
+
 
 // change the aspect ratio with pad with a color
 console.log("-----");

@@ -33,11 +33,21 @@ console.log(
     crop: "fit",
     width: 400,
     height: 400,
+    aspect_ratio: "1:1",
     format: "jpg",
   })
 );
 
-console.log("----- change the aspect ratio using pad and lpad");
+console.log(
+  cloudinary.url("doctor", {
+    crop: "limit",
+    width: 400,
+    height: 400,
+    format: "jpg",
+  })
+);
+
+console.log("----- change the aspect ratio using pad ");
 console.log(
   cloudinary.url("doctor", {
     crop: "pad",
@@ -48,36 +58,4 @@ console.log(
   })
 );
 
-console.log(
-  cloudinary.url("doctor", {
-    crop: "lpad",
-    width: 600,
-    height: 900,
-    background: "auto",
-    format: "jpg",
-  })
-);
 
-// MORE EXAMPLES
-
-console.log(
-  cloudinary.url("doctor", {
-    crop: "limit",
-    width: 400,
-    height: 400,
-    format: "jpg",
-  })
-);
-// still a large image
-console.log(
-  "t----- this is for upscaling and won't help with making the image much smaller"
-);
-console.log(
-  cloudinary.url("doctor", {
-    crop: "mpad",
-    width: 7000,
-    height: 7000,
-    background: "auto",
-    format: "jpg",
-  })
-);
