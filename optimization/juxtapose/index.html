@@ -7,16 +7,24 @@
   <title>repl.it</title>
   <link href="./style.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+  <style>
+    input, p, div, button {
+      font-size: large;
+      font-family: arial;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Image Compare</h1>
   <div class="image-link">
-    <input type="text" size="100" name="input1" id="input1" placeholder="Paste in link for original image" />
+    <input type="text" size="100" name="input1" id="input1" placeholder="Paste in link for original image" 
+    value="https://res.cloudinary.com/cloudinary-training/image/upload/doctor.jpg"/>
   </div>
 
   <div class="image-link">
-    <input type="text" size="100" name="input2" id="input2" placeholder="Paste in link for optimized image" />
+    <input type="text" size="100" name="input2" id="input2" placeholder="Paste in link for optimized image" 
+    value=" https://res.cloudinary.com/cloudinary-training/image/upload/q_auto/doctor.jpg" />
   </div>
 
   <div class="image-link-button">
@@ -27,7 +35,7 @@
     <div id="juxtapose-wrapper" class="juxtapose"></div>
   </div>
   <div>
-    <p>Samples:</p>
+    <h2>Samples:</h2>
     <p>
       Original:</p>
       https://res.cloudinary.com/cloudinary-training/image/upload/doctor.jpg
