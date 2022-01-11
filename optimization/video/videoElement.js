@@ -9,7 +9,7 @@ console.log(
     resource_type: "video",
     controls: "true",
     transformation: [
-      { crop: "fit", height: "400", width: "400" },
+      { crop: "fit", height: "500", width: "500" },
       { quality: "auto" },
       { fetch_format: "auto" },
     ],

@@ -20,18 +20,6 @@ console.log(
 
 
 
-console.log("-----with resize, quality and format optimization");
-console.log(
-  cloudinary.url("hat", {
-    resource_type: "video",
-    transformation: [
-      { crop: "fit", height: "500", width: "500"},
-      { quality: "auto" },
-      { fetch_format: "auto" },
-    ],
-  })
-);
-
 console.log("-----with resize, quality auto and format auto optimization");
 console.log(
   cloudinary.url("hat", {
@@ -44,7 +32,7 @@ console.log(
   })
 );
 
-console.log("-----with resize, quality 70 and format auto optimization");
+console.log("-----with resize, quality 70 (default 'auto' for video) and format auto optimization");
 console.log(
   cloudinary.url("hat", {
     resource_type: "video",
@@ -56,7 +44,7 @@ console.log(
   })
 );
 
-console.log("-----with resize, quality 80 and format auto optimization");
+console.log("-----with resize, quality 80 (default 'auto' for images) and format auto optimization");
 console.log(
   cloudinary.url("hat", {
     resource_type: "video",

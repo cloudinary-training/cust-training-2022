@@ -33,7 +33,6 @@ console.log(
     crop: "fit",
     width: 400,
     height: 400,
-    aspect_ratio: "1:1",
     format: "jpg",
   })
 );

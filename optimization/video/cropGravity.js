@@ -36,7 +36,6 @@ console.log(
     crop: "fill",
     width: 400,
     width: 400,
-    aspect_ratio: "1:1",
     format: "mp4",
     resource_type: "video",
   })
@@ -48,7 +47,6 @@ console.log(
     gravity: "auto",
     width: 400,
     width: 400,
-    aspect_ratio: "1:1",
     format: "mp4",
     resource_type: "video",
   })
@@ -61,7 +59,6 @@ console.log(
     crop: "fill_pad",
     width: 200,
     height: 400,
-    aspect_ratio: "1:2",
     background: "gold",
     format: "mp4",
     resource_type: "video",
@@ -78,8 +75,7 @@ console.log(
         crop: "fill_pad",
         background: "gold",
         width: 200,
-        height: 400,
-        aspect_ratio: "1:2",
+        height: 400
       },{
         gravity: "auto"
       }
