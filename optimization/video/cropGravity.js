@@ -35,7 +35,7 @@ console.log(
   cloudinary.url("hat", {
     crop: "fill",
     width: 400,
-    width: 400,
+    height: 400,
     format: "mp4",
     resource_type: "video",
   })
@@ -46,7 +46,7 @@ console.log(
     crop: "fill",
     gravity: "auto",
     width: 400,
-    width: 400,
+    height: 400,
     format: "mp4",
     resource_type: "video",
   })
