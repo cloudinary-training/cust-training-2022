@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Compare 2 videos</title>
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+    <style>
+        input,
+        p,
+        div,
+        button {
+            font-size: large;
+            font-family: arial;
+        }
+
+        .flex-container {
+            margin-top: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-container video {
+            max-width: 500px;
+        }
+
+        input,
+        label {
+            display: block;
+            margin: 1rem;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Video Compare</h1>
+    <div class="image-link">
+        <label for="input1">Left Video:</label>
+        <input type="text" size="100" name="input1" id="input1" placeholder="Paste in link for original image"
+            value="https://res.cloudinary.com/cloudinary-training/video/upload/hat.mp4" />
+    </div>
+
+    <div class="image-link">
+        <label for="input2">Right Video:</label>
+        <input type="text" size="100" name="input2" id="input2" placeholder="Paste in link for optimized image"
+            value="https://res.cloudinary.com/cloudinary-training/video/upload/f_auto/q_auto/hat.mp4" />
+    </div>
+
+    <div class="video-link-button">
+        <button>Click to Compare</button>
+    </div>
+
+    <div class="flex-container">
+        <video id="video1" controls="true" src="">
+        </video>
+        <video id="video2" controls="true" src="">
+        </video>
+    </div>
+    <div>
+        <h2>Samples:</h2>
+        <p>
+            Original:</p>
+        https://res.cloudinary.com/cloudinary-training/video/upload/hat.mp4
+        </p>
+        <p> Optimized: </p>
+        https://res.cloudinary.com/cloudinary-training/video/upload/f_auto/q_auto/hat.mp4 </p>
+    </div>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", (e) => {
+            document
+                .querySelector(".video-link-button")
+                .addEventListener("click", (e) => {
+
+                    document.querySelector('#video1').src = null;
+                    document.querySelector("#video2").src = null;
+                    const original = document.getElementById("input1").value;
+                    const optimized = document.getElementById("input2").value;
+                    document.getElementById("video1").src = original;
+                    document.getElementById("video2").src = optimized;
+                    document.getElementById("video1").play();
+                    document.getElementById("video2").play();
+                });
+        });
+
+    </script>
+</body>
+
+</html>
