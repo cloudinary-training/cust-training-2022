@@ -74,7 +74,11 @@ $ npm --version
 
 2. Navigate to the Dashboard. Copy the `CLOUDINARY_URL` into your clipboard.
 
-![Dashboard](../assets/cloudinary-url.png)
+![Dashboard](../assets/env_variable.png)
+
+- Key: CLOUDINARY_URL
+- Value: cloudinary://API_KEY:API_SECRET@CLOUD_NAME
+
 
 3. Create a `.env` file in the root of the project. Paste the CLOUDINARY_URL environment variable into your `.env` file.
 
