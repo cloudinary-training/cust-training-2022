@@ -45,3 +45,30 @@ The media inspector is a chrome extension developed by Cloudinary.  It is useful
 
 Look at optimizing images and video.
 
+
+# Credits 
+
+## assets/images  
+
+
+doctor.jpg [Photo by Gustavo Fring:](https://www.pexels.com/photo/crop-doctor-in-medical-uniform-with-stethoscope-standing-in-clinic-corridor-4173251/)
+
+dolphin.jpg [Photo by Pixabay:](https://www.pexels.com/photo/cute-dolphine-underwater-64219/)
+
+goldfish.jpg [Pixabay](https://pixabay.com/photos/goldfish-carp-fish-1900832/)  
+
+hat.mp4 Video by [Polina Tankilevitch from Pexels](https://www.pexels.com/video/woman-fitting-clothes-in-front-of-a-mirror-5585950/)
+ 
+killer-whale.jpg  [Photo by Andre Estevez from Pexels](https://www.pexels.com/photo/grayscale-photo-of-body-of-water-3309865/)    
+
+koi.jpg  [Photo by Nika Akin from Pexels](https://pixabay.com/photos/koi-fish-minimal-minimalistic-in-4543131/)
+
+shark.jpg  [Photo by Vova Krasilnikov from Pexels](https://www.pexels.com/photo/big-shark-underwater-2747248/)
+
+turtle.jpg [Photo by Richard Segal from Pexels](https://www.pexels.com/photo/black-and-white-turtle-1618606/)
+ 
+
+ 
+
+
+

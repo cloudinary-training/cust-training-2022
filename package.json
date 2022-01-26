@@ -18,6 +18,8 @@
   "homepage": "https://github.com/cloudinary-training/cust-training-2022#readme",
   "dependencies": {
     "cloudinary": "^1.27.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "urlsafe-base64": "^1.0.0"
   }
 }
