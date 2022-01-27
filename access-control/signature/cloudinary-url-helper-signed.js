@@ -14,8 +14,8 @@ console.log('authenticated original:',cloudinary.url('dolphin', {
 console.log('authenticated with transformation:',cloudinary.url('dolphin', {
   type: 'authenticated',
   secure: true,
-  width: 300,
-  height: 300,
+  width: 400,
+  height: 400,
   crop: 'limit',
   sign_url: true
 }))
@@ -31,8 +31,8 @@ console.log('private:',cloudinary.url('goldfish', {
 console.log('private:',cloudinary.url('goldfish', {
   type: 'private',
   secure: true,
-  width: 300,
-  height: 300,
+  width: 400,
+  height: 400,
   crop: 'limit'
 }))
 
