@@ -1,6 +1,6 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
-const open = require('open')
+
 
 cloudinary.api
   .update_transformation('t_auto-400-xform/f_auto,q_auto', {
@@ -12,7 +12,6 @@ cloudinary.api
       transformation: ['auto-400-xform/f_auto,q_auto']
     })
     console.log(url)
-    open(url)
   })
   .catch(error => {
     console.log(error)
