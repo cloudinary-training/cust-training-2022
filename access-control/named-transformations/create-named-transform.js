@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 cloudinary.api
-  .create_transformation('auto-400-xform1', {
+  .create_transformation('auto-400-xform', {
     width: 400,
     height: 400,
     crop: 'limit'
