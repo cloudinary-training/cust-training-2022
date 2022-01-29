@@ -13,7 +13,7 @@ const addSeconds = seconds => {
   console.log(new Date())
   return moment().add(seconds, 'seconds').toISOString()
 }
-// set to start in 45 seconds and end date to 7 days
+// set to start in 45 seconds and end date 7 days
 
 const startDate = addSeconds(45)
 console.log('45 seconds from now', startDate)

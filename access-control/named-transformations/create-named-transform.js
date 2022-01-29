@@ -3,6 +3,7 @@ const cloudinary = require('cloudinary').v2
 
 cloudinary.api
   .create_transformation('auto-400-xform', {
+    secure: true,
     width: 400,
     height: 400,
     crop: 'limit'

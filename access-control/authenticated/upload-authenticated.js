@@ -5,8 +5,8 @@ const cloudinary = require('cloudinary').v2
 // no access to original or ability to create transformations without a signed URL
 // secure: true makes an HTTPS URL
 
-cloudinary.uploader.upload('./assets/dolphin.jpg', {
-  public_id: 'dolphin',
+cloudinary.uploader.upload('./assets/seahorse.jpg', {
+  public_id: 'seahorse',
   type: 'authenticated'
 })
   .then(uploadResult => {

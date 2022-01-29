@@ -1,15 +1,15 @@
 
-// test public_id is dolphin which is authenticated
+// test public_id is seahorse which is authenticated
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 
-// dolphin is authenticated
+// seahorse is authenticated
 // both public id and transformation must be signed
 // raw transformation parameters are sorted alphabetically
 
 const rawTransformation = 'c_limit,h_400,w_400'
-const publicId = 'dolphin'
+const publicId = 'seahorse'
 
 // extract credentials from env
 const cloudname = cloudinary.config().cloud_name
@@ -20,10 +20,10 @@ const crypto = require('crypto')
 const URLSafeBase64 = require('urlsafe-base64')
 
 // create the string to sign
-// c_limit,h_400,w_400/dolphinAPI_SECRET
+// c_limit,h_400,w_400/deahorseAPI_SECRET
 const stringToSign = [rawTransformation, publicId].join('/') + secret
 
-// hash, digest and base 64 encode
+// hash, digest and base64 encode - web ready
 const s = URLSafeBase64.encode(
   crypto
     .createHash('sha1')

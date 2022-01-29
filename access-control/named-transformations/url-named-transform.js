@@ -1,11 +1,8 @@
-require('dotenv').config()
-const cloudinary = require('cloudinary').v2
+require('dotenv').config();
+const cloudinary = require('cloudinary').v2;
 
-
-const url = cloudinary.url('shark',
-  {
-    transformation: ['auto-400-xform']
-
-  })
-console.log(url)
-
+const url = cloudinary.url('shark.jpg', {
+  secure: true,
+  transformation: ['auto-400-xform'],
+});
+console.log(url);
