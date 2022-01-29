@@ -53,7 +53,7 @@ Look at optimizing images and video.
 
 doctor.jpg [Photo by Gustavo Fring:](https://www.pexels.com/photo/crop-doctor-in-medical-uniform-with-stethoscope-standing-in-clinic-corridor-4173251/)
 
-dolphin.jpg [Photo by Pixabay:](https://www.pexels.com/photo/cute-dolphine-underwater-64219/)
+dolphin.jpg [Photo by Daniel Torobekov from Pexels](https://www.pexels.com/photo/lonely-dolphin-in-blue-water-4886378/)
 
 goldfish.jpg [Pixabay](https://pixabay.com/photos/goldfish-carp-fish-1900832/)  
 
