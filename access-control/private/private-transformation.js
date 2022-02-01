@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 
 // you don't need to sign a private asset to create a transformation
 
-const url = cloudinary.url('goldfish', {
+const url = cloudinary.url('security/goldfish', {
   type: 'private',
   secure: true,
   width: 300,

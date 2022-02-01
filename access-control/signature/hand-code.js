@@ -1,4 +1,3 @@
-
 // test public_id is seahorse which is authenticated
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
@@ -9,14 +8,13 @@ const cloudinary = require('cloudinary').v2
 // raw transformation parameters are sorted alphabetically
 
 const rawTransformation = 'c_limit,h_400,w_400'
-const publicId = 'seahorse'
+const publicId = 'security/seahorse'
 
-// extract credentials from env
+// extract credentials from config
 const cloudname = cloudinary.config().cloud_name
 const secret = cloudinary.config().api_secret
 
 const crypto = require('crypto')
-// this is an npm dependency that you must install
 const URLSafeBase64 = require('urlsafe-base64')
 
 // create the string to sign

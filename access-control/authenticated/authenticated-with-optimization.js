@@ -6,7 +6,7 @@ const cloudinary = require('cloudinary').v2;
 // secure: true make the URL HTTPS
 // add f_auto, q_auto
 
-const url = cloudinary.url('seahorse', {
+const url = cloudinary.url('security/seahorse', {
   type: 'authenticated',
   secure: true,
   sign_url: true,

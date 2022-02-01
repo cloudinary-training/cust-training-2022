@@ -6,7 +6,7 @@ const cloudinary = require('cloudinary').v2
 // secure: true makes an HTTPS URL
 
 cloudinary.uploader.upload('./assets/seahorse.jpg', {
-  public_id: 'seahorse',
+  public_id: 'security/seahorse',
   type: 'authenticated'
 })
   .then(uploadResult => {

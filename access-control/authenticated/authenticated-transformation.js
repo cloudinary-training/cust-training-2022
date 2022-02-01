@@ -6,7 +6,7 @@ const cloudinary = require('cloudinary').v2
 // sign_url signs the image and transformations
 // secure: true make the URL HTTPS
 
-const url = cloudinary.url('seahorse', {
+const url = cloudinary.url('security/seahorse', {
   type: 'authenticated',
   secure: true,
   format: 'jpg',
