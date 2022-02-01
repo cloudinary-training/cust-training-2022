@@ -1,5 +1,8 @@
 # Optimization
 
+This code was used to prepare for the `Applying Image and Video Optimizations in your Development Environment` training.
+
+
 In this module we look at optimizing images and video.  We're using the node.js SDK.
 
 ## Images

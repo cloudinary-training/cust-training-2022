@@ -1,49 +1,92 @@
 # Customer Education Training 2022
 
-Every month we foucs on a different theme.
-
-
-## Setup
-
-### Create a Free Cloudinary Cloud Account
-We will be uploading and changing settings. It's best to create a new free account and not use the account that you use your production work account.
-
-https://cloudinary.com/users/register/free
-
-
-### .env
-Add your CLOUDINARY_URL to a .env file.  You can copy this from your Cloudinary conole. 
-
-```bash
-npm install
-```
-
-
-### Install and Configure Git
-
-https://docs.github.com/en/get-started/quickstart/set-up-git
-
-## Mac Node Setup
-
-[Install Homebrew](https://brew.sh/)
-
-[Install Node.js using Homebrew](https://formulae.brew.sh/formula/node)
-
-
-
- ## Windows Node Setup
-
-Use  [nmv install](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) or [node.js download](https://nodejs.org/en/download/)
-
-## Media Ispector
-The media inspector is a chrome extension developed by Cloudinary.  It is useful in analyze image properites including size and format.
-
-[Get Media Inspector Extension](https://chrome.google.com/webstore/detail/cloudinary-media-inspecto/ehnkhkglbafecknplfmjklnnjimokpkg?hl=en)
-
+Every month we focus on a different theme.
 
 ## January: Optimization
 
 Look at optimizing images and video.
+
+## February: Access Control and Security
+
+How to secure your asset and deliver assets when they are restricted.
+
+## Environment Setup
+
+### Install Node.js and NPM
+You will need to install Node.js on your machine, version 10 or higher.
+ Installing Node.js will also install npm, the package manager for Node.js.
+
+#### Mac Users
+Using Homebrew:
+
+```bash
+brew install node
+```
+
+#### Windows
+[Download for windows](https://nodejs.org/en/download/)
+
+#### Verify Node/NPM install
+
+```bash
+# verify versions
+$ node --version
+v16.13.0
+
+$ npm --version
+8.1.0
+```
+
+### Choose an IDE or Use Text Editor
+
+[Visual Studio Code](https://code.visualstudio.com/download)
+[WebStorm](https://www.jetbrains.com/webstorm/)
+[Sublime](https://www.sublimetext.com/)
+[Atom](https://atom.io/)
+[iTerm](https://iterm2.com/)
+
+### Download Repository
+
+[cust-training-2022 GitHub Repository](https://github.com/cloudinary-training/cust-training-2022)
+
+- Node scripts for this module are located in the  `/optimization`, `access-control` directories
+- Assets are located in `/assets` directory
+- Run code from root directory 
+
+### Credentials
+
+1. Create a free account on Cloudinary at [https://www.cloudinary.com/signup]
+
+2. Navigate to the Dashboard. Copy the `CLOUDINARY_URL` into your clipboard.
+
+![Dashboard](../assets/env_variable.png)
+
+- Key: CLOUDINARY_URL
+- Value: cloudinary://API_KEY:API_SECRET@CLOUD_NAME
+
+
+3. Create a `.env` file in the root of the project. Paste the CLOUDINARY_URL environment variable into your `.env` file.
+
+### Run Code: Test Credentials
+
+Npm install Node.js libraries. You will be using the `cloudinary` and the `dotenv` libraries.
+
+```bash
+npm i
+```
+
+```bash
+node testCredentials.js
+```
+You should your cloud name and API key reported.  Keep your API_SECRET a secret!
+
+### Run Code: Run code in optimization directory
+Example: run image upload script in optimization directory
+
+```bash
+node optimization/images/upload.js
+```
+
 
 
 # Credits 
