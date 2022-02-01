@@ -104,7 +104,7 @@ hat.mp4 Video by [Polina Tankilevitch from Pexels](https://www.pexels.com/video/
  
 killer-whale.jpg  [Photo by Andre Estevez from Pexels](https://www.pexels.com/photo/grayscale-photo-of-body-of-water-3309865/)  
 
-lionfish.jpg Image by [https://pixabay.com/users/skitterphoto-324082](Rudy and Peter Skitterians from Pixabay)
+lionfish.jpg Image by [Rudy and Peter Skitterians from Pixabay](https://pixabay.com/users/skitterphoto-324082)
 
 koi.jpg  [Photo by Nika Akin from Pexels](https://pixabay.com/photos/koi-fish-minimal-minimalistic-in-4543131/)
 
