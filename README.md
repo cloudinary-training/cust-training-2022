@@ -78,7 +78,7 @@ npm i
 ```bash
 node testCredentials.js
 ```
-You should your cloud name and API key reported.  Keep your API_SECRET a secret!
+You should see your cloud name and API key reported.  Keep your API_SECRET a secret!
 
 ### Run Code: Run code in optimization directory
 Example: run image upload script in optimization directory
