@@ -33,6 +33,8 @@ Creating optimized video derivatives with transformations involves processing th
 with the Cloudinary response showing that the processing completed successfully.  
 We'll run the video processing as an eager transformation. We'll use the `notification_url` option to add a webhook.  We'll create a Netlify Function, which gives us an API that we can use for a webhook.  When the processing is complete the Netlify Function will call Sendgrid's email `send` function to forward the Cloudinary response to a predefined email address.
 
+If you have deployed the `functions/webhook_notify_email` function, you can use the URL you have created as the webhook in `notification/upload-video-eager` script.  Then execute the upload and check the email your setup for the eager upload response.
+
 ### Managing the Queues in a Google Video AI Moderation Process
 
 You can use the Cloudinary add-on Google Video AI Moderation to examine your video looking for content that you might not want on
@@ -44,6 +46,12 @@ the video has this token, it can't be served.  After the upload is complete, Clo
 We can supply a webhook, that will be get called when the moderation step is complete.  
 When moderation is complete, the video will be moved to either the `approved` or `rejected` queue depending on the analysis.  Then the webhook is called.  We'll code a Netlify Function to serve as the webhook.  This function will call one function to process the approved queue and one to process the rejected queue.  If the video is approved, it will be updated using the Admin API `update` function so that the `access_item:token` is replaced with `access_item:anonymous`.  This will make it available to be served.  If the video is rejected, it will be deleted.  
 If you look at the Google Moderation Queue at the end of the processing, you'll see that approved video is in the approved queue and you won't find the `rejected` video as it will have been deleted.
+
+If you have deployed the 3 functions below, you can run the `moderation/approved/upload-video`, which uploads a video of elephants walking, and the `moderation/rejected/upload-video`, which uploads a video of people in a hot tub. If you look at the moderation queue in the DAM within 60 seconds, you should see both video in the pending queue.  When processing is complete, you'll see that the elephant video is in the approved queue and the hot tub video will be deleted.
+
+- `functions/webhook_process_approved_queue`
+- `function\webhook_process_rejected_queue` 
+- `functions\process_google_moderation_queues`
 
 ## Running the Netlify Functions 
 If you want to try out the SendGrid email and Google AI Moderation Queue management functions yourself, you can find the code and deployment instructions in [this Cloudinary Training repository](https://github.com/cloudinary-training/cld-webhooks/blob/main/NETLIFY_DEPLOY.md).

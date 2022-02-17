@@ -1,6 +1,9 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+
+// replace the notification_url with your own webhook.site URL
+
 const getURLs = (publicId) => {
   const urls = [];
   for (let i = 0; i <= 100; i +=25) {

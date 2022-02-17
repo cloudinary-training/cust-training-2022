@@ -2,6 +2,7 @@ require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
 // supply the tag shared by images to be animated
+// replace the notification_url with your own webhook.site URL
 
 cloudinary.uploader
   .multi('multi-nature',

@@ -1,6 +1,7 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+// replace the notification_url with your own webhook.site URL
 
 const manifest = {
     w: 500,

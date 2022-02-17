@@ -1,6 +1,8 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+// replace the notification_url with your own webhook.site URL
+
 // just the image
 console.log(cloudinary.url('iconduck.png', { type: 'fetch',angle:90 }));
 
