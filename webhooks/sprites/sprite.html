@@ -9,7 +9,7 @@
       .icons-email,
       .icons-github,
       .icons-home {
-          display: inline-block;
+        display: inline-block;
         background: url('//res.cloudinary.com/pictures77/image/sprite/v1644363001/iconduck.png')
           no-repeat;
       }
@@ -31,12 +31,24 @@
         width: 96px;
         height: 96px;
       }
+     
+      .container a{
+        margin: 1rem;
+      }
     </style>
   </head>
 
   <body>
-    <a href="https://www.cloudinary.com" target="_blank"><span class="icons-home"></span></a>
-    <a href="mailto:support@cloudinary.com" target="_blank"><span class="icons-email"></span></a>
-    <a href="https://www.github.com/cloudinary-training" target="_blank"><span class="icons-github"></span></a>
+    <div class="container">
+      <a href="https://www.cloudinary.com" target="_blank"
+        ><span class="icons-home"></span
+      ></a>
+      <a href="mailto:support@cloudinary.com" target="_blank"
+        ><span class="icons-email"></span
+      ></a>
+      <a href="https://www.github.com/cloudinary-training" target="_blank"
+        ><span class="icons-github"></span
+      ></a>
+    </div>
   </body>
 </html>
