@@ -1,12 +1,12 @@
 # Webhooks
 
-- Look at Cloudinary Upload API methods
+- Look at Cloudinary Upload API Actions
 - Create a Netlify Function to send an email with Eager Upload Response
 - Create a Set of Netlify Functions that Manage the Google AI Video Moderation workflow
 
-## Cloudinary Upload API Methods
+## Cloudinary Upload API Actions
 
-Many Upload API methods run asynchronously and provide an option to add a webhook. We'll get a URL
+Many Upload API actions run asynchronously and provide an option to add a webhook. We'll get a URL
 from https://webhook.site to use as a webhook and track the completion of the processing. 
 
 ### Sprites: `generate_sprite`
@@ -15,16 +15,16 @@ a single image download using `background-position` property.  You can create a 
 Cloudinary will generate the CSS to pull the images out of the sprite.
 
 ### Sprites and Explode: `explode` and `generate_sprite`
-The Cloudinary `explode` method can be used to extract pages (layers) from a PDF or animated GIF.  The pages can be accessed using
+The Cloudinary `explode` action can be used to extract pages (layers) from a PDF or animated GIF.  The pages can be accessed using
 the `page` transformation.  The `generate_sprite` takes one or more URLs from the extracted pages and build an image. In this exercies, we'll 
 explode and GIF and then create a sprite out of some of the pages in the GIF.
 
 ### Generate Videos: `multi` and `create_slideshow`
 
-The `multi` method can be used to create a GIF or a video.  You can specify a fixed duration that determines how long each image 
+The `multi` action can be used to create a GIF or a video.  You can specify a fixed duration that determines how long each image 
 will be shown. A GIF will run continuously. We'll create a GIF out of a set of images.
 
-The `create_slideshow` method is used to create a video.  The video can be made up of images and video. You can specify transitions between the images
+The `create_slideshow` action is used to create a video.  The video can be made up of images and video. You can specify transitions between the images
 or video and the duration of the entire video.  We'll create a video out of a set of images and a transition.
 
 ### Using SendGrid in a Netlify Function to Notify Process Completion
@@ -50,8 +50,8 @@ If you look at the Google Moderation Queue at the end of the processing, you'll 
 If you have deployed the 3 functions below, you can run the `moderation/approved/upload-video`, which uploads a video of elephants walking, and the `moderation/rejected/upload-video`, which uploads a video of people in a hot tub. If you look at the moderation queue in the DAM within 60 seconds, you should see both video in the pending queue.  When processing is complete, you'll see that the elephant video is in the approved queue and the hot tub video will be deleted.
 
 - `functions/webhook_process_approved_queue`
-- `function\webhook_process_rejected_queue` 
-- `functions\process_google_moderation_queues`
+- `function/webhook_process_rejected_queue` 
+- `functions/process_google_moderation_queues`
 
 ## Running the Netlify Functions 
 If you want to try out the SendGrid email and Google AI Moderation Queue management functions yourself, you can find the code and deployment instructions in [this Cloudinary Training repository](https://github.com/cloudinary-training/cld-webhooks/blob/main/NETLIFY_DEPLOY.md).

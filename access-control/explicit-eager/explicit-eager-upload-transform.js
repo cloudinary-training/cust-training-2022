@@ -2,7 +2,7 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 // Strict transformations enabled
-// explicit method using eager parameter to create a transformation
+// explicit action using eager parameter to create a transformation
 // running default synchronous explicit eager
 // explicity allow us to act on already uploaded images
 // in this case we'll create an eager transformation - this will make the transformation 
