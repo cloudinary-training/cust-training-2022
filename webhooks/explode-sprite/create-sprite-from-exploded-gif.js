@@ -6,9 +6,8 @@ const cloudinary = require('cloudinary').v2;
 
 const getURLs = (publicId) => {
   const urls = [];
-  for (let i = 0; i <= 100; i +=25) {
-    // console.log(cloudinary.url('explode/kitten_fighting', { page: `${i}` }))
-    urls.push(cloudinary.url('explode/kitten_fighting', { page: `${i}` }));
+  for (let i = 0; i <= 23; i +=5) {
+    urls.push(cloudinary.url('explode/skiing', { page: `${i}` }));
   }
   return urls;
 };

@@ -3,9 +3,8 @@ const cloudinary = require('cloudinary').v2;
 
 
 cloudinary.uploader
-    .upload('./assets/kitten_fighting.gif', {
-      use_filename: true,
-      unique_filename: false,
+    .upload('https://media.giphy.com/media/3o6Mb5vZliC9MGIYiQ/giphy.gif', {
+      public_id:'skiing',
       folder: 'explode'
     })
     .then((result) => {
