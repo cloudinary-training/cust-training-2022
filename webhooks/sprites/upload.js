@@ -18,7 +18,7 @@ const upload = (file) => {
     });
 };
 
-['./assets/home.png', './assets/email.png', './assets/github.png'].forEach(
+['./assets/home.svg', './assets/email.svg', './assets/github.svg'].forEach(
   (image) => {
     upload(image);
   }
