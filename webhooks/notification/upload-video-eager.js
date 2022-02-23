@@ -4,7 +4,7 @@ const cloudinary = require("cloudinary").v2;
 // eager async upload to create derived optimization transformations
 // asynchronously to avoid delays with on the fly transformations
 
-// Your webhook might looks like this: https://my-cld-webhook.netlify.app/.netlify/functions/webhook_notify_email
+// Your webhook might looks like this: https://my-cld-webhooks.netlify.app/.netlify/functions/webhook_notify_email
 
 cloudinary.uploader
   .upload("./assets/roller-skating.mp4", {

@@ -1,6 +1,7 @@
 require('dotenv').config();
 const sgMail = require('@sendgrid/mail');
 
+// exit if not a post
 exports.handler = async function (event, context) {
   if (!event.body || event.httpMethod !== 'POST') {
     return {
@@ -32,7 +33,7 @@ exports.handler = async function (event, context) {
   try {
     const response = await sgMail.send(msg);
     console.log('success', response[0].statusCode);
-    console.log('success-response',response[0]);
+    console.log('success-response', response[0]);
 
     return {
       statusCode: response[0].statusCode,
