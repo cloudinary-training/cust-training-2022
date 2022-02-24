@@ -8,7 +8,12 @@ const uploadWithTag = (image, tag) => {
       use_filename: true,
       unique_filename: false,
       tags: [tag],
-      folder: 'webhooks'
+      folder: 'webhooks',
+      transformation: [{
+        width: 600,
+        height: 400,
+        crop: 'limit'
+      }]
     })
     .then((result) => {
       console.log(result);
