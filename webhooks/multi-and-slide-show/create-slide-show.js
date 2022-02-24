@@ -14,13 +14,13 @@ const manifest = {
       tdur: 1000,
       slides: [
         {
-          media: "i:multi:garden",
+          media: "i:webhooks:garden",
         },
         {
-          media: "i:multi:butterfly",
+          media: "i:webhooks:butterfly",
         },
         {
-          media: "i:multi:butterflies",
+          media: "i:webhooks:butterflies",
         },
        
         
