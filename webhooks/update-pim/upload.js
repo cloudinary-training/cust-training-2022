@@ -5,6 +5,7 @@ cloudinary.uploader
 .upload('./assets/vase.jpg', {
   public_id: 'vase',
   type: 'private',
+  folder: 'webhooks',
   overwrite: true,
   invalidate: true,
   eager: [

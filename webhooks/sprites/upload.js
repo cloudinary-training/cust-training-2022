@@ -7,7 +7,7 @@ const upload = (file) => {
     .upload(file, {
       use_filename: true,
       unique_filename: false,
-      folder: 'icons',
+      folder: 'webhooks',
       tags: 'iconduck',
     })
     .then((result) => {

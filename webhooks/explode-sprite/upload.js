@@ -3,9 +3,8 @@ const cloudinary = require('cloudinary').v2;
 
 
 cloudinary.uploader
-    .upload('https://media.giphy.com/media/3o6Mb5vZliC9MGIYiQ/giphy.gif', {
-      public_id:'skiing',
-      folder: 'explode'
+    .upload('./assets/ski-team.gif', {
+      public_id:'webhooks/ski-team'
     })
     .then((result) => {
       console.log(result);

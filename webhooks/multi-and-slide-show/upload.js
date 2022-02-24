@@ -8,7 +8,7 @@ const uploadWithTag = (image, tag) => {
       use_filename: true,
       unique_filename: false,
       tags: [tag],
-      folder: 'multi'
+      folder: 'webhooks'
     })
     .then((result) => {
       console.log(result);

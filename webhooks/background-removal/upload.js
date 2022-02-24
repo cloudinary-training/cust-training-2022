@@ -2,8 +2,10 @@ require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
 // Enable Cloudinary AI Background Removal
+// upload to root
 // image will need a signed URL to access
 // when background removal is complete, a webhook will be called
+// image will be moved to 'webhooks' directory
 cloudinary.uploader
   .upload('./assets/yellow-shoes.jpg', {
     public_id: 'yellow-shoes1',

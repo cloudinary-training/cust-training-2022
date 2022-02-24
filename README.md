@@ -112,7 +112,7 @@ shark.jpg  [Photo by Vova Krasilnikov from Pexels](https://www.pexels.com/photo/
 
 turtle.jpg [Photo by Richard Segal from Pexels](https://www.pexels.com/photo/black-and-white-turtle-1618606/)
 
-giffy.gif [Pixabay Red Bull Skiing search](https://media.giphy.com/media/3o6Mb5vZliC9MGIYiQ/giphy.gif)
+ski-team.gif [Pixabay US Ski Team](https://media.giphy.com/media/CC3HbQ6poN4XVLqzqT/giphy.gif)
  
 vase.jpg [Photo by Beyza Efe from Pexels](https://www.pexels.com/photo/clay-vase-with-bunch-of-wheat-8549835/)
  

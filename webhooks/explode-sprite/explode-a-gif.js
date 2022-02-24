@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary').v2;
 // replace the notification_url with your own webhook.site URL
 
 cloudinary.uploader
-  .explode('explode/kitten_fighting', {
+  .explode('webhooks/ski-team', {
     format: 'png',
     page: 'all',
     notification_url:

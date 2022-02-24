@@ -6,13 +6,13 @@ const cloudinary = require('cloudinary').v2;
 
 const getURLs = (publicId) => {
   const urls = [];
-  for (let i = 0; i <= 23; i +=5) {
-    urls.push(cloudinary.url('explode/skiing', { page: `${i}` }));
+  for (let i = 1; i <= 20; i +=4) {
+    urls.push(cloudinary.url(publicId, { page: `${i}`, format: 'png' }));
   }
   return urls;
 };
 
-const urls = getURLs('explode/kitten_fighting');
+const urls = getURLs('webhooks/ski-team');
 
 cloudinary.uploader
   .generate_sprite({

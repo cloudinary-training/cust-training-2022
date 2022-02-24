@@ -3,7 +3,8 @@ const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader
 .upload('https://res.cloudinary.com/cloudinary-training/image/upload/v1633711027/logo-big.png', {
-  public_id: 'logo'
+  public_id: 'logo',
+  folder: 'webhooks'
 })
 .then((result) => {
   console.log(result);

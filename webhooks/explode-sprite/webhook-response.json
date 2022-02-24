@@ -1,0 +1,169 @@
+{
+  "notification_type": "explode",
+  "pages": 23,
+  "image_infos": [
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 43725,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_1/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_1/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 43585,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_2/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_2/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 45274,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_3/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_3/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 50686,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_4/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_4/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 52623,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_5/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_5/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 47036,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_6/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_6/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 44732,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_7/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_7/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 43849,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_8/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_8/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 46101,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_9/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_9/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 48048,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_10/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_10/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 51026,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_11/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_11/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 51649,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_12/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_12/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 52603,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_13/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_13/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 53965,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_14/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_14/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 55885,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_15/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_15/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 54675,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_16/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_16/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 47414,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_17/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_17/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 48551,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_18/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_18/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 42215,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_19/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_19/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 41168,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_20/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_20/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 44980,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_21/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_21/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 45328,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_22/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_22/v1645725851/webhooks/ski-team.png"
+    },
+    {
+      "width": 480,
+      "height": 270,
+      "bytes": 43628,
+      "url": "http://res.cloudinary.com/ac-self-service/image/upload/pg_23/v1645725851/webhooks/ski-team.png",
+      "secure_url": "https://res.cloudinary.com/ac-self-service/image/upload/pg_23/v1645725851/webhooks/ski-team.png"
+    }
+  ],
+  "batch_id": "77f77f50995e32093ef1321ba65f69e045e83c15de76933ce2f5624b9c79bbac",
+  "asset_id": "4d15a097d13a3130fb2a20bdcee8a0a3"
+}
