@@ -10,12 +10,12 @@ cloudinary.uploader
   invalidate: true,
   eager: [
     {
-        overlay: 'logo',
-        width: 200,
+        overlay: 'webhooks:logo',
+        width: 400,
         x: 30,
         y: 30,
         gravity: 'south_east',
-        opacity: 200
+        opacity: 100
       },
   ],
   eager_async: true,
