@@ -34,7 +34,7 @@ const processManualApprovedQueue = async () => {
     );
     for (let i = 0; i < response.resources.length; i++) {
       const result = await makePublic(response.resources[i].public_id);
-      console.log('approved:',response.resources[i].public_id)
+      console.log('approved processed:',response.resources[i].public_id)
     }
   } catch (error) {
     console.log(error);
