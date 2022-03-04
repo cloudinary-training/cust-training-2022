@@ -1,0 +1,44 @@
+{
+    "css_url": "http://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.css",
+    "image_url": "http://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.png",
+    "secure_css_url": "https://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.css",
+    "secure_image_url": "https://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.png",
+    "json_url": "http://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.json",
+    "secure_json_url": "https://res.cloudinary.com/cloudinary-training/image/sprite/v1646417795/e550b0aa8e9bbdc3e433b18635e2a90e.json",
+    "version": 1646417795,
+    "asset_id": "e88c7a990186df3f4d58273dfe9c0324",
+    "public_id": "e550b0aa8e9bbdc3e433b18635e2a90e",
+    "image_infos": {
+      "http://res.cloudinary.com/cloudinary-training/image/upload/pg_1/v1/webhooks/ski-team.png": {
+        "width": 384,
+        "height": 480,
+        "x": 0,
+        "y": 0
+      },
+      "http://res.cloudinary.com/cloudinary-training/image/upload/pg_5/v1/webhooks/ski-team.png": {
+        "width": 384,
+        "height": 480,
+        "x": 0,
+        "y": 482
+      },
+      "http://res.cloudinary.com/cloudinary-training/image/upload/pg_9/v1/webhooks/ski-team.png": {
+        "width": 384,
+        "height": 480,
+        "x": 0,
+        "y": 964
+      },
+      "http://res.cloudinary.com/cloudinary-training/image/upload/pg_13/v1/webhooks/ski-team.png": {
+        "width": 384,
+        "height": 480,
+        "x": 0,
+        "y": 1446
+      },
+      "http://res.cloudinary.com/cloudinary-training/image/upload/pg_17/v1/webhooks/ski-team.png": {
+        "width": 384,
+        "height": 480,
+        "x": 0,
+        "y": 1928
+      }
+    },
+    "notification_type": "sprite"
+  }
