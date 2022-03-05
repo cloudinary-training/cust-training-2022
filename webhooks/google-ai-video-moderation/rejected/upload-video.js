@@ -12,7 +12,7 @@ cloudinary.uploader
     public_id: 'hot-tub',
     access_control: [{ access_type: 'token' }],
     moderation: 'google_video_moderation:possible',
-    notification_url:'<WEBHOOK>'
+    notification_url:'https://webhook.site/1a0678f1-afc3-4077-8666-e232a5fe8c2d'
   })
   .then(result => {
     console.log(result)
