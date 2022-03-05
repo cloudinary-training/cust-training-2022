@@ -9,7 +9,7 @@ const cloudinary = require('cloudinary').v2
 cloudinary.uploader
   .upload('https://res.cloudinary.com/cloudinary-training/video/upload/v1588613988/elephants.mp4', {
     resource_type: 'video',
-    public_id: 'elephants1',
+    public_id: 'elephants',
     access_control: [{ access_type: 'token' }],
     moderation: 'google_video_moderation:possible',
     notification_url:'<WEBHOOK>'

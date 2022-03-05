@@ -8,7 +8,7 @@ const cloudinary = require('cloudinary').v2
 // image will be moved to 'webhooks' directory
 cloudinary.uploader
   .upload('./assets/yellow-shoes.jpg', {
-    public_id: 'yellow-shoes1',
+    public_id: 'yellow-shoes',
     type: 'authenticated',
     background_removal: 'cloudinary_ai',
     notification_url:
