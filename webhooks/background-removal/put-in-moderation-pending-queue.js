@@ -5,10 +5,13 @@ const cloudinary = require('cloudinary').v2;
 // put the image in the "manual" moderation queue
 // you need to manually approve in the DAM manual moderation queue
 cloudinary.uploader
-  .explicit('yellow-shoes-02', {
+  .explicit('shoes', {
     type: 'authenticated',
     moderation: 'manual'
+  })
   .then((result) => {
+    // you could call a send email API to let the moderator know 
+    // there's content to moderate
     console.log(JSON.stringify(result, null, 2));
   })
   .catch((error) => {

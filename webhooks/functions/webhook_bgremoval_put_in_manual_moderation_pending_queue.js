@@ -24,7 +24,7 @@ exports.handler = async function (event, context) {
   //   "info_kind": "cloudinary_ai",
   //   "info_status": "complete",
   //   "asset_id": "74211b649fff84c7568beff390ce2492",
-  //   "public_id": "yellow-shoes",
+  //   "public_id": "shoes",
   //   "uploaded_at": "2022-02-23T21:40:03Z",
   //   "version": 1645652403,
   //   "url": "http://res.cloudinary.com/ac-self-service/image/authenticated/s--z5agKeX5--/v1645652403/yellow-shoes.jpg",

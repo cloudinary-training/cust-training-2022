@@ -12,7 +12,8 @@ const makePublic = async (publicId) => {
       resource_type: 'image',
       type: 'authenticated',
       to_type: 'upload',
-      invalidate: 'true',
+      overwrite: true,
+      invalidate: true
     });
   } catch {
     (error) => {
