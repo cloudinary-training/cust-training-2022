@@ -8,7 +8,6 @@ const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader
   .upload('./assets/roller-skating.mp4', {
-    // public_id: "roller-skating",
     type: 'upload',
     overwrite: true,
     invalidate: true,
