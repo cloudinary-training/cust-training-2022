@@ -20,7 +20,7 @@ cloudinary.uploader
       { raw_transformation: 'f_mp4,vc_h264,q_auto/mp4' },
     ],
     eager_async: true,
-    eager_notification_url: 'https://rpeltz-cld-webhooks.netlify.app/.netlify/functions/webhook_notify_email',
+    eager_notification_url: 'https://my-cld-webhooks.netlify.app/.netlify/functions/webhook_notify_email',
   })
   .then((result) => {
     console.log(result);

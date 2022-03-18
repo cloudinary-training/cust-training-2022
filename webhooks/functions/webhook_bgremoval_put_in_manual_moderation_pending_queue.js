@@ -19,25 +19,6 @@ exports.handler = async function (event, context) {
   // get data from POST
   const data = JSON.parse(event.body);
 
-  // BG Removal Response
-  // {
-  //   "info_kind": "cloudinary_ai",
-  //   "info_status": "complete",
-  //   "asset_id": "74211b649fff84c7568beff390ce2492",
-  //   "public_id": "shoes",
-  //   "uploaded_at": "2022-02-23T21:40:03Z",
-  //   "version": 1645652403,
-  //   "url": "http://res.cloudinary.com/ac-self-service/image/authenticated/s--z5agKeX5--/v1645652403/yellow-shoes.jpg",
-  //   "secure_url": "https://res.cloudinary.com/ac-self-service/image/authenticated/s--z5agKeX5--/v1645652403/yellow-shoes.jpg",
-  //   "etag": "c843737ef8d94a1c109e5e128855a9c7",
-  //   "notification_type": "info",
-  //   "info_data": {
-  //     "cloudinary_ai_hints": [],
-  //     "cloudinary_ai_fine_edges": false,
-  //     "confidence_score": 0.9510779767345015
-  //   }
-  // }
-
   try {
     // put the image in manual moderation 'pending' queue
     // you could look at the confidence score and throwout if less than a threshold
