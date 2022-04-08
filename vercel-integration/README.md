@@ -12,10 +12,7 @@ We use Next.js to statically generate web pages that host Image and Video Media.
 
 ### Backend/Fullstack
 [Next.js CloudyCam Application](https://cloudycam.netlify.app/)  
-[Next.js CloudyCam Code Repository](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio) 
-
-
-
+[Next.js CloudyCam Code Repository](https://github.com/colbyfayock/cloudycam) 
 
 
 ## Integration  
