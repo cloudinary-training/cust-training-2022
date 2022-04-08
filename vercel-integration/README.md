@@ -4,9 +4,16 @@ Vercel provides the Next.js framework and the Next Image Component.  Cloudinary 
 We use Next.js to statically generate web pages that host Image and Video Media.  We show techniques for uploading in both the frontend and backend.
 
 ## Code and Demos used in the Training
-[Next.js Frontend Sample Application](https://cloudinary-nextjs-portfolio.vercel.app/)  
-[Next.js Frontend Sample Code Repository](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio)  
-[Next.js Fullstack CloudyCam](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio) 
+
+### Frontend
+
+[Next.js Sample Application](https://cloudinary-nextjs-portfolio.vercel.app/)  
+[Next.js Sample Code Repository](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio)
+
+### Backend/Fullstack
+[Next.js CloudyCam Application](https://cloudycam.netlify.app/)  
+[Next.js CloudyCam](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio) 
+
 
 
 
