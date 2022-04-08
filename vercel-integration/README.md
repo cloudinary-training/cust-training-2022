@@ -7,8 +7,8 @@ We use Next.js to statically generate web pages that host Image and Video Media.
 
 ### Frontend
 
-[Next.js Sample Application](https://cloudinary-nextjs-portfolio.vercel.app/)  
-[Next.js Sample Code Repository](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio)
+[Next.js Interior Design Portfolio Application](https://cloudinary-nextjs-portfolio.vercel.app/)  
+[Next.js Interior Design Portfolio Code Repository](https://github.com/cloudinary-training/cloudinary-nextjs-portfolio)
 
 ### Backend/Fullstack
 [Next.js CloudyCam Application](https://cloudycam.netlify.app/)  
