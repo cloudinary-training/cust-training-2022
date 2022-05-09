@@ -24,3 +24,20 @@ In all cases, we need to render an element to the DOM and then apply 3rd party J
 ## Rich Media
 
 You can include rich media like video, spin sets and 3D models in your Product Gallery Widget.
+See this examples
+
+### Spin Sets
+[Code](./rich-media-examples/spin-sets.html)
+[Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/spin-sets.html)
+
+### 3D Model
+[Code](./rich-media-examples/3d-model.html)
+[Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/3d-model.html)
+
+### Video Element
+[Code](./rich-media-examples/video-element.html)
+[Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/video-element.html)
+
+### Video Player
+[Code](./rich-media-examples/video-player.html)
+[Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/video-player.html)
