@@ -25,23 +25,9 @@
             {
               tag: 'electric_car_product_gallery_demo',
               mediaType: 'video',
-              transformation: { border: '5px_solid_black' },
+              transformation: { crop: 'limit', height: 600, width: 800 },
             },
           ],
-          viewportBreakpoints: [
-            {
-              breakpoint: 600,
-              carouselStyle: 'thumbnails',
-              carouselLocation: 'bottom',
-            },
-            {
-              breakpoint: 300,
-              carouselStyle: 'indicators',
-              carouselLocation: 'bottom',
-              navigation: 'always',
-            },
-          ],
-          imageBreakpoint: 300, // keep to 3 sizes
         });
         myGallery.render();
       });

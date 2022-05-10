@@ -24,31 +24,15 @@
           mediaAssets: [
             {
               tag: 'electric_car_product_gallery_demo',
-              transformation: { border: '5px_solid_black' },
-              mediaType: 'video',
-              sourceTypes: ['vp9', 'hls', 'webm', 'mp4'],
+              mediaType: 'video'
             },
           ],
           videoProps: {
             playerType: 'cloudinary',
             controls: 'play',
             autoplay: false,
-            sourceTypes: ['vp9', 'hls', 'webm', 'mp4'],
+            sourceTypes: ['hls', 'webm', 'mp4'],
           },
-          viewportBreakpoints: [
-            {
-              breakpoint: 600,
-              carouselStyle: 'thumbnails',
-              carouselLocation: 'bottom',
-            },
-            {
-              breakpoint: 300,
-              carouselStyle: 'indicators',
-              carouselLocation: 'bottom',
-              navigation: 'always',
-            },
-          ],
-          imageBreakpoint: 300, // keep to 3 sizes
         });
         myGallery.render();
       });
