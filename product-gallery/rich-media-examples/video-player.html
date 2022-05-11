@@ -21,17 +21,20 @@
           container: '#my-gallery',
           cloudName: 'demo',
           carouselLocation: 'left',
+          transformation: {
+            crop: 'fill',
+          },
           mediaAssets: [
             {
               tag: 'electric_car_product_gallery_demo',
-              mediaType: 'video'
+              mediaType: 'video',
+              sourceTypes: ['vp9','hls','webm','mp4']
             },
           ],
           videoProps: {
             playerType: 'cloudinary',
             controls: 'play',
             autoplay: false,
-            sourceTypes: ['hls', 'webm', 'mp4'],
           },
         });
         myGallery.render();

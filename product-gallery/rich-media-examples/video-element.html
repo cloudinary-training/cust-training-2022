@@ -21,13 +21,15 @@
           container: '#my-gallery',
           cloudName: 'demo',
           carouselLocation: 'left',
+          transformation: {
+            crop: 'fill',
+          },
           mediaAssets: [
             {
               tag: 'electric_car_product_gallery_demo',
               mediaType: 'video',
-              transformation: { crop: 'limit', height: 600, width: 800 },
             },
-          ],
+          ],        
         });
         myGallery.render();
       });
