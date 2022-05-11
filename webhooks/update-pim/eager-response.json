@@ -1,0 +1,19 @@
+{
+    "notification_type": "eager",
+    "timestamp": "2022-03-04T19:41:29+00:00",
+    "request_id": "bf626e16513d9aa08905afbf4362f86b",
+    "eager": [
+      {
+        "transformation": "g_south_east,l_webhooks:logo,o_100,w_400,x_30,y_30",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 909037,
+        "format": "jpg",
+        "url": "http://res.cloudinary.com/cloudinary-training/image/private/g_south_east,l_webhooks:logo,o_100,w_400,x_30,y_30/v1645739702/webhooks/vase.jpg",
+        "secure_url": "https://res.cloudinary.com/cloudinary-training/image/private/g_south_east,l_webhooks:logo,o_100,w_400,x_30,y_30/v1645739702/webhooks/vase.jpg"
+      }
+    ],
+    "batch_id": "40b4198fa914b589c93537f34f138121c1c82e25ab020f62e71f15a24e1fbc0a",
+    "asset_id": "b320b5bff40a1f4b7f7848a4bf1a5711",
+    "public_id": "webhooks/vase"
+  }

@@ -1,6 +1,7 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+// replace the notification_url with your own webhook.site URL
 
 const manifest = {
     w: 500,
@@ -13,13 +14,13 @@ const manifest = {
       tdur: 1000,
       slides: [
         {
-          media: "i:multi:garden",
+          media: "i:webhooks:garden",
         },
         {
-          media: "i:multi:butterfly",
+          media: "i:webhooks:butterfly",
         },
         {
-          media: "i:multi:butterflies",
+          media: "i:webhooks:butterflies",
         },
        
         

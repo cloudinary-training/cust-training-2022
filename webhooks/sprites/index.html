@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprites</title>
+    <style>
+      .webhooks-email,
+      .webhooks-github,
+      .webhooks-home {
+        background: url('https://res.cloudinary.com/cloudinary-training/image/sprite/v1645736404/iconduck.png')
+          no-repeat;
+          display: inline-block;
+      }
+
+      .webhooks-email {
+        background-position: 0px 0px;
+        width: 24px;
+        height: 24px;
+      }
+
+      .webhooks-github {
+        background-position: 0px -26px;
+        width: 24px;
+        height: 24px;
+      }
+
+      .webhooks-home {
+        background-position: 0px -52px;
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <a href="https://www.cloudinary.com" title="Home" target="_blank"
+        ><span class="webhooks-home"></span
+      ></a>
+      <a href="mailto:support@cloudinary.com" title="Email" target="_blank"
+        ><span class="webhooks-email"></span
+      ></a>
+      <a
+        href="https://www.github.com/cloudinary-training"
+        title="GitHub"
+        target="_blank"
+        ><span class="webhooks-github"></span
+      ></a>
+    </div>
+  </body>
+</html>

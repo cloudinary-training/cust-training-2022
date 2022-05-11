@@ -1,5 +1,5 @@
 require('dotenv').config();
-const sgMail = require('@sendgrid/mail');
+const cloudinary = require('cloudinary').v2;
 
 // exit if not a post
 exports.handler = async function (event, context) {
@@ -16,34 +16,26 @@ exports.handler = async function (event, context) {
     };
   }
 
-  // get data
+  // get data from POST
   const data = JSON.parse(event.body);
-  console.log(JSON.stringify(data, null, 2));
-
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-  const msg = {
-    to: process.env.TO_RECIPIENTS,
-    from: process.env.FROM_VERIFIED_SENDER,
-    subject: 'Webhook Notification',
-    text: JSON.stringify(data, null, 2),
-  };
-  console.log('msg', msg);
 
   try {
-    const response = await sgMail.sendMultiple(msg);
-    console.log('success', response[0].statusCode);
-    console.log('success-response', response[0]);
+    // put the image in manual moderation 'pending' queue
+    // you could look at the confidence score and throwout if less than a threshold
+    // in this code, put everything in to 'pending' 
+    const response = await cloudinary.uploader
+    .explicit(data.public_id, {
+      type: 'authenticated',
+      moderation: 'manual',
+      notification_url:
+        'https://webhook.site/1a0678f1-afc3-4077-8666-e232a5fe8c2d',
+    })
 
     return {
       statusCode: response[0].statusCode,
       body: JSON.stringify({ message: response[0] }),
     };
   } catch (error) {
-    console.error('error', JSON.stringify(error, 0, 2));
-    // const errorMsg = error.response.body.errors[0].message;
-    // console.log(errorMsg);
-
     return {
       statusCode: error.code,
       body: error.response.body.errors[0].message,

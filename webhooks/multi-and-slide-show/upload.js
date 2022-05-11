@@ -1,14 +1,19 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
-
-const uploadWithTag = (image, tag) => {
+const uploadWithTag = (image, publicId, tag) => {
   cloudinary.uploader
     .upload(image, {
-      use_filename: true,
-      unique_filename: false,
+      public_id: publicId,
       tags: [tag],
-      folder: 'multi'
+      transformation: [
+        {
+          width: 600,
+          height: 400,
+          fill: 'crop',
+
+        },
+      ],
     })
     .then((result) => {
       console.log(result);
@@ -18,8 +23,12 @@ const uploadWithTag = (image, tag) => {
     });
 };
 
-uploadWithTag('./assets/butterfly.jpg', 'multi-nature');
-uploadWithTag('./assets/butterflies.jpg', 'multi-nature');
-uploadWithTag('./assets/garden.jpg', 'multi-nature');
-
-
+// the tag will bring these assets together
+// the public id will determine the order
+uploadWithTag('./assets/butterfly.jpg', 'webhooks/butterfly', 'multi-nature');
+uploadWithTag(
+  './assets/butterflies.jpg',
+  'webhooks/butterflies',
+  'multi-nature'
+);
+uploadWithTag('./assets/garden.jpg', 'webhooks/garden', 'multi-nature');

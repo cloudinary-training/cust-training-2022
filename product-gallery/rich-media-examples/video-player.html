@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGW with Video Player</title>
+    <script
+      src="https://product-gallery.cloudinary.com/all.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <main style="max-width: 60%; margin: 5rem auto">
+      <h1>PGW with Video Player</h1>
+      <div style="width: 100%" id="my-gallery"></div>
+    </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', (e) => {
+        const myGallery = cloudinary.galleryWidget({
+          container: '#my-gallery',
+          cloudName: 'demo',
+          carouselLocation: 'left',
+          mediaAssets: [
+            {
+              tag: 'electric_car_product_gallery_demo',
+              mediaType: 'video'
+            },
+          ],
+          videoProps: {
+            playerType: 'cloudinary',
+            controls: 'play',
+            autoplay: false,
+            sourceTypes: ['hls', 'webm', 'mp4'],
+          },
+        });
+        myGallery.render();
+      });
+    </script>
+  </body>
+</html>

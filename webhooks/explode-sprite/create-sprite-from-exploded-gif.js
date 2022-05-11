@@ -1,16 +1,18 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
+
+// replace the notification_url with your own webhook.site URL
+
 const getURLs = (publicId) => {
   const urls = [];
-  for (let i = 0; i <= 100; i +=25) {
-    // console.log(cloudinary.url('explode/kitten_fighting', { page: `${i}` }))
-    urls.push(cloudinary.url('explode/kitten_fighting', { page: `${i}` }));
+  for (let i = 1; i <= 20; i +=4) {
+    urls.push(cloudinary.url(publicId, { page: `${i}`, format: 'png' }));
   }
   return urls;
 };
 
-const urls = getURLs('explode/kitten_fighting');
+const urls = getURLs('webhooks/ski-team');
 
 cloudinary.uploader
   .generate_sprite({

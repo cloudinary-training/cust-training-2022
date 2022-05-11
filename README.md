@@ -81,7 +81,7 @@ node testCredentials.js
 You should see your cloud name and API key reported.  Keep your API_SECRET a secret!
 
 ### Run Code: Run code in optimization directory
-Example: run image upload script in optimization directory.
+Example: run image upload script in optimization directory
 
 ```bash
 node optimization/images/upload.js
@@ -111,8 +111,10 @@ koi.jpg  [Photo by Nika Akin from Pexels](https://pixabay.com/photos/koi-fish-mi
 shark.jpg  [Photo by Vova Krasilnikov from Pexels](https://www.pexels.com/photo/big-shark-underwater-2747248/)
 
 turtle.jpg [Photo by Richard Segal from Pexels](https://www.pexels.com/photo/black-and-white-turtle-1618606/)
- 
 
+ski-team.gif [Pixabay US Ski Team](https://media.giphy.com/media/CC3HbQ6poN4XVLqzqT/giphy.gif)
+ 
+vase.jpg [Photo by Beyza Efe from Pexels](https://www.pexels.com/photo/clay-vase-with-bunch-of-wheat-8549835/)
  
 
 
