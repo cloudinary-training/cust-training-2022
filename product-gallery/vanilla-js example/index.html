@@ -1,9 +1,11 @@
 <html>
   <head>
-    <title>Jen's Product Gallery example</title>
+    <title>Product Gallery Demo</title>
   </head>
   <body>
-    <h3>Jen's Product Gallery Example</h3>
+    <h3>
+      <font face="Arial" size="20px" color="#FF7A59">Product Gallery Demo</font>
+    </h3>
     <script
       src="https://product-gallery.cloudinary.com/all.js"
       type="text/javascript"
@@ -31,43 +33,43 @@
     </p>
 
     <script>
-      document.addEventListener("DOMContentLoaded", (e) => {
-        const myWidget = cloudinary.galleryWidget({
-    "container": "#my-gallery",
-    "cloudName": "demo",
-    "mediaAssets": [{
-        "tag": "shoes_product_gallery_demo",
-        "mediaType": "image"
-    }, {
-        "tag": "shoes_product_gallery_demo",
-        "mediaType": "video"
-    }, {
-        "tag": "shoes_product_gallery_demo_spinset",
-        "mediaType": "spin"
-    }],
-    "themeProps": {
-        "primary": "#c0b8b8",
-        "active": "#3448c5"
-    },
-    "transition": "fade",
-    "navigationButtonProps": {
-        "iconColor": "#000000",
-        "color": "#c0b8b8"
-    },
-    "zoomProps": {
-        "level": 3
-    },
-    "thumbnailProps": {
-        "height": 100,
-        "navigationColor": "#ffffff",
-        "navigationIconColor": "#000000",
-        "width": 100,
-        "navigationShape": "round"
-    }
-});
-
-        myWidget.render();
-      });
+        document.addEventListener("DOMContentLoaded", (e) => {
+          const myWidget = cloudinary.galleryWidget({
+            container: "#my-gallery",
+            cloudName: "demo",
+            mediaAssets:  [{
+          "tag": "shoes_product_gallery_demo",
+          "mediaType": "image"
+      }, {
+          "tag": "shoes_product_gallery_demo",
+          "mediaType": "video"
+      }, {
+          "tag": "shoes_product_gallery_demo_spinset",
+          "mediaType": "spin"
+      }],
+            themeProps: {
+              primary: "#c0b8b8",
+              active: "#3448c5",
+            },
+            transition: "fade",
+            navigationButtonProps: {
+              iconColor: "#000000",
+              color: "#c0b8b8",
+            },
+            zoomProps: {
+              level: 3,
+            },
+            carouselLocation: "right",
+            thumbnailProps: {
+              height: 100,
+              navigationColor: "#ffffff",
+              navigationIconColor: "#000000",
+              width: 100,
+              navigationShape: "round",
+            },
+          });
+          myWidget.render();
+        });
     </script>
   </body>
 </html>
