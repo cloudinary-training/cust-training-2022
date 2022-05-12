@@ -19,24 +19,32 @@
       document.addEventListener('DOMContentLoaded', (e) => {
         const myGallery = cloudinary.galleryWidget({
           container: '#my-gallery',
-          cloudName: 'demo',
-          carouselLocation: 'left',
-          transformation: {
-            crop: 'fill',
-          },
+          cloudName: 'cloudinary-training',
           mediaAssets: [
             {
-              tag: 'electric_car_product_gallery_demo',
+              publicId: 'product-gallery/sports-car-1',
               mediaType: 'video',
-              sourceTypes: ['vp9','hls','webm','mp4']
+              videoPlayerSource: {
+                sourceTypes: ['dash/vp9', 'hls/h265', 'hls/h264', 'mp4'],
+                sourceTransformation: {
+                  'dash/vp9': [{ streaming_profile: 'hd_vp9' }],
+                  'hls/h265': [{ streaming_profile: 'hd_h265' }],
+                  'hls/h264': [{ streaming_profile: 'hd' }],
+                  mp4: [{ raw_transformation: 'q_auto' }],
+                },
+              },
             },
           ],
+          transformation: { crop: 'fill' },
+          displayProps: {},
           videoProps: {
             playerType: 'cloudinary',
             controls: 'play',
             autoplay: false,
           },
+          videoPlayerSource: {},
         });
+
         myGallery.render();
       });
     </script>
