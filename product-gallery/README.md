@@ -41,3 +41,8 @@ See this examples
 ### Video Player
 [Code](./rich-media-examples/video-player.html)
 [Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/video-player.html)
+
+
+## Credits
+
+[3D model from turbosquid](https://www.turbosquid.com/3d-models/3d-low-poly-car-cadillac-75-sedan-1953-model-1772845)
