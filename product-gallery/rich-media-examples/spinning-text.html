@@ -14,13 +14,13 @@
   <body>
     <main style="max-width: 60%; margin: 5rem auto">
       <h1>PGW with Spin Sets</h1>
-      <div style="width: 100%" id="my-gallery"></div>
+      <div style="width: 80%" id="my-gallery"></div>
     </main>
     <script>
       document.addEventListener('DOMContentLoaded', (e) => {
         const myGallery = cloudinary.galleryWidget({
           container: '#my-gallery',
-          cloudName: 'demo',
+          cloudName: 'cloudinary-training',
           carouselLocation: 'left',
           transformation: { crop: 'fill' },
           thumbnailProps: {
@@ -39,7 +39,7 @@
           },
           mediaAssets: [
             {
-              tag: 'product-gallery/spinning-text', // made from a gif
+              tag: 'spinning-text', // made from a gif
               mediaType: 'spin',
               transformation: { crop: 'fill' },
             },

@@ -14,7 +14,7 @@
   <body>
     <main style="max-width: 60%; margin: 5rem auto">
       <h1>PGW with Video Player</h1>
-      <div style="width: 100%" id="my-gallery"></div>
+      <div style="width: 80%" id="my-gallery"></div>
     </main>
     <script>
       document.addEventListener('DOMContentLoaded', (e) => {
@@ -25,6 +25,8 @@
             {
               publicId: 'product-gallery/sports-car-1',
               mediaType: 'video',
+              controls: 'play',
+              autoPlay: false,
               transformation: { crop: 'fill' },
               videoPlayerSource: {
                 sourceTypes: ['dash/vp9', 'hls/h265', 'hls/h264', 'mp4'],
@@ -43,6 +45,9 @@
             playerType: 'cloudinary',
             controls: 'play',
             autoplay: false,
+            posterOptions: {
+              publicId: 'product-gallery/sports-car-img-1',
+            },
           },
           videoPlayerSource: {},
         });
