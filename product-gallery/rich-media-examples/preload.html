@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+    <title>PGW Preload</title>
+    <script
+      src="https://product-gallery.cloudinary.com/all.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <main style="max-width: 60%; margin: 5rem auto">
+      <h1>PGW preloading image and video</h1>
+      <div style="width: 100%" id="my-gallery"></div>
+    </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', (e) => {
+        const myGallery = cloudinary.galleryWidget({
+          container: '#my-gallery',
+          cloudName: 'demo',
+          preload: ['image', 'video'],
+          carouselLocation: 'left',
+          transformation: {
+            crop: 'fill',
+          },
+          mediaAssets: [
+            {
+              tag: 'electric_car_product_gallery_demo',
+              transformation: { crop: 'limit', height: 600, width: 800 },
+            },
+            {
+              tag: 'electric_car_product_gallery_demo',
+              mediaType: 'video',
+              autoplay: 'false',  //default
+              preload: 'auto',
+              transformation: [{ crop: 'fill', gravity: 'auto' }]
+            },
+          ],
+        });
+        myGallery.render();
+      });
+    </script>
+  </body>
+</html>
