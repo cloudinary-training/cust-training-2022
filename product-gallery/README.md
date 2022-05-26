@@ -33,6 +33,7 @@ See this examples
 ### 3D Model
 [Code](./rich-media-examples/3d-model.html)
 [Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/3d-model.html)
+[Demo](https://cloudinary-training.github.io/cust-training-2022/product-gallery/rich-media-examples/3d-model-2.html)
 
 ### Video Element
 [Code](./rich-media-examples/video-element.html)
