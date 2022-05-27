@@ -20,22 +20,12 @@
       document.addEventListener('DOMContentLoaded', (e) => {
         const myGallery = cloudinary.galleryWidget({
           container: '#my-gallery',
-          cloudName: 'cloudinary-training',
+          cloudName: 'picturecloud7',
           carouselLocation: 'left',
           transformation: { crop: 'fill' },
           mediaAssets: [
-            { publicId: 'cld-logo-3d', mediaType: '3d', transformation: { crop: 'fill' }, },
-            { publicId: 'cadillac', mediaType: '3d', transformation: { crop: 'fill' }, },
-            {
-              publicId: 'cld-logo-3d',
-              transformation: { format: 'png', transformation: { crop: 'fill' }, },
-              mediaType: 'image',
-            },
-            {
-              publicId: 'cadillac',
-              transformation: { format: 'png' , transformation: { crop: 'fill' },},
-              mediaType: 'image',
-            },
+            { publicId: 'up7qfjjagqnddm0ss7pp', mediaType: '3d', transformation: { crop: 'fill' }, },
+          
           ],
         });
         myGallery.render();
