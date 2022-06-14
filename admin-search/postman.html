@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postman</title>
+    <link rel="icon" href="../assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+    <style>
+      body {
+        width: 100%;
+        height: 100%;
+        background-color: #0c163b;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      h1 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      h2 {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2rem auto;
+        text-align: left;
+        max-width: 75%;
+      }
+      .img-container {
+        margin: 0 auto;
+        max-width: 100%;
+      }
+      .img-container img {
+        display: block;
+        margin: 0 auto;
+        zoom: 110%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Using Cloudinary Postman Collections</h1>
+    <!-- <div>
+      <img
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/v1655240237/postman/Slide1.png"
+      />
+    </div> -->
+    <h2>Click on the Postman link in the documentation.</h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman2.png"
+      />
+    </div>
+    <h2>We see the Collections for all the APIs in Programmable Media.</h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman3.png"
+      />
+    </div>
+    <h2>
+      Click on Search API to see all the endpoints. Then click on the fork icon
+      located top right.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman4.png"
+      />
+    </div>
+    <h2>
+      Create a Fork Label and a Workspace. I’ve named them "My Search API" and
+      "My Workspace". Click on Fork Collection.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman5.png"
+      />
+    </div>
+    <h2>
+      The API collection is set up to read Global variables in postman. Create
+      an Environment with these global variables.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman6.png"
+      />
+    </div>
+    <h2>Click on New Environment.</h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman7.png"
+      />
+    </div>
+    <h2>
+      Go to the Cloudinary dashboard and locate api_key, api_secret, and
+      cloud_name. Enter these into the New Environment form. Note at the top
+      left, these are global env variables. Mark the api_secret as “secret”, but
+      cloud_name and api_key don’t need to be made secret.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman8.png"
+      />
+    </div>
+    <h2>
+        Click on the “eye” next to the Environment. We’ll see an editable form with our environment variables. Our env set 
+        is still called “New Environment”.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman9.png"
+      />
+    </div>
+    <h2>
+        On the left, click on Environments. Rename the "New Environment".
+        
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman10.png"
+      />
+    </div>
+    <h2>
+        This environment has been renamed to "Cloudinary Training" to match the cloud name. The check mark 
+        indicates it is activated.  Check it if it isn't.
+        
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman11.png"
+      />
+    </div>
+    <h2>
+        Hover over the {cloud_name} variable in the API it show ‘cloudinary-training’ that it picked up from the global environment variable.
+
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman12.png"
+      />
+    </div>
+    <h2>
+        We're ready to add an expression for the search. Click on raw
+        we're going to enter a JSON object.
+        
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman13.png"
+      />
+    </div>
+    <h2>
+        Add a JSON object with a search expression. We’re looking images with a ‘cat’ in the tag and uploaded 
+        within the last day and greater the 1MB in size.
+        
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman14.png"
+      />
+    </div>
+    <h2>
+     The response is a JSON object.  I shows that I have one asset with the tag cat uploaded within the last day,
+     that is greater than 1MB in size.
+    </h2>
+    <div class="img-container">
+      <img
+        width="960px"
+        height="540"
+        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman15.png"
+      />
+    </div>
+  </body>
+</html>

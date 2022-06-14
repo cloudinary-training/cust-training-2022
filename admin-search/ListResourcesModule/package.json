@@ -1,0 +1,19 @@
+{
+  "name": "listresourcesmodule",
+  "version": "1.0.0",
+  "description": "A module to list resources in Cloudinary cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cloudinary",
+    "resources"
+  ],
+  "author": "Cloudinary Training",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.30.0",
+    "dotenv": "^16.0.1"
+  }
+}

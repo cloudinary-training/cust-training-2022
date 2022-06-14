@@ -11,5 +11,6 @@
         "upscaling",
         "urlsafe",
         "xform"
-    ]
+    ],
+    "liveServer.settings.port": 5502
 }
