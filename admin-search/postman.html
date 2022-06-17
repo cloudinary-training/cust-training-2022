@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Postman</title>
     <link rel="icon" href="../assets/favicon.png" type="image/png" />
-   
     <style>
       body {
         width: 100%;
@@ -36,17 +35,53 @@
         margin: 0 auto;
         zoom: 110%;
       }
+      .code-container {
+          margin: 0 auto;
+          width: 80%;
+      }
     </style>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/styles/default.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
     <h1>Using Cloudinary Postman Collections</h1>
-    <h2>For this example, we upload an image using the Node.js SDK. We include an array of tags that we can use as parameters for the Search API.</h2>
-    <div class="img-container">
-      <img
-        width="960px"
-        height="540"
-        src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman-upload.png"
-      />
+    <h2>
+      For this example, we upload an image using the Node.js SDK. We include an
+      array of tags that we can use as parameters for the Search API.
+    </h2>
+    <div class="code-container">
+        <pre><code class="javascript">
+            require('dotenv').config();
+            const cloudinary = require('cloudinary').v2;
+            
+            const upload = async (filepath, tagArray, contextString) => {
+              try {
+                const result = await cloudinary.uploader.upload(filepath, {
+                  tags: tagArray,
+                  context: contextString
+                });
+                console.log(result);
+              } catch (error) {
+                console.log(error);
+              }
+            };
+            
+            upload(
+              './assets/cat-and-dog.jpg',
+              ['cat', 'dog', 'cats and dogs', 'dogs and cats'],
+              'source=pexels | subject=pets'
+            );
+            
+            </code></pre>
     </div>
     <h2>Click on the Postman link in the documentation.</h2>
     <div class="img-container">
@@ -56,8 +91,11 @@
         src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman2.png"
       />
     </div>
-    <h2>In order to make you own API calls in Postman, you need to create an account and sign in.
-        We see the Collections for all the APIs in Programmable Media.</h2>
+    <h2>
+      In order to make you own API calls in Postman, you need to create an
+      account and sign in. We see the Collections for all the APIs in
+      Programmable Media.
+    </h2>
     <div class="img-container">
       <img
         width="960px"
@@ -120,8 +158,9 @@
       />
     </div>
     <h2>
-        Click on the “eye” next to the Environment. We’ll see an editable form with our environment variables. Our env set 
-        is still called “New Environment”.
+      Click on the “eye” next to the Environment. We’ll see an editable form
+      with our environment variables. Our env set is still called “New
+      Environment”.
     </h2>
     <div class="img-container">
       <img
@@ -130,10 +169,7 @@
         src="https://res.cloudinary.com/cloudinary-training/image/upload/postman/postman9.png"
       />
     </div>
-    <h2>
-        On the left, click on Environments. Rename the "New Environment".
-        
-    </h2>
+    <h2>On the left, click on Environments. Rename the "New Environment".</h2>
     <div class="img-container">
       <img
         width="960px"
@@ -142,9 +178,9 @@
       />
     </div>
     <h2>
-        This environment has been renamed to "Cloudinary Training" to match the cloud name. The check mark 
-        indicates it is activated.  Check it if it isn't.
-        
+      This environment has been renamed to "Cloudinary Training" to match the
+      cloud name. The check mark indicates it is activated. Check it if it
+      isn't.
     </h2>
     <div class="img-container">
       <img
@@ -154,8 +190,9 @@
       />
     </div>
     <h2>
-        Hover over the {cloud_name} variable in the API and it shows ‘cloudinary-training’ which it picked up from the global environment variable.
-
+      Hover over the {cloud_name} variable in the API and it shows
+      ‘cloudinary-training’ which it picked up from the global environment
+      variable.
     </h2>
     <div class="img-container">
       <img
@@ -165,9 +202,8 @@
       />
     </div>
     <h2>
-        We're ready to add an expression for the search. Click on raw and 
-        we'll enter a JSON object.
-        
+      We're ready to add an expression for the search. Click on raw and we'll
+      enter a JSON object.
     </h2>
     <div class="img-container">
       <img
@@ -177,9 +213,9 @@
       />
     </div>
     <h2>
-        Add a JSON object with a search expression. We’re looking for images with a ‘cat’ in the tag,  uploaded 
-        within the last day and greater the 1MB in size.
-        
+      Add a JSON object with a search expression. We’re looking for images with
+      a ‘cat’ in the tag, uploaded within the last day and greater the 1MB in
+      size.
     </h2>
     <div class="img-container">
       <img
@@ -189,8 +225,8 @@
       />
     </div>
     <h2>
-     The response is a JSON object.  I shows that I have one asset with the tag 'cat' uploaded within the last day,
-     that is greater than 1MB in size.
+      The response is a JSON object. I shows that I have one asset with the tag
+      'cat' uploaded within the last day, that is greater than 1MB in size.
     </h2>
     <div class="img-container">
       <img

@@ -8,7 +8,6 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 const fs = require('fs');
-// const { get } = require('http');
 
 var resourceList = [];
 
