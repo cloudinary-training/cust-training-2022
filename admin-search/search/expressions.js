@@ -73,16 +73,16 @@ const cloudinary = require('cloudinary').v2;
 // with tags: we are doing a token search - 'cats and dogs'
 // tokens are often separated by underscore, hyphen, or space
 // we can search for any tags that have the word 'cats' or 'dogs' in the string
-// cloudinary.search
-// .expression('resource_type:image AND tags:dogs')
-// .sort_by('public_id')
-// .with_field('context')
-// .with_field('tags')
-// .max_results(10)
-// .execute()
-// .then((result) => {
-//   console.log(JSON.stringify(result,null,2));
-// });
+cloudinary.search
+.expression('resource_type:image AND tags:dogs')
+.sort_by('public_id')
+.with_field('context')
+.with_field('tags')
+.max_results(10)
+.execute()
+.then((result) => {
+  console.log(JSON.stringify(result,null,2));
+});
 
 // cloudinary.search
 // .expression('resource_type:image AND tags:cats')
