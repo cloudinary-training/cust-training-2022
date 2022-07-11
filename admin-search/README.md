@@ -28,7 +28,7 @@ node admin-search/search/expressions.js
 ```
 
 
-# Search
+## Search
 The Search API let's us add Lucene-like expressions.  
 
 The `admin-search/search/expressions.js` file contains many example of Lucene-like expression that you can test with.
