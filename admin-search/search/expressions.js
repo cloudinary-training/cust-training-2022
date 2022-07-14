@@ -6,18 +6,18 @@ const cloudinary = require('cloudinary').v2;
 // show any tags
 // without specifying max results, search returns 50 by default
 
-// cloudinary.search
-//   .sort_by('public_id')
-//   .with_field('context')
-//   .with_field('tags')
-//   .execute()
-//   .then((result) => {
-//     console.log(result);
-//     console.log('count: ', result.resources.length);
-//   })
-//   .catch((error) => {
-//     console.log(error);
-//   });
+cloudinary.search
+  .sort_by('public_id')
+  .with_field('context')
+  .with_field('tags')
+  .execute()
+  .then((result) => {
+    console.log(result);
+    console.log('count: ', result.resources.length);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 //  -------------------------------------------------------------
 
@@ -73,17 +73,6 @@ const cloudinary = require('cloudinary').v2;
 // with tags: we are doing a token search - 'cats and dogs'
 // tokens are often separated by underscore, hyphen, or space
 // we can search for any tags that have the word 'cats' or 'dogs' in the string
-console.log("running")
-cloudinary.search
-.expression('resource_type:image AND tags:bird*')
-.sort_by('public_id')
-.with_field('context')
-.with_field('tags')
-.max_results(10)
-.execute()
-.then((result) => {
-  console.log(JSON.stringify(result,null,2));
-});
 
 // cloudinary.search
 // .expression('resource_type:image AND tags:cats')
@@ -99,7 +88,7 @@ cloudinary.search
 //  XXXXXXXXXXX  PREFIX search
 // prefix (starts with) token search
 // cloudinary.search
-//   .expression('resource_type:image AND tags:ca*')
+//   .expression('resource_type:image AND tags=ca*')
 //   .sort_by('public_id')
 //   .with_field('context')
 //   .with_field('tags')
@@ -108,46 +97,12 @@ cloudinary.search
 //   .then((result) => {
 //     console.log(JSON.stringify(result, null, 2));
 //   });
-
-//  XXXXXXXXXXXX  Docs bug??
-// prefix (starts with) token search are case insensitive, but
-// exact matches are case sensitive  ??????
-// cloudinary.search
-//   .expression('resource_type:image AND tags:CA*')
-//   .sort_by('public_id')
-//   .with_field('context')
-//   .with_field('tags')
-//   .max_results(10)
-//   .execute()
-//   .then((result) => {
-//     console.log(JSON.stringify(result, null, 2));
-//   });
-
-// cloudinary.search
-// .expression('resource_type:image AND tags:ca*')
-// .execute()
-// .then((result) => {
-//   console.log('token case insensitive?')
-//   console.log(JSON.stringify(result, null, 2));
-// });
-
-// cloudinary.search
-// .expression('resource_type:image AND tags=ca*')
-// .with_field('tags')
-// .execute()
-// .then((result) => {
-//   console.log('exact case sensitive')
-//   console.log(JSON.stringify(result, null, 2));
-// });
-
-//  -------------------------------------------------------------
-//
 
 //  -------------------------------------------------------------
 // date 'created_at>1d' or 'uploaded_at>1d' means the upload date is a value greater than
 // the value of the date 1 day ago - if you think of dates as increase numeric
 // values - this means that the item has been uploaded WITHIN the last day
-
+// many need to adjust created_at depending on when you uploaded
 // cloudinary.search
 //   .expression('resource_type:image AND created_at>1d')
 //   .sort_by('uploaded_at')
@@ -164,6 +119,7 @@ cloudinary.search
 //   });
 
 // date 'uploaded_at<1d` will return everything uploaded before 1 day ago
+// listing just dates
 // cloudinary.search
 //   .expression('resource_type:image AND (uploaded_at<1d)')
 //   .sort_by('uploaded_at')
