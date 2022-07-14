@@ -55,12 +55,4 @@ const getAllResources = async (options, filepath) => {
   }
 };
 module.exports = { getAllResources };
-//  getAllResources(
-//    {
-//      type: 'upload',
-//      max_results: 1,
-//      prefix: 'logo',
-//      next_cursor: null,
-//    },
-//    './test.txt'
-//  );
+
