@@ -24,7 +24,7 @@ async function writeToDisk(derivedAssets) {
 // array of public ids you want to download info on
 const publicIds = ['cat-and-dog'];
 
-for (let publicId of publicIds) {
+for (const publicId of publicIds) {
   getDerivedAssets(publicId).then((result) => {
     for (let item of result) {
       item['public_id'] = publicId;
