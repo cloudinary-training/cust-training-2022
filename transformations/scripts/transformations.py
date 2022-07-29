@@ -33,8 +33,8 @@ def createTransformations():
   # ==============================
 
   # Create an image tag with transformations applied to the src URL.
-    transformation1 = cloudinary.CloudinaryImage("baby_on_horse").image(radius="max", effect="sepia"),
-    transformation2 = cloudinary.CloudinaryImage("baby_on_horse").image(effect="sepia")
+    transformation1 = cloudinary.CloudinaryImage("baby_on_horse").image(effect="sepia"),
+    transformation2 = cloudinary.CloudinaryImage("baby_on_horse").image(radius="max", effect="sepia"),
     transformation3 = cloudinary.CloudinaryImage("baby_on_horse").image(transformation=[
     {'gravity': "face", 'height': 500, 'width': 500, 'crop': "crop"},
     {'radius': "max"},
@@ -56,8 +56,8 @@ def createTransformations():
     ])
 
   # Log the image tag to the console
-    print("****3. Transform the image to sepia with rounded corners****\nTransfrmation URL: ", transformation1, "\n"),
-    print("****3. Transform the image to sepia****\nTransfrmation URL: ", transformation2, "\n")
+    print("****3. Transform the image to sepia****\nTransfrmation URL: ", transformation1, "\n")
+    print("****3. Transform the image to sepia with rounded corners****\nTransfrmation URL: ", transformation2, "\n")
     print("****3. Transform to find the baby's face and round corners****\nTransfrmation URL: ", transformation3, "\n")
     print("****3. Transform to make baby's face green + previous transformation****\nTransfrmation URL: ", transformation4, "\n")
     print("****3. Transform to cartoonify + previous transformation****\nTransfrmation URL: ", transformation5, "\n")
