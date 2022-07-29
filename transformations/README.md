@@ -3,7 +3,7 @@
 This code was used to prepare for the `Transforming Media with Cloudinary for Developers` training.
 
 
-In this module we look at transformations of images using the React using the JavaScript SDK V2 on the Frontend, and using the Python SDK on the backend. We'll also look at programmatically creating and using named transformations and upload presets. 
+In this module we look at transformations of images and video using the React using the JavaScript SDK V2 on the Frontend, and using the Python SDK on the backend. We'll also look at programmatically creating and using named transformations and upload presets. 
 
 
 ## Environment Setup
