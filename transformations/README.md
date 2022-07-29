@@ -77,10 +77,12 @@ pip3 install python-dotenv
 ```bash
 python3 transformations/scripts/transformations.py
 ```
-You should your cloud name and API key reported in the format below. Keep your API_SECRET a secret!
+Once you run `transformations.py`, you should your cloud name and API key reported in the format below. Keep your API_SECRET a secret!
 
-1. Set up and configure the SDK:
+```bash
+Set up and configure the SDK:
 `Credentials:  cloudname key `
+```
 
 ### Run Code: Run code in transformations directory
 Example: run script to upload image and associated transformations
