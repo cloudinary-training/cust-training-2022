@@ -15,7 +15,7 @@ get the URL using the `toURL()` function, or you can add the object to the `Adva
 
 `npm install` or `yarn install` 
 
-`yarn start`
+`npm run start` or `yarn start`
 
 ## Create-React-App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
