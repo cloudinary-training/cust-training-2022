@@ -21,7 +21,7 @@ def uploadImage():
 
 
   # Build the URL for the image and save it in the variable 'srcURL'
-  srcURL = cloudinary.CloudinaryImage("quickstart_butterfly").build_url()
+  srcURL = cloudinary.CloudinaryImage("baby_on_horse").build_url()
 
   # Log the image URL to the console. 
   # Copy this URL in a browser tab to generate the image on the fly.
