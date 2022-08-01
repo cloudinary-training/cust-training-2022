@@ -1,15 +1,16 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from cloudinary.utils import cloudinary_url
-import cloudinary
-import cloudinary.uploader
 import cloudinary.api
+import cloudinary.uploader
+import cloudinary
+from cloudinary.utils import cloudinary_url
 
 
 config = cloudinary.config(secure=True)
 
-print("**** Set up and configure the SDK:****\nCredentials: ", config.cloud_name, config.api_key, "\n")
+print("**** Set up and configure the SDK:****\nCredentials: ",
+      config.cloud_name, config.api_key, "\n")
 
 # def uploadImage():
 
@@ -23,48 +24,88 @@ print("**** Set up and configure the SDK:****\nCredentials: ", config.cloud_name
 #   # Build the URL for the image and save it in the variable 'srcURL'
 #   srcURL = cloudinary.CloudinaryImage("baby_on_horse").build_url()
 
-#   # Log the image URL to the console. 
+#   # Log the image URL to the console.
 #   # Copy this URL in a browser tab to generate the image on the fly.
 #   print("**** Upload an image****\nDelivery URL: ", srcURL, "\n")
 
+
 def createTransformations():
-    
-    transformation1 = url, options = cloudinary_url(
+#OPTIMIZATION of an image
+    transformation1_image = url, options = cloudinary_url(
         'lorikeet',
-        width=500,
-        crop="fill",
-        gravity="auto",
-        effect="sharpen:50",
         fetch_format="auto",
         quality="auto"
     )
-    print("**** Transformation 1 --> Transform the to fill 400, round corners, apply the sepia effect, auto format and quality****\nTransformation URL: " + url)
 
+    print("**** Transformation 1: Optimization of an image - Transform to apply auto format and quality****\nTransformation URL --> " + url)
+
+# #OPTIMIZATION of a Video
+#     transformation1_video = url, options = cloudinary_url(
+#         'coffee',
+#         fetch_format="auto",
+#         quality="auto"
+#     )
+#     print("**** Transformation 1: Optimization of a video - Transform to apply auto format and quality****\nTransformation URL --> " + url)
+
+
+#CROP
     transformation2 = url, options = cloudinary_url(
-        'lorikeet',
-        width=500,
-        crop="fill",
-        radius="max",
-        effect="replace_color:green",
-        gravity="auto",
-        fetch_format="auto",
-        quality="auto"
+        'gal',
+        width="500",
+        crop="thumb",
+        gravity="face",
+        # fetch_format="auto",
+        # quality="auto"
     )
-    print("**** Transformation 2 --> Transform the to 500x500, round corners, apply green color, auto format and quality****\nTransformation URL: " + url)
+    print("**** Transformation 2: Crop - Transform the to a thumb crop and a width of 500, focusing on the face****\nTransformation URL --> " + url)
 
+#RESIZE
     transformation3 = url, options = cloudinary_url(
-        'lorikeet',
+        'gal',
+        width=300,
+        crop="fit",
+        # fetch_format="auto",
+        # quality="auto"
+    )
+    print("**** Transformation 3: Resize - Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
+
+#AESTHETICS
+    transformation4 = url, options = cloudinary_url(
+        'gal',
         width=500,
-        crop="fill",
-        gravity="auto",
+        height=500,
+        crop="thumb",
+        gravity="face",
         radius="max",
         effect="saturation:40",
         fetch_format="auto",
         quality="auto"
     )
-    print("**** Transformation 3 --> Transform the to crop into face, width 500, round corners, apply the cartoonify effect at 30%, auto format and quality****\nTransformation URL: " + url)
-    
+    print("**** Transformation 4: Aesthetics - Transform the to thumb crop into face, width and height 500 to make a perfect square, with rounded corners, and add the effect of increasing saturation at 40****\nTransformation URL --> " + url)
+
+#OVERLAY
+    transformation5 = url, options = cloudinary_url(
+        'gal',
+        crop="fill",
+        width=500,
+        fetch_format="auto",
+        quality="auto",
+        # overlay="https://res.cloudinary.com/demo/image/upload/logos/cloudinary_full_logo_white_small.png"
+    )
+    print("**** Transformation 5: Overlay - Transform to add an overlay****\nTransformation URL --> " + url)
+
+# url = cloudinary.url(transformation= [
+#     (width= 100, height: 100, crop: 'fill'),
+#     # { overlay: '', width: 100, height: 100, x: 100, crop: 'fill' },
+#     # { overlay: '', width: 100, height: 100, y: 100, x: -50, crop: 'fill' },
+#     # { overlay: '', width: 100, height: 100, y: 50, x: 50, crop: 'fill' },
+#     (effect= 'shadow')
+#   ]
+# })
+
+# print(url)
+
 
 def main():
-  createTransformations()
-main();
+    createTransformations()
+main()
