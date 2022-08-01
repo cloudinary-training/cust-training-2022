@@ -96,4 +96,4 @@ You can find a [video tutorial](https://cloudinary.com/documentation/upload_prog
 
 ## Asset Credits
 
-Photo by Becerra Govea: https://www.pexels.com/photo/a-toddler-riding-a-pony-10279096/
+Photo by Mark Broadhurst: https://www.pexels.com/photo/blue-orange-and-green-bird-on-yellow-flower-105808

@@ -14,7 +14,7 @@ cloudinary.api.create_transformation('example_NT', dict(
     transformation=[{'crop': 'scale', 'width': 200, 'gravity': 'face'}]))
 
 #applying named transformation to a file
-print(cloudinary.url("_", { transformation: ["example_NT"] }))
+print(cloudinary.url("", { transformation: ["example_NT"] }))
 
 #deleting named transformation
 # cloudinary.api.delete_transformation('example_NT')

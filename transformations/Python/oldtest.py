@@ -6,7 +6,7 @@ import cloudinary.uploader
 import cloudinary.api
 import json
 
-config = cloudinary.config(secure=False)
+config = cloudinary.config(secure=True)
 
 print("****1. Set up and configure the SDK:****\nCredentials: ", config.cloud_name, config.api_key, "\n")
 
@@ -56,11 +56,11 @@ def createTransformations():
     ])
 
   # Log the image tag to the console
-    print("****3. Transform the image to sepia****\nTransfrmation URL: ", transformation1, "\n")
-    print("****3. Transform the image to sepia with rounded corners****\nTransfrmation URL: ", transformation2, "\n")
-    print("****3. Transform to find the baby's face and round corners****\nTransfrmation URL: ", transformation3, "\n")
-    print("****3. Transform to make baby's face green + previous transformation****\nTransfrmation URL: ", transformation4, "\n")
-    print("****3. Transform to cartoonify + previous transformation****\nTransfrmation URL: ", transformation5, "\n")
+    print("****3. Transform the image to sepia****\nTransformation URL: ", transformation1, "\n")
+    print("****3. Transform the image to sepia with rounded corners****\nTransformation URL: ", transformation2, "\n")
+    print("****3. Transform to find the baby's face and round corners****\nTransformation URL: ", transformation3, "\n")
+    print("****3. Transform to make baby's face green + previous transformation****\nTransformation URL: ", transformation4, "\n")
+    print("****3. Transform to cartoonify + previous transformation****\nTransformation URL: ", transformation5, "\n")
 
 def main():
   uploadImage()
