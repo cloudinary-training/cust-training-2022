@@ -1,4 +1,3 @@
-import { Cloudinary } from '@cloudinary/url-gen';
 import { Transformation } from '@cloudinary/url-gen';
 import { CloudinaryImage } from '@cloudinary/url-gen';
 import { URLConfig } from '@cloudinary/url-gen';
@@ -12,6 +11,7 @@ import { sepia } from '@cloudinary/url-gen/actions/effect';
 import { source } from '@cloudinary/url-gen/actions/overlay';
 import { opacity, brightness } from '@cloudinary/url-gen/actions/adjust';
 import { byAngle } from '@cloudinary/url-gen/actions/rotate';
+import { useRef } from 'react';
 
 // Import required qualifiers.
 import { image } from '@cloudinary/url-gen/qualifiers/source';
@@ -21,13 +21,13 @@ import { focusOn } from '@cloudinary/url-gen/qualifiers/gravity';
 import { FocusOn } from '@cloudinary/url-gen/qualifiers/focusOn';
 
 function DocsImage() {
+  const imgEl = useRef();
+
   // Set the Cloud configuration and URL configuration
   const cloudConfig = new CloudConfig({ cloudName: 'demo' });
-  const urlConfig = new URLConfig({ secure: true });
+  const urlConfig = new URLConfig({ secure: true, analytics: false });
 
   const cldImg = new CloudinaryImage('front-face', cloudConfig, urlConfig);
-  const cldURL = cldImg.toURL();
-  console.log(cldURL);
 
   // Instantiate a CloudinaryImage object for the image with public ID, 'front_face'.
 
@@ -52,16 +52,17 @@ function DocsImage() {
     .rotate(byAngle(10)) // Rotate the result.
     .format('png'); // Deliver as PNG. */
 
-  // Render the image in an 'img' element.
-  // const imgElement = document.createElement('img');
-  // imgElement.src = myImage.toURL();
-  // debugger
-  // console.log(myImage.toURL());
+  // log the transformation
+  const cldURL = cldImg.toURL();
+  console.log("docs image:",cldURL);
 
   return (
-    <div className='docs-image'>
-      <AdvancedImage cldImg={cldImg} alt='Advanced Image' className='cld-img' />
-    </div>
+    <AdvancedImage
+      cldImg={cldImg}
+      ref={imgEl}
+      alt='Advanced Image'
+      className='cld-img'
+    />
   );
 }
 
