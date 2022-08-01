@@ -1,13 +1,12 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import json
 import cloudinary.api
 import cloudinary.uploader
 import cloudinary
 
 
-config = cloudinary.config(secure=False)
+config = cloudinary.config(secure=True)
 
 #creating named transformation
 cloudinary.api.create_transformation('example_NT', dict(
