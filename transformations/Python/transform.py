@@ -30,6 +30,28 @@ print("**** Set up and configure the SDK:****\nCredentials: ",
 
 
 def createTransformations():
+
+#RESIZE
+    transformation3 = url, options = cloudinary_url(
+        'lorikeet',
+        width=300,
+        crop="fit",
+        # fetch_format="auto",
+        # quality="auto"
+    )
+    print("**** Transformation 3: Resize - Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
+
+#CROP
+    transformation2 = url, options = cloudinary_url(
+        'lorikeet',
+        width="500",
+        crop="thumb",
+        gravity="face",
+        # fetch_format="auto",
+        # quality="auto"
+    )
+    print("**** Transformation 2: Crop - Transform the to a thumb crop and a width of 500, focusing on the face****\nTransformation URL --> " + url)
+
 #OPTIMIZATION of an image
     transformation1_image = url, options = cloudinary_url(
         'lorikeet',
@@ -39,35 +61,15 @@ def createTransformations():
 
     print("**** Transformation 1: Optimization of an image - Transform to apply auto format and quality****\nTransformation URL --> " + url)
 
-# #OPTIMIZATION of a Video
-#     transformation1_video = url, options = cloudinary_url(
-#         'coffee',
-#         fetch_format="auto",
-#         quality="auto"
-#     )
-#     print("**** Transformation 1: Optimization of a video - Transform to apply auto format and quality****\nTransformation URL --> " + url)
-
-
-#CROP
-    transformation2 = url, options = cloudinary_url(
-        'gal',
-        width="500",
-        crop="thumb",
-        gravity="face",
-        # fetch_format="auto",
-        # quality="auto"
+#OPTIMIZATION of a Video
+    transformation1_video = url, options = cloudinary_url(
+        'coffee.mp4',
+        resource_type="video",
+        fetch_format="auto",
+        quality="auto"
     )
-    print("**** Transformation 2: Crop - Transform the to a thumb crop and a width of 500, focusing on the face****\nTransformation URL --> " + url)
+    print("**** Transformation 1: Optimization of a video - Transform to apply auto format and quality****\nTransformation URL --> " + url)
 
-#RESIZE
-    transformation3 = url, options = cloudinary_url(
-        'gal',
-        width=300,
-        crop="fit",
-        # fetch_format="auto",
-        # quality="auto"
-    )
-    print("**** Transformation 3: Resize - Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
 
 #AESTHETICS
     transformation4 = url, options = cloudinary_url(
@@ -77,28 +79,27 @@ def createTransformations():
         crop="thumb",
         gravity="face",
         radius="max",
-        effect="saturation:40",
+        effect="saturation:80",
         fetch_format="auto",
         quality="auto"
     )
     print("**** Transformation 4: Aesthetics - Transform the to thumb crop into face, width and height 500 to make a perfect square, with rounded corners, and add the effect of increasing saturation at 40****\nTransformation URL --> " + url)
 
 #OVERLAY
-    transformation5 = url, options = cloudinary_url(
-        'gal',
-        crop="fill",
-        width=500,
-        fetch_format="auto",
-        quality="auto",
-        # overlay="https://res.cloudinary.com/demo/image/upload/logos/cloudinary_full_logo_white_small.png"
-    )
-    print("**** Transformation 5: Overlay - Transform to add an overlay****\nTransformation URL --> " + url)
+    transformation5 = url, options = cloudinary_url("gal", transformation=[
+        {'crop':'fill', 'width':500},
+        {'fetch_format':'auto'},
+        {'quality':'auto'},
+        {'overlay':'samples:logo'},
+        {'opacity': 50},
+        {'width':100},
+        {'flags': "layer_apply", 'gravity': "north_east", 'y': 10, 'x':10}
+        ])
+    print("**** Transformation 5: Overlay - Transform to add an logo overlay to the north east corner of an image****\nTransformation URL --> " + url)
 
 # url = cloudinary.url(transformation= [
 #     (width= 100, height: 100, crop: 'fill'),
 #     # { overlay: '', width: 100, height: 100, x: 100, crop: 'fill' },
-#     # { overlay: '', width: 100, height: 100, y: 100, x: -50, crop: 'fill' },
-#     # { overlay: '', width: 100, height: 100, y: 50, x: 50, crop: 'fill' },
 #     (effect= 'shadow')
 #   ]
 # })
