@@ -3,10 +3,13 @@
 This code was used to prepare for the `Transforming Media with Cloudinary for Developers` training.
 
 
-In this module we look at transformations of images and video using the React using the JavaScript SDK V2 on the Frontend, and using the Python SDK on the backend. We'll also look at programmatically creating and using named transformations and upload presets. 
+In this module we look at transformations of images and video using the React/JavaScript SDK V2 on the frontend, and using the Python SDK on the backend. We'll also look at programmatically creating and using named transformations and upload presets. 
 
+## JavaScript Code Sample Repository
 
-## Environment Setup
+You can find the code for all of  the JavaScript examples in a separate training repository, [next-transformations](https://github.com/cloudinary-training/next-transformations).  Next is a popular framework created by [Vercel](https://vercel.com/)on top of React.  Vercel also hosts code and you can find the executable code [here](https://next-transformations.vercel.app/)
+
+## Python Environment Setup
 
 ### Install Node.js and NPM
 You will need to install Node.js on your machine, version 10 or higher.
