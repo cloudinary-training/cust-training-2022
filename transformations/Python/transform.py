@@ -97,12 +97,12 @@ def createTransformations():
         ])
     print("**** Transformation 5: Overlay - Transform to add an logo overlay to the north east corner of an image****\nTransformation URL --> " + url)
 
-url = cloudinary.url(transformation= [
-    (width= 100, height: 100, crop: 'fill'),
-    # { overlay: '', width: 100, height: 100, x: 100, crop: 'fill' },
-    (effect= 'shadow')
-  ]
-})
+# url = cloudinary.url(transformation= [
+#     (width= 100, height: 100, crop: 'fill'),
+#     # { overlay: '', width: 100, height: 100, x: 100, crop: 'fill' },
+#     (effect= 'shadow')
+#   ]
+# })
 
 # print(url)
 
