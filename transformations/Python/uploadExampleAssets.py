@@ -23,17 +23,10 @@ def main():
     uploadAsset("https://res.cloudinary.com/cloudinary-training/video/upload/wave.mp4", "wave", "video")
     uploadAsset("https://res.cloudinary.com/cloudinary-training/image/upload/images/forest-reflection", "cld-forest-reflection", "image")
     uploadAsset("https://res.cloudinary.com/cloudinary-training/image/upload/green-car.jpg","green-car","image")
-
+    uploadAsset("https://res.cloudinary.com/cloudinary-training/image/upload/logo.png","logo-solid-blue","image")
     # backend
     uploadAsset("./assets/chameleon.jpg","chameleon","image")
     uploadAsset("./assets/closeupchameleon.mp4","chameleon","video")
-    # uploadAsset("./assets/gal.jpg","gal","image")
-    # CAN YOU USE THE BUILT IN cld-sample.jpg instead of uploading with a different public id?
     uploadAsset("./assets/logo.png","cld-training-logo","image")
-    # can we rename logo to cld-training-logo?
-
-
-   
-
-
+  
 main()

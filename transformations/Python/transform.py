@@ -33,7 +33,7 @@ def createTransformations():
 
 # Perform RESIZE transformation
     transformation1 = url, options = cloudinary_url(
-        'gal',
+        'cld-sample',
         width=300,
         crop="fit",
     )
@@ -42,7 +42,7 @@ def createTransformations():
 
 # Perform CROP transformation
     transformation2 = url, options = cloudinary_url(
-        'gal',
+        'cld-sample',
         width="400",
         crop="thumb",
         gravity="face",
@@ -72,7 +72,7 @@ def createTransformations():
 
 # Perform AESTHETICS/EFFECTS transformations
     transformation5 = url, options = cloudinary_url(
-        'gal',
+        'cld-sample',
         width=500,
         height=500,
         crop="thumb",
@@ -90,7 +90,7 @@ def createTransformations():
         {'crop': 'fill', 'width': 500},
         {'fetch_format': 'auto'},
         {'quality': 'auto'},
-        {'overlay': 'samples:logo'},
+        {'overlay': 'cld-training-logo'},
         {'opacity': 50},
         {'width': 100},
         {'flags': "layer_apply", 'gravity': "north_east", 'y': 10, 'x': 10}
