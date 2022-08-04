@@ -78,7 +78,7 @@ pip3 install python-dotenv
 ```
 
 ```bash
-python3 transformations/scripts/transformations.py
+python3 transformations/python/transform.py
 ```
 Once you run `transformations.py`, you should your cloud name and API key reported in the format below. Keep your API_SECRET a secret!
 
@@ -99,4 +99,6 @@ You can find a [video tutorial](https://cloudinary.com/documentation/upload_prog
 
 ## Asset Credits
 
-Photo by Mark Broadhurst: https://www.pexels.com/photo/blue-orange-and-green-bird-on-yellow-flower-105808
+Image by Pixabay on Pexels: https://www.pexels.com/photo/yellow-and-green-coated-lizard-62289/
+
+Video by Pressmaster on Pexels: https://www.pexels.com/video/close-up-footage-of-a-chameleon-right-eye-3191352/
