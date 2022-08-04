@@ -26,7 +26,7 @@ def main():
     uploadAsset("https://res.cloudinary.com/cloudinary-training/image/upload/logo.png","logo-solid-blue","image")
     # backend
     uploadAsset("./assets/chameleon.jpg","chameleon","image")
-    uploadAsset("./assets/closeupchameleon.mp4","chameleon","video")
+    uploadAsset("./assets/closeupchameleon.mp4","closeupchameleon","video")
     uploadAsset("./assets/logo.png","cld-training-logo","image")
   
 main()
