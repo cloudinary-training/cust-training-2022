@@ -19,7 +19,7 @@ def uploadImage():
 
   # Upload image
   # Set the asset's public ID and allow overwriting the asset with new versions
-  cloudinary.uploader.upload("https://res.cloudinary.com/jen-brissman/image/upload/v1659110959/butterfly.jpg", public_id="butterfly", unique_filename = False, overwrite=True)
+  cloudinary.uploader.upload("https://res.cloudinary.com/jen-brissman/image/upload/v1659110959/butterfly.jpg", public_id="butterfly", overwrite=True)
 
   # Build the URL for the image and save it in the variable 'srcURL'
   srcURL = cloudinary.CloudinaryImage("baby_on_horse").build_url()
