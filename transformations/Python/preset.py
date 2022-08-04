@@ -15,4 +15,4 @@ cloudinary.api.create_upload_preset(
   allowed_formats = "jpg,png")
 
 #upload using preset
-cloudinary.uploader.upload("https://res.cloudinary.com/jen-brissman/image/upload/v1659110959/baby%20on%20horse.jpg", public_id="baby_on_horse", unique_filename = False, overwrite=True)
+cloudinary.uploader.upload("", public_id="",overwrite=True)
