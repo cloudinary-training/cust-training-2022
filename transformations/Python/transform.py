@@ -124,10 +124,7 @@ def createTransformations():
 #     {'radius': "max"}
 #     ])
 
-
-
 def main():
     createTransformations()
-
 
 main()
