@@ -25,4 +25,3 @@ def main():
 
 main()
 
-# transformation=[{"format":"png", "crop": "thumb", "width": 200, "height":200, "gravity": "face", "radius": "max"}]))

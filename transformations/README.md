@@ -5,11 +5,13 @@ This code was used to prepare for the `Transforming Media with Cloudinary for De
 
 In this module we look at transformations of images and video using the React/JavaScript SDK V2 on the frontend, and using the Python SDK on the backend. We'll also look at programmatically creating and using named transformations and upload presets. 
 
-## JavaScript Code Sample Repository
+## Frontend
+### JavaScript Code Sample Repository
 
-You can find the code for all of  the JavaScript examples in a separate training repository, [next-transformations](https://github.com/cloudinary-training/next-transformations).  Next is a popular framework created by [Vercel](https://vercel.com/)on top of React.  Vercel also hosts code and you can find the executable code [here](https://next-transformations.vercel.app/)
+You can find the code for all of  the JavaScript examples in a separate training repository, [next-transformations](https://github.com/cloudinary-training/next-transformations).  Next.js is a popular framework created by [Vercel](https://vercel.com/) on top of React.  Vercel also hosts code and you can find the executable code [here](https://next-transformations.vercel.app/)
 
-## Python Environment Setup
+## Backend
+### Python Environment Setup
 
 ### Install Node.js and NPM
 You will need to install Node.js on your machine, version 10 or higher.
@@ -19,7 +21,7 @@ You will need to install Node.js on your machine, version 10 or higher.
 Using Homebrew:
 
 ```bash
-brew install python3
+brew install python
 ```
 
 #### Windows
@@ -76,23 +78,33 @@ pip3 install cloudinary
 ```bash
 pip3 install python-dotenv
 ```
+Run scripts from the root of the repository.  Local assets are referenced relative to the root.
 
 ```bash
-python3 transformations/python/transform.py
+python3 transformations/Python/validate_config.py
 ```
-Once you run `transformations.py`, you should your cloud name and API key reported in the format below. Keep your API_SECRET a secret!
+Once you run `validate_config.py`, you should your cloud name. Keep your API_SECRET a secret!
+
+
+### Run Code: Run code in the Python directory
+Example: run script to validate your configuration run the following command and you should see your Cloud Name in the terminal.
 
 ```bash
-Set up and configure the SDK:
-`Credentials:  cloudname key `
+python3 transformations/Python/validate_config.py
 ```
 
-### Run Code: Run code in transformations directory
-Example: run script to upload image and associated transformations
+Example: upload all the assets to your cloud that are used in this training.
 
 ```bash
-python3 transformations/scripts/transformations.py
+python3 transformations/Python/upload_example_assets.py
 ```
+
+Example: to create a url programatically
+
+```bash
+python3 transformations/Python/resize.py
+```
+
 ### Video Tutorial
 You can find a [video tutorial](https://cloudinary.com/documentation/upload_programmatically_tutorial) in Cloudinary Documentation that covers Node.js setup and upload to your Cloudinary cloud.
 
