@@ -15,8 +15,8 @@ def video_overlay():
     resource_type="video",
     transformation=[
         {"crop": "fill", "width": 500},
-        {"overlay": {"font_family": "Arial", "font_size": 80, "text": "Chameleon!"}},
-        {"flags": "layer_apply"}
+        {'color': "#FFFFFF", "overlay": {"font_family": "Arial", "font_size": 80, "text": "Chameleon!"}},
+        {"flags": "layer_apply", 'gravity': "south", 'y': "0.05"}
     ])
     # print the transformation URL
     print("****Transform to add a text overlay Chameleon! to the north east corner of a video****\nTransformation URL --> " + url)

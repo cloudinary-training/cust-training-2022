@@ -12,8 +12,8 @@ cloudinary.api.create_upload_preset(
   name = "bg_removal",
   unsigned = True, 
   tags = '2022',
-#   allowed_formats = "jpg,png",
-  categorization = "google_tagging,google_video_tagging",
+  allowed_formats = "jpg,png",
+  categorization = "google_tagging",
   auto_tagging = 0.75,
   background_removal = "cloudinary_ai",  
   folder = "new-products")
