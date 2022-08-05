@@ -13,7 +13,7 @@ def validate_config():
 def resize():
 # Perform RESIZE transformation
     url, options = cloudinary_url(
-        'cld-sample',
+        "cld-sample",
         width=300,
         crop="fit",
     )

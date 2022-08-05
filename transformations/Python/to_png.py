@@ -10,20 +10,21 @@ def validate_config():
     print(cloudinary.config().cloud_name)
 
 
-def resize_with_crop():
-# Perform RESIZE transformation
-    url, options = cloudinary_url(
-      "cld-sample",
-        width="400",
+def to_png():
+    url, options = cloudinary_url ( 
+        "doctor",
+        format="png",
         crop="thumb",
+        width=200,
+        height=200,
         gravity="face",
+        radius="max",
     )
-    print("****Transform the to a thumb crop and a width of 500, focusing on the face****\nTransformation URL --> " + url)
-
+    print("****Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
 
 def main():
     validate_config()
-    resize_with_crop()
+    to_png()
 
 
 main()

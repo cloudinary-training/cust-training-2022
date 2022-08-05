@@ -28,5 +28,6 @@ def main():
     uploadAsset("./assets/chameleon.jpg","chameleon","image")
     uploadAsset("./assets/closeupchameleon.mp4","closeupchameleon","video")
     uploadAsset("./assets/logo.png","cld-training-logo","image")
+    uploadAsset("https://res.cloudinary.com/cloudinary-training/image/upload/c_fill,g_face,h_1000,w_1000/doctor.png","doctor-profile","image")
   
 main()
