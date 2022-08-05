@@ -20,7 +20,7 @@ def to_png():
         gravity="face",
         radius="max",
     )
-    print("****Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
+    print("****Transform from jpg to png****\nTransformation URL --> " + url)
 
 def main():
     validate_config()
