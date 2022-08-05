@@ -14,7 +14,8 @@ def resize_with_crop():
 # Perform RESIZE transformation
     url, options = cloudinary_url(
       "cld-sample",
-        width="400",
+        width=400,
+        height=400,
         crop="thumb",
         gravity="face",
     )
