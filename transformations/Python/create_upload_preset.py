@@ -14,8 +14,8 @@ def create_upload_preset(name):
     name = name,
     folder = "user-profiles",
     unsigned = False, 
-    allowed_formats = "png",
-    transformation=[{"crop": "thumb", "width": 200, "height":200, "gravity": "face", "radius": "max"}]
+    allowed_formats = "jpg,png",
+    transformation=[{"fetch_format":"png", "crop": "thumb", "width": 200, "height":200, "gravity": "face", "radius": "max"}]
   )
   print(json.dumps(resp, indent=4, sort_keys=True))
 

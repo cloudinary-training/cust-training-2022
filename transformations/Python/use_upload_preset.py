@@ -17,6 +17,6 @@ def use_upload_preset(filepath,my_preset):
 def main():
     validate_config()
     # filepath and name of preset args
-    use_upload_preset("./assets/doctor-profile.png","avatar")
+    use_upload_preset("./assets/doctor.jpg","avatar")
 
 main()
