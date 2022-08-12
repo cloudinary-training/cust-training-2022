@@ -19,6 +19,6 @@ def upload_eager(source,resource_type):
 
 def main():
     validateConfig()
-    upload_eager("./assets/doctor.jpg","image")
+    upload_eager("./assets/cld-sample.jpg","image")
   
 main()
