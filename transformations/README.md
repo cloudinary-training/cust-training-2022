@@ -13,7 +13,7 @@ You can find the code for all of  the JavaScript examples in a separate training
 ## Backend
 ### Python Environment Setup
 
-#### Mac Users
+#### Mac Users:
 [Download Python for Mac](https://www.python.org/downloads/)
 
 Using Homebrew:
@@ -22,7 +22,7 @@ Using Homebrew:
 brew install python
 ```
 
-#### Windows Users
+#### Windows Users:
 [Download Python for Windows](https://www.python.org/downloads/windows/)
 
 #### Verify Python/Pip install
