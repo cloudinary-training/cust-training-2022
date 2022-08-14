@@ -109,6 +109,8 @@ You can find a [video tutorial](https://cloudinary.com/documentation/upload_prog
 
 ## Asset Credits
 
-Image by Pixabay on Pexels: https://www.pexels.com/photo/yellow-and-green-coated-lizard-62289/
+Chameleon image by Pixabay on Pexels: https://www.pexels.com/photo/yellow-and-green-coated-lizard-62289/
 
-Video by Pressmaster on Pexels: https://www.pexels.com/video/close-up-footage-of-a-chameleon-right-eye-3191352/
+Chameleon video by Pressmaster on Pexels: https://www.pexels.com/video/close-up-footage-of-a-chameleon-right-eye-3191352/
+
+Lorikeet image by Mark Broadhurst on Pexels: https://www.pexels.com/photo/blue-orange-and-green-bird-on-yellow-flower-105808/
