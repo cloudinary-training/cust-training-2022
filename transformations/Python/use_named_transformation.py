@@ -12,7 +12,7 @@ def validate_config():
 
 def use_named_transformation():
     url, options = cloudinary_url(
-        "doctor-profile",
+        "doctor",
        transformation="avatar"
     )
     print("****Use a named transformation****\nTransformation URL --> " + url)

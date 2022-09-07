@@ -15,6 +15,7 @@ def resize():
     url, options = cloudinary_url(
         "cld-sample",
         width=300,
+        height=400,
         crop="fit",
     )
     print("****Transform to scale down, maintaining original aspect ratio****\nTransformation URL --> " + url)
