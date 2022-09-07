@@ -13,19 +13,17 @@ You can find the code for all of  the JavaScript examples in a separate training
 ## Backend
 ### Python Environment Setup
 
-### Install Node.js and NPM
-You will need to install Node.js on your machine, version 10 or higher.
- Installing Node.js will also install npm, the package manager for Node.js.
+#### Mac Users:
+[Download Python for Mac](https://www.python.org/downloads/)
 
-#### Mac Users
+#### Windows Users:
+[Download Python for Windows](https://www.python.org/downloads/windows/)
+
 Using Homebrew:
 
 ```bash
 brew install python
 ```
-
-#### Windows
-[Download for windows](https://nodejs.org/en/download/)
 
 #### Verify Python/Pip install
 
@@ -50,7 +48,7 @@ pip 22.2
 
 [cust-training-2022 GitHub Repository](https://github.com/cloudinary-training/cust-training-2022)
 
-- Node scripts for this module are located in the  `/transformations` directory
+- All of the scripts for this module are located in the  `/transformations` directory
 - Run code from root directory 
 
 ### Credentials
@@ -106,11 +104,13 @@ python3 transformations/Python/resize.py
 ```
 
 ### Video Tutorial
-You can find a [video tutorial](https://cloudinary.com/documentation/upload_programmatically_tutorial) in Cloudinary Documentation that covers Node.js setup and upload to your Cloudinary cloud.
+You can find a [video tutorial](https://cloudinary.com/documentation/upload_programmatically_tutorial) in Cloudinary Documentation that covers Node.js setup and upload to your Cloudinary cloud. The setup for Python is similar, and Python users can pattern match what is shown in the Upload Programmatically tutorial video for Node.js users.
 
 
 ## Asset Credits
 
-Image by Pixabay on Pexels: https://www.pexels.com/photo/yellow-and-green-coated-lizard-62289/
+Chameleon image by Pixabay on Pexels: https://www.pexels.com/photo/yellow-and-green-coated-lizard-62289/
 
-Video by Pressmaster on Pexels: https://www.pexels.com/video/close-up-footage-of-a-chameleon-right-eye-3191352/
+Chameleon video by Pressmaster on Pexels: https://www.pexels.com/video/close-up-footage-of-a-chameleon-right-eye-3191352/
+
+Lorikeet image by Mark Broadhurst on Pexels: https://www.pexels.com/photo/blue-orange-and-green-bird-on-yellow-flower-105808/
