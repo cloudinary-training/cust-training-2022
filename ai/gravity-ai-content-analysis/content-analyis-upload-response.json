@@ -1,0 +1,341 @@
+{
+    "asset_id": "de6aefe9852e94706298f8be081f0165",
+    "public_id": "fashion-athena",
+    "version": 1662670318,
+    "version_id": "ebf99c00768eceec5c2aec6e29a421fb",
+    "signature": "12ccd89997ca01ee431b3c6e1e011c8b1800a040",
+    "width": 3997,
+    "height": 5995,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2022-09-08T20:51:58Z",
+    "tags": [
+      "bag",
+      "coat",
+      "dress",
+      "footwear",
+      "stockings"
+    ],
+    "pages": 1,
+    "bytes": 2947759,
+    "type": "upload",
+    "etag": "36eef5277df9ddc57257000a8cda9b2d",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/cloudinary-training/image/upload/v1662670318/fashion-athena.jpg",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/image/upload/v1662670318/fashion-athena.jpg",
+    "folder": "",
+    "access_mode": "public",
+    "context": {},
+    "metadata": {
+      "jdj4evsxepfqg8kdvcro": "zr4rvt7nmocvjzawflza"
+    },
+    "info": {
+      "detection": {
+        "object_detection": {
+          "status": "complete",
+          "data": {
+            "cld-fashion": {
+              "model_name": "cld-fashion",
+              "model_version": 4,
+              "schema_version": 1,
+              "tags": {
+                "bag": [
+                  {
+                    "bounding-box": [
+                      726.7272727272727,
+                      4361.3625,
+                      629.3308341143393,
+                      738.1343750000005
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "fashion-accessory"
+                    ],
+                    "confidence": 0.979805052280426
+                  }
+                ],
+                "coat": [
+                  {
+                    "attributes": {
+                      "coat style": [
+                        [
+                          "pea",
+                          0.72802734375
+                        ]
+                      ],
+                      "collar type": [
+                        [
+                          "lapel collar",
+                          0.744140625
+                        ]
+                      ],
+                      "garment parts": [
+                        [
+                          "sleeve",
+                          0.9697265625
+                        ],
+                        [
+                          "collar",
+                          0.65234375
+                        ],
+                        [
+                          "lapel",
+                          0.5771484375
+                        ],
+                        [
+                          "pocket",
+                          0.99951171875
+                        ]
+                      ],
+                      "lapel type": [
+                        [
+                          "notched",
+                          0.84228515625
+                        ]
+                      ],
+                      "material": [
+                        [
+                          "fur",
+                          0.6025390625
+                        ]
+                      ],
+                      "opening type": [
+                        [
+                          "single breasted",
+                          0.92724609375
+                        ],
+                        [
+                          "double breasted",
+                          0.54150390625
+                        ]
+                      ],
+                      "outerwear fit": [
+                        [
+                          "regular",
+                          0.919921875
+                        ]
+                      ],
+                      "outerwear type": [
+                        [
+                          "coat",
+                          0.99951171875
+                        ]
+                      ],
+                      "pattern": [
+                        [
+                          "plain",
+                          0.99951171875
+                        ]
+                      ],
+                      "pocket type": [
+                        [
+                          "flap",
+                          0.97705078125
+                        ]
+                      ],
+                      "sleeve attachment": [
+                        [
+                          "set-in",
+                          0.99560546875
+                        ]
+                      ],
+                      "sleeve geometry": [
+                        [
+                          "puff, balloon",
+                          0.60546875
+                        ]
+                      ],
+                      "sleeve length": [
+                        [
+                          "long (wrist)",
+                          0.95849609375
+                        ]
+                      ],
+                      "top length": [
+                        [
+                          "knee length",
+                          0.994140625
+                        ]
+                      ]
+                    },
+                    "bounding-box": [
+                      872.8219306466729,
+                      2570.3562500000003,
+                      1592.0571696344894,
+                      2053.2875
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "outerwear",
+                      "apparel"
+                    ],
+                    "confidence": 0.9544021487236023
+                  }
+                ],
+                "dress": [
+                  {
+                    "attributes": {
+                      "dress silhouette": [
+                        [
+                          "straight",
+                          0.6318359375
+                        ]
+                      ],
+                      "dress style": [
+                        [
+                          "sheath",
+                          0.65283203125
+                        ]
+                      ],
+                      "dress waistline": [
+                        [
+                          "no waistline",
+                          0.5712890625
+                        ]
+                      ],
+                      "garment parts": [
+                        [
+                          "pocket",
+                          0.716796875
+                        ],
+                        [
+                          "neckline",
+                          0.97412109375
+                        ]
+                      ],
+                      "neckline geometry": [
+                        [
+                          "crew-neck, round neck",
+                          0.5595703125
+                        ]
+                      ],
+                      "opening type": [
+                        [
+                          "zip-up",
+                          0.7255859375
+                        ]
+                      ],
+                      "pattern": [
+                        [
+                          "plain",
+                          0.998046875
+                        ]
+                      ],
+                      "pocket type": [
+                        [
+                          "flap",
+                          0.86962890625
+                        ]
+                      ],
+                      "skirt length": [
+                        [
+                          "above the knee",
+                          0.65673828125
+                        ]
+                      ],
+                      "special features": [
+                        [
+                          "slit",
+                          0.513671875
+                        ]
+                      ]
+                    },
+                    "bounding-box": [
+                      1273.6457357075913,
+                      2649.040625,
+                      1236.1855670103093,
+                      1674.853125
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "apparel"
+                    ],
+                    "confidence": 0.7896342873573303
+                  }
+                ],
+                "footwear": [
+                  {
+                    "bounding-box": [
+                      1509.6447985004686,
+                      5350.5375,
+                      595.6166822867856,
+                      543.296875
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "footwear"
+                    ],
+                    "confidence": 0.9917311072349548
+                  },
+                  {
+                    "bounding-box": [
+                      3289.0028116213684,
+                      4747.290625000001,
+                      569.3945641986879,
+                      528.3093749999998
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "footwear"
+                    ],
+                    "confidence": 0.9757703542709351
+                  }
+                ],
+                "leg-warmer": [
+                  {
+                    "attributes": {
+                      "hosiery type": [
+                        [
+                          "leg warmer",
+                          0.9482421875
+                        ]
+                      ]
+                    },
+                    "bounding-box": [
+                      2955.6073102155574,
+                      4421.3125,
+                      468.2521087160262,
+                      475.85312499999964
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "hosiery",
+                      "apparel"
+                    ],
+                    "confidence": 0.5302165746688843
+                  }
+                ],
+                "stockings": [
+                  {
+                    "attributes": {
+                      "hosiery type": [
+                        [
+                          "stockings",
+                          0.650390625
+                        ]
+                      ]
+                    },
+                    "bounding-box": [
+                      1644.5014058106842,
+                      4927.140625,
+                      355.87160262418,
+                      472.1062499999998
+                    ],
+                    "categories": [
+                      "fashion-item",
+                      "hosiery",
+                      "apparel"
+                    ],
+                    "confidence": 0.9513040781021118
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "overwritten": true,
+    "original_filename": "fashion-athena",
+    "api_key": "819154447261476"
+  }
