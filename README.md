@@ -112,10 +112,17 @@ shark.jpg  [Photo by Vova Krasilnikov from Pexels](https://www.pexels.com/photo/
 
 turtle.jpg [Photo by Richard Segal from Pexels](https://www.pexels.com/photo/black-and-white-turtle-1618606/)
 
-ski-team.gif [Pixabay US Ski Team](https://media.giphy.com/media/CC3HbQ6poN4XVLqzqT/giphy.gif)
+ski-team.gif [Pixabay US Ski Team](https://media.giphy.com/media/CC3HbQ6poN4XVLqzqT/giphy.gif)  
  
-vase.jpg [Photo by Beyza Efe from Pexels](https://www.pexels.com/photo/clay-vase-with-bunch-of-wheat-8549835/)
+vase.jpg [Photo by Beyza Efe from Pexels](https://www.pexels.com/photo/clay-vase-with-bunch-of-wheat-8549835/)  
  
-Photo by Athena: https://www.pexels.com/photo/woman-wearing-pink-overcoat-and-black-inner-top-2043590/
+Photo by Athena: https://www.pexels.com/photo/woman-wearing-pink-overcoat-and-black-inner-top-2043590/  
 
+Photo by Radomir Jordanovic: https://www.pexels.com/photo/three-women-smiling-1644888/    
+
+Photo by Natalie: https://www.pexels.com/photo/photo-of-woman-meditating-3759657/ 
+
+Photo by Faik  Akmd: https://www.pexels.com/photo/photo-of-night-sky-1025469/  
+
+Photo by Shane Aldendorff: https://www.pexels.com/photo/white-hi-top-sneaker-1302321/
 

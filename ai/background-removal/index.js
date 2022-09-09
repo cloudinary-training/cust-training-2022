@@ -36,4 +36,26 @@ console.log(
   })
 );
 
+
+
+// add a shadow to a product
+
+console.log(
+  cloudinary.url('sports-shoe', {
+    effect: 'shadow',
+    x: '15',
+    y: '15',
+  })
+);
+
 // on the fly background removal
+console.log(
+    cloudinary.url('banana', {
+      transformation: [
+        { effect: 'background_removal' },
+        {crop: 'scale', width:400},
+        { underlay: 'space',width:600, crop:'scale' },
+      ],
+    })
+  );
+//   https://res.cloudinary.com/cloudinary-training/image/upload/e_background_removal/c_scale,w_400/u_space,w_600,c_scale/fl_layer_apply/banana
