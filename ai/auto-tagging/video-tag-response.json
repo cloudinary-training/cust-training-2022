@@ -1,0 +1,78 @@
+{
+  "info_kind": "google_video_tagging",
+  "info_status": "complete",
+  "asset_id": "c132b030c178e8ee566753e915ca557d",
+  "public_id": "ai/hat",
+  "uploaded_at": "2022-09-12T22:07:53Z",
+  "version": 1663020473,
+  "url": "http://res.cloudinary.com/cloudinary-training/video/upload/v1663020473/ai/hat.mp4",
+  "secure_url": "https://res.cloudinary.com/cloudinary-training/video/upload/v1663020473/ai/hat.mp4",
+  "etag": "250296a17bd4ee7bdb6635a5b0f51058",
+  "notification_type": "info",
+  "info_data": [
+    {
+      "tag": "shoe",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.5789426565170288,
+      "shot_level": false
+    },
+    {
+      "tag": "shoe store",
+      "categories": ["building"],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.4978142976760864,
+      "shot_level": false
+    },
+    {
+      "tag": "footwear",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.6214541792869568,
+      "shot_level": false
+    },
+    {
+      "tag": "fashion",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.9166253805160522,
+      "shot_level": false
+    },
+    {
+      "tag": "fashion",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.893124520778656,
+      "shot_level": true
+    },
+    {
+      "tag": "shoe",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.5789426565170288,
+      "shot_level": true
+    },
+    {
+      "tag": "footwear",
+      "categories": [],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.6282889246940613,
+      "shot_level": true
+    },
+    {
+      "tag": "shoe store",
+      "categories": ["building"],
+      "start_time_offset": 0.0,
+      "end_time_offset": 42.56,
+      "confidence": 0.4978142976760864,
+      "shot_level": true
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+    "asset_id": "6aa04a7806c12f4850c4cbd43d7187c2",
+    "public_id": "ai/garden-with-tag",
+    "format": "jpg",
+    "version": 1663017669,
+    "resource_type": "image",
+    "type": "upload",
+    "created_at": "2022-09-12T21:21:09Z",
+    "bytes": 56980,
+    "width": 640,
+    "height": 425,
+    "folder": "ai",
+    "access_mode": "public",
+    "url": "http://res.cloudinary.com/cloudinary-training/image/upload/v1663017669/ai/garden-with-tag.jpg",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/image/upload/v1663017669/ai/garden-with-tag.jpg",
+    "metadata": {
+      "jdj4evsxepfqg8kdvcro": "zr4rvt7nmocvjzawflza"
+    },
+    "tags": [
+      "anemone",
+      "animal",
+      "annual plant",
+      "argynnis",
+      "arthropod",
+      "asteraceae",
+      "bird",
+      "brush-footed butterfly",
+      "bud",
+      "butterfly",
+      "close-up",
+      "coquelicot",
+      "dahlia",
+      "daisy family",
+      "flower",
+      "flowering plant",
+      "forb",
+      "geranium",
+      "grass",
+      "grassland",
+      "herbaceous plant",
+      "insect",
+      "invertebrate",
+      "landscape",
+      "lily family",
+      "lycaenid",
+      "macro photography",
+      "melitaea",
+      "monarch",
+      "moth",
+      "moths and butterflies",
+      "natural landscape",
+      "orange",
+      "peach",
+      "pedicel",
+      "peony",
+      "petal",
+      "pieridae",
+      "plant",
+      "plant stem",
+      "pollen",
+      "pollinator",
+      "poppy",
+      "prairie",
+      "riodinidae",
+      "sprout",
+      "sunflower",
+      "swallowtail butterfly",
+      "tulip",
+      "vegetation",
+      "viceroy (butterfly)",
+      "wildflower",
+      "wildlife",
+      "wing"
+    ],
+    "info": {
+      "categorization": {
+        "aws_rek_tagging": {
+          "status": "complete",
+          "data": [
+            {
+              "tag": "Plant",
+              "confidence": 0.9326
+            },
+            {
+              "tag": "Petal",
+              "confidence": 0.8985
+            },
+            {
+              "tag": "Flower",
+              "confidence": 0.8985
+            },
+            {
+              "tag": "Insect",
+              "confidence": 0.8465
+            },
+            {
+              "tag": "Invertebrate",
+              "confidence": 0.8465
+            },
+            {
+              "tag": "Animal",
+              "confidence": 0.8465
+            },
+            {
+              "tag": "Monarch",
+              "confidence": 0.7844
+            },
+            {
+              "tag": "Butterfly",
+              "confidence": 0.7844
+            },
+            {
+              "tag": "Asteraceae",
+              "confidence": 0.5841
+            },
+            {
+              "tag": "Bird",
+              "confidence": 0.5808
+            },
+            {
+              "tag": "Tulip",
+              "confidence": 0.5034
+            },
+            {
+              "tag": "Bud",
+              "confidence": 0.4865
+            },
+            {
+              "tag": "Sprout",
+              "confidence": 0.4865
+            },
+            {
+              "tag": "Dahlia",
+              "confidence": 0.4694
+            },
+            {
+              "tag": "Poppy",
+              "confidence": 0.441
+            },
+            {
+              "tag": "Geranium",
+              "confidence": 0.4342
+            },
+            {
+              "tag": "Peony",
+              "confidence": 0.4264
+            },
+            {
+              "tag": "Anemone",
+              "confidence": 0.4066
+            },
+            {
+              "tag": "Anther",
+              "confidence": 0.3872
+            },
+            {
+              "tag": "Treasure Flower",
+              "confidence": 0.3702
+            },
+            {
+              "tag": "Amaryllidaceae",
+              "confidence": 0.3674
+            },
+            {
+              "tag": "Daffodil",
+              "confidence": 0.3589
+            },
+            {
+              "tag": "Apidae",
+              "confidence": 0.3544
+            },
+            {
+              "tag": "Bee",
+              "confidence": 0.3544
+            },
+            {
+              "tag": "Araceae",
+              "confidence": 0.3495
+            },
+            {
+              "tag": "Acanthaceae",
+              "confidence": 0.3459
+            },
+            {
+              "tag": "Pollen",
+              "confidence": 0.3419
+            },
+            {
+              "tag": "Flock",
+              "confidence": 0.3381
+            },
+            {
+              "tag": "Honey Bee",
+              "confidence": 0.3309
+            },
+            {
+              "tag": "Cricket Insect",
+              "confidence": 0.3251
+            },
+            {
+              "tag": "Crocus",
+              "confidence": 0.3232
+            },
+            {
+              "tag": "Mantis",
+              "confidence": 0.3118
+            },
+            {
+              "tag": "Bumblebee",
+              "confidence": 0.3106
+            },
+            {
+              "tag": "Pansy",
+              "confidence": 0.3102
+            },
+            {
+              "tag": "Spring",
+              "confidence": 0.3028
+            },
+            {
+              "tag": "Gladiolus",
+              "confidence": 0.2982
+            },
+            {
+              "tag": "Nature",
+              "confidence": 0.2923
+            },
+            {
+              "tag": "Cactus",
+              "confidence": 0.2894
+            },
+            {
+              "tag": "Carnation",
+              "confidence": 0.2891
+            },
+            {
+              "tag": "Outdoors",
+              "confidence": 0.2863
+            },
+            {
+              "tag": "Microphone",
+              "confidence": 0.2854
+            },
+            {
+              "tag": "Summer",
+              "confidence": 0.2852
+            },
+            {
+              "tag": "Moth",
+              "confidence": 0.2819
+            },
+            {
+              "tag": "Orange",
+              "confidence": 0.2751
+            },
+            {
+              "tag": "Hibiscus",
+              "confidence": 0.2724
+            },
+            {
+              "tag": "Weed",
+              "confidence": 0.2713
+            },
+            {
+              "tag": "Scenery",
+              "confidence": 0.2708
+            },
+            {
+              "tag": "Grasshopper",
+              "confidence": 0.2692
+            },
+            {
+              "tag": "Snake",
+              "confidence": 0.2677
+            },
+            {
+              "tag": "Ant",
+              "confidence": 0.2636
+            }
+          ]
+        },
+        "google_tagging": {
+          "status": "complete",
+          "data": [
+            {
+              "tag": "Flower",
+              "confidence": 0.9786
+            },
+            {
+              "tag": "Plant",
+              "confidence": 0.9561
+            },
+            {
+              "tag": "Pollinator",
+              "confidence": 0.9377
+            },
+            {
+              "tag": "Insect",
+              "confidence": 0.9102
+            },
+            {
+              "tag": "Arthropod",
+              "confidence": 0.8938
+            },
+            {
+              "tag": "Petal",
+              "confidence": 0.8727
+            },
+            {
+              "tag": "Orange",
+              "confidence": 0.8661
+            },
+            {
+              "tag": "Butterfly",
+              "confidence": 0.8583
+            },
+            {
+              "tag": "Vegetation",
+              "confidence": 0.85
+            },
+            {
+              "tag": "Moths and butterflies",
+              "confidence": 0.8393
+            },
+            {
+              "tag": "Flowering plant",
+              "confidence": 0.7458
+            },
+            {
+              "tag": "Melitaea",
+              "confidence": 0.7349
+            },
+            {
+              "tag": "Close-up",
+              "confidence": 0.7231
+            },
+            {
+              "tag": "Macro photography",
+              "confidence": 0.7043
+            },
+            {
+              "tag": "Annual plant",
+              "confidence": 0.6931
+            },
+            {
+              "tag": "Grass",
+              "confidence": 0.6798
+            },
+            {
+              "tag": "Pollen",
+              "confidence": 0.6736
+            },
+            {
+              "tag": "Pedicel",
+              "confidence": 0.6671
+            },
+            {
+              "tag": "Landscape",
+              "confidence": 0.6599
+            },
+            {
+              "tag": "Viceroy (butterfly)",
+              "confidence": 0.634
+            },
+            {
+              "tag": "Wildflower",
+              "confidence": 0.6324
+            },
+            {
+              "tag": "Argynnis",
+              "confidence": 0.6262
+            },
+            {
+              "tag": "Daisy family",
+              "confidence": 0.6169
+            },
+            {
+              "tag": "Peach",
+              "confidence": 0.6066
+            },
+            {
+              "tag": "Plant stem",
+              "confidence": 0.6045
+            },
+            {
+              "tag": "Herbaceous plant",
+              "confidence": 0.5981
+            },
+            {
+              "tag": "Swallowtail butterfly",
+              "confidence": 0.5936
+            },
+            {
+              "tag": "Wing",
+              "confidence": 0.5851
+            },
+            {
+              "tag": "Moth",
+              "confidence": 0.5844
+            },
+            {
+              "tag": "Wildlife",
+              "confidence": 0.5734
+            },
+            {
+              "tag": "Lily family",
+              "confidence": 0.5608
+            },
+            {
+              "tag": "Grassland",
+              "confidence": 0.5546
+            },
+            {
+              "tag": "Invertebrate",
+              "confidence": 0.5529
+            },
+            {
+              "tag": "Forb",
+              "confidence": 0.5441
+            },
+            {
+              "tag": "Coquelicot",
+              "confidence": 0.544
+            },
+            {
+              "tag": "Brush-footed butterfly",
+              "confidence": 0.539
+            },
+            {
+              "tag": "Natural landscape",
+              "confidence": 0.5381
+            },
+            {
+              "tag": "sunflower",
+              "confidence": 0.5363
+            },
+            {
+              "tag": "Prairie",
+              "confidence": 0.5323
+            },
+            {
+              "tag": "Lycaenid",
+              "confidence": 0.5314
+            },
+            {
+              "tag": "Riodinidae",
+              "confidence": 0.515
+            },
+            {
+              "tag": "Pieridae",
+              "confidence": 0.507
+            }
+          ]
+        }
+      }
+    },
+    "rate_limit_allowed": 5000,
+    "rate_limit_reset_at": "2022-09-12T22:00:00.000Z",
+    "rate_limit_remaining": 4997
+  }

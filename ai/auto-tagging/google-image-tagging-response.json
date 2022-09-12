@@ -1,0 +1,216 @@
+{
+    "asset_id": "6aa04a7806c12f4850c4cbd43d7187c2",
+    "public_id": "ai/garden-with-tag",
+    "version": 1663017669,
+    "version_id": "90cc340dbde76bf28623784f24098cf1",
+    "signature": "aa68fc6d0295839ac9c4229489bc6b8860d59c37",
+    "width": 640,
+    "height": 425,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2022-09-12T21:21:09Z",
+    "tags": [
+      "flower",
+      "plant",
+      "pollinator",
+      "insect",
+      "arthropod",
+      "petal",
+      "orange",
+      "butterfly",
+      "vegetation",
+      "moths and butterflies"
+    ],
+    "pages": 1,
+    "bytes": 56980,
+    "type": "upload",
+    "etag": "dacf4252481cce95a65ce18c70e2646e",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/cloudinary-training/image/upload/v1663017669/ai/garden-with-tag.jpg",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/image/upload/v1663017669/ai/garden-with-tag.jpg",
+    "folder": "ai",
+    "access_mode": "public",
+    "context": {},
+    "metadata": {
+      "jdj4evsxepfqg8kdvcro": "zr4rvt7nmocvjzawflza"
+    },
+    "info": {
+      "categorization": {
+        "google_tagging": {
+          "status": "complete",
+          "data": [
+            {
+              "tag": "Flower",
+              "confidence": 0.9786
+            },
+            {
+              "tag": "Plant",
+              "confidence": 0.9561
+            },
+            {
+              "tag": "Pollinator",
+              "confidence": 0.9377
+            },
+            {
+              "tag": "Insect",
+              "confidence": 0.9102
+            },
+            {
+              "tag": "Arthropod",
+              "confidence": 0.8938
+            },
+            {
+              "tag": "Petal",
+              "confidence": 0.8727
+            },
+            {
+              "tag": "Orange",
+              "confidence": 0.8661
+            },
+            {
+              "tag": "Butterfly",
+              "confidence": 0.8583
+            },
+            {
+              "tag": "Vegetation",
+              "confidence": 0.85
+            },
+            {
+              "tag": "Moths and butterflies",
+              "confidence": 0.8393
+            },
+            {
+              "tag": "Flowering plant",
+              "confidence": 0.7458
+            },
+            {
+              "tag": "Melitaea",
+              "confidence": 0.7349
+            },
+            {
+              "tag": "Close-up",
+              "confidence": 0.7231
+            },
+            {
+              "tag": "Macro photography",
+              "confidence": 0.7043
+            },
+            {
+              "tag": "Annual plant",
+              "confidence": 0.6931
+            },
+            {
+              "tag": "Grass",
+              "confidence": 0.6798
+            },
+            {
+              "tag": "Pollen",
+              "confidence": 0.6736
+            },
+            {
+              "tag": "Pedicel",
+              "confidence": 0.6671
+            },
+            {
+              "tag": "Landscape",
+              "confidence": 0.6599
+            },
+            {
+              "tag": "Viceroy (butterfly)",
+              "confidence": 0.634
+            },
+            {
+              "tag": "Wildflower",
+              "confidence": 0.6324
+            },
+            {
+              "tag": "Argynnis",
+              "confidence": 0.6262
+            },
+            {
+              "tag": "Daisy family",
+              "confidence": 0.6169
+            },
+            {
+              "tag": "Peach",
+              "confidence": 0.6066
+            },
+            {
+              "tag": "Plant stem",
+              "confidence": 0.6045
+            },
+            {
+              "tag": "Herbaceous plant",
+              "confidence": 0.5981
+            },
+            {
+              "tag": "Swallowtail butterfly",
+              "confidence": 0.5936
+            },
+            {
+              "tag": "Wing",
+              "confidence": 0.5851
+            },
+            {
+              "tag": "Moth",
+              "confidence": 0.5844
+            },
+            {
+              "tag": "Wildlife",
+              "confidence": 0.5734
+            },
+            {
+              "tag": "Lily family",
+              "confidence": 0.5608
+            },
+            {
+              "tag": "Grassland",
+              "confidence": 0.5546
+            },
+            {
+              "tag": "Invertebrate",
+              "confidence": 0.5529
+            },
+            {
+              "tag": "Forb",
+              "confidence": 0.5441
+            },
+            {
+              "tag": "Coquelicot",
+              "confidence": 0.544
+            },
+            {
+              "tag": "Brush-footed butterfly",
+              "confidence": 0.539
+            },
+            {
+              "tag": "Natural landscape",
+              "confidence": 0.5381
+            },
+            {
+              "tag": "sunflower",
+              "confidence": 0.5363
+            },
+            {
+              "tag": "Prairie",
+              "confidence": 0.5323
+            },
+            {
+              "tag": "Lycaenid",
+              "confidence": 0.5314
+            },
+            {
+              "tag": "Riodinidae",
+              "confidence": 0.515
+            },
+            {
+              "tag": "Pieridae",
+              "confidence": 0.507
+            }
+          ]
+        }
+      }
+    },
+    "original_filename": "garden",
+    "api_key": "819154447261476"
+  }
