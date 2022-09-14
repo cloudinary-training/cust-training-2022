@@ -1,0 +1,31 @@
+{
+  "moderation_response": {
+    "moderation_confidence": "POSSIBLE",
+    "frames": [
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 0.826838 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 1.932523 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 3.031126 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 4.148531 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 5.038829 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 5.957069 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 6.78366 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 7.865902 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 8.68805 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 9.83107 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 10.991605 },
+      { "pornography_likelihood": "LIKELY", "time_offset": 11.898872 },
+      { "pornography_likelihood": "VERY_LIKELY", "time_offset": 12.902055 }
+    ]
+  },
+  "moderation_status": "rejected",
+  "moderation_kind": "google_video_moderation",
+  "moderation_updated_at": "2022-09-13T22:18:41Z",
+  "asset_id": "063bcb4b57b24877c69b81b18374bd07",
+  "public_id": "ai/hot-tub",
+  "uploaded_at": "2022-09-13T22:18:07Z",
+  "version": 1663107487,
+  "url": "http://res.cloudinary.com/cloudinary-training/video/authenticated/s--ysKyFSge--/v1663107487/ai/hot-tub.mp4",
+  "secure_url": "https://res.cloudinary.com/cloudinary-training/video/authenticated/s--ysKyFSge--/v1663107487/ai/hot-tub.mp4",
+  "etag": null,
+  "notification_type": "moderation"
+}

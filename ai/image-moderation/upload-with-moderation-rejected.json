@@ -1,0 +1,50 @@
+{
+    "asset_id": "85c434a0f155dd9a07e3071fd947cca2",
+    "public_id": "ai/mermaid",
+    "version": 1663104692,
+    "version_id": "8d40a35fa0205b232d78ff5f80bb741d",
+    "signature": "e0857f9d61a31b01dc9b92ec955883cd71ea7ac0",
+    "width": 2000,
+    "height": 1333,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2022-09-13T21:31:32Z",
+    "tags": [],
+    "pages": 1,
+    "bytes": 0,
+    "type": "upload",
+    "etag": "3c448ed66b6bf6941238720e2aaf08c9",
+    "placeholder": true,
+    "url": "http://res.cloudinary.com/cloudinary-training/image/upload/v1663104692/ai/mermaid.jpg",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/image/upload/v1663104692/ai/mermaid.jpg",
+    "folder": "ai",
+    "access_mode": "public",
+    "context": {},
+    "metadata": {
+      "jdj4evsxepfqg8kdvcro": "zr4rvt7nmocvjzawflza"
+    },
+    "moderation": [
+      {
+        "response": {
+          "moderation_labels": [
+            {
+              "confidence": 46.18149948120117,
+              "name": "Suggestive",
+              "parent_name": ""
+            },
+            {
+              "confidence": 46.18149948120117,
+              "name": "Revealing Clothes",
+              "parent_name": "Suggestive"
+            }
+          ],
+          "moderation_model_version": "5.0"
+        },
+        "status": "rejected",
+        "kind": "aws_rek",
+        "updated_at": "2022-09-13T21:31:35Z"
+      }
+    ],
+    "original_filename": "mermaid",
+    "api_key": "819154447261476"
+  }

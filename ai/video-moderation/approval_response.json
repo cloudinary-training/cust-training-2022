@@ -1,0 +1,17 @@
+{
+    "moderation_response": {
+      "moderation_confidence": "POSSIBLE",
+      "frames": []
+    },
+    "moderation_status": "approved",
+    "moderation_kind": "google_video_moderation",
+    "moderation_updated_at": "2022-09-13T22:15:30Z",
+    "asset_id": "03b836538ff13dda8727225ab70d35ae",
+    "public_id": "ai/elephants",
+    "uploaded_at": "2022-09-13T22:14:57Z",
+    "version": 1663107297,
+    "url": "http://res.cloudinary.com/cloudinary-training/video/authenticated/s--hV7W63b_--/v1663107297/ai/elephants.mp4",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/video/authenticated/s--hV7W63b_--/v1663107297/ai/elephants.mp4",
+    "etag": "004d2e093cf462cbcb9e728d5c7ebe04",
+    "notification_type": "moderation"
+  }
