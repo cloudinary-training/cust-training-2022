@@ -1,0 +1,249 @@
+{
+    "asset_id": "9661040ecf0436d7776d2878bf5d1e96",
+    "public_id": "ai/arya-stark",
+    "version": 1663276429,
+    "version_id": "11c91dd25cf200cb3e42b0cc827e974b",
+    "signature": "742969ed70e4cc09f1b5ff08fb09bc6dc3b220c2",
+    "width": 1675,
+    "height": 1050,
+    "format": "jpg",
+    "resource_type": "image",
+    "created_at": "2022-09-15T21:13:49Z",
+    "tags": [],
+    "pages": 1,
+    "bytes": 230938,
+    "type": "upload",
+    "etag": "fbf3a1a826cd031a5f7aba93eef1ca8f",
+    "placeholder": false,
+    "url": "http://res.cloudinary.com/cloudinary-training/image/upload/v1663276429/ai/arya-stark.jpg",
+    "secure_url": "https://res.cloudinary.com/cloudinary-training/image/upload/v1663276429/ai/arya-stark.jpg",
+    "folder": "ai",
+    "access_mode": "public",
+    "context": {},
+    "metadata": {
+      "jdj4evsxepfqg8kdvcro": "zr4rvt7nmocvjzawflza"
+    },
+    "info": {
+      "detection": {
+        "adv_face": {
+          "status": "complete",
+          "data": [
+            {
+              "bounding_box": {
+                "top": 274.28125,
+                "left": 598.8125,
+                "width": 481.5625,
+                "height": 481.5625
+              },
+              "attributes": {
+                "smile": 0,
+                "head_pose": {
+                  "pitch": 8.5,
+                  "roll": -6.9,
+                  "yaw": 3.9
+                },
+                "gender": "female",
+                "age": 23,
+                "facial_hair": {
+                  "moustache": 0,
+                  "beard": 0,
+                  "sideburns": 0
+                },
+                "glasses": "NoGlasses",
+                "emotion": {
+                  "anger": 0,
+                  "contempt": 0,
+                  "disgust": 0,
+                  "fear": 0,
+                  "happiness": 0,
+                  "neutral": 0.998,
+                  "sadness": 0.002,
+                  "surprise": 0
+                },
+                "blur": {
+                  "blurLevel": "low",
+                  "value": 0.16
+                },
+                "exposure": {
+                  "exposureLevel": "goodExposure",
+                  "value": 0.65
+                },
+                "noise": {
+                  "noiseLevel": "low",
+                  "value": 0.16
+                },
+                "makeup": {
+                  "eyeMakeup": true,
+                  "lipMakeup": true
+                },
+                "accessories": [],
+                "occlusion": {
+                  "foreheadOccluded": false,
+                  "eyeOccluded": false,
+                  "mouthOccluded": false
+                },
+                "hair": {
+                  "bald": 0.02,
+                  "invisible": false,
+                  "hairColor": [
+                    {
+                      "color": "brown",
+                      "confidence": 0.95
+                    },
+                    {
+                      "color": "black",
+                      "confidence": 0.47
+                    },
+                    {
+                      "color": "gray",
+                      "confidence": 0.45
+                    },
+                    {
+                      "color": "red",
+                      "confidence": 0.35
+                    },
+                    {
+                      "color": "blond",
+                      "confidence": 0.31
+                    },
+                    {
+                      "color": "other",
+                      "confidence": 0.26
+                    },
+                    {
+                      "color": "white",
+                      "confidence": 0
+                    }
+                  ]
+                }
+              },
+              "facial_landmarks": {
+                "mouth": {
+                  "left": {
+                    "x": 765.265625,
+                    "y": 649.271875
+                  },
+                  "right": {
+                    "x": 933.603125,
+                    "y": 618.9125
+                  },
+                  "under_lip": {
+                    "bottom": {
+                      "x": 863.671875,
+                      "y": 646.96875
+                    },
+                    "top": {
+                      "x": 860.740625,
+                      "y": 619.959375
+                    }
+                  },
+                  "upper_lip": {
+                    "bottom": {
+                      "x": 859.0656250000001,
+                      "y": 620.796875
+                    },
+                    "top": {
+                      "x": 853.203125,
+                      "y": 599.4406250000001
+                    }
+                  }
+                },
+                "eyebrow": {
+                  "left_outer": {
+                    "x": 604.046875,
+                    "y": 396.1375
+                  },
+                  "left_inner": {
+                    "x": 775.734375,
+                    "y": 360.125
+                  },
+                  "right_inner": {
+                    "x": 862.834375,
+                    "y": 357.82187500000003
+                  },
+                  "right_outer": {
+                    "x": 1023.84375,
+                    "y": 352.58750000000003
+                  }
+                },
+                "eye": {
+                  "left_outer": {
+                    "x": 667.278125,
+                    "y": 440.94375
+                  },
+                  "left_top": {
+                    "x": 702.453125,
+                    "y": 411.21250000000003
+                  },
+                  "left_bottom": {
+                    "x": 708.734375,
+                    "y": 455.809375
+                  },
+                  "left_inner": {
+                    "x": 749.98125,
+                    "y": 435.08125
+                  },
+                  "right_inner": {
+                    "x": 897.171875,
+                    "y": 412.8875
+                  },
+                  "right_top": {
+                    "x": 930.4625,
+                    "y": 377.71250000000003
+                  },
+                  "right_bottom": {
+                    "x": 944.7,
+                    "y": 422.9375
+                  },
+                  "right_outer": {
+                    "x": 972.546875,
+                    "y": 396.55625000000003
+                  },
+                  "left_pupil": {
+                    "x": 708.94375,
+                    "y": 427.753125
+                  },
+                  "right_pupil": {
+                    "x": 937.5812500000001,
+                    "y": 393.834375
+                  }
+                },
+                "nose": {
+                  "tip": {
+                    "x": 853.203125,
+                    "y": 511.503125
+                  },
+                  "root_left": {
+                    "x": 795.415625,
+                    "y": 428.8
+                  },
+                  "root_right": {
+                    "x": 865.55625,
+                    "y": 418.959375
+                  },
+                  "left_alar_top": {
+                    "x": 800.23125,
+                    "y": 495.171875
+                  },
+                  "right_alar_top": {
+                    "x": 885.65625,
+                    "y": 481.14375
+                  },
+                  "left_alar_out_tip": {
+                    "x": 778.4562500000001,
+                    "y": 542.071875
+                  },
+                  "right_alar_out_tip": {
+                    "x": 912.246875,
+                    "y": 522.8093749999999
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "original_filename": "arya-stark",
+    "api_key": "819154447261476"
+  }
