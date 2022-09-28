@@ -1,13 +1,12 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
-
 cloudinary.uploader
   .upload('./assets/fashion-athena.jpg', {
     overwrite: true,
     invalidate: true,
-    // auto_tagging: '0.6',  //default 0.5
-    // detection: "cld-fashion"
+    auto_tagging: '0.6',  //default 0.5
+    detection: "cld-fashion"
   })
 .then((result) => {
     // log google tagging result

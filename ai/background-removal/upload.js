@@ -15,6 +15,21 @@ cloudinary.uploader
     console.log(error);
   });
 
+
+  cloudinary.uploader
+  .upload('./assets/space.jpg', {
+    public_id: 'space',
+    overwrite: true,
+    invalidate: true,
+  })
+  .then((result) => {
+    console.log(JSON.stringify(result, null, 2));
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+
 // upload for background removal
 // include notification url because async
 

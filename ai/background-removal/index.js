@@ -37,6 +37,20 @@ console.log(
 );
 
 
+console.log(
+  cloudinary.url('yoga-no-bg', {
+    transformation: [
+      { width: 400, height: 400, crop: 'fill', gravity: 'auto' },
+      {
+        underlay: 'space',
+        width: '600',
+        crop: 'scale',
+      },
+    ],
+  })
+);
+
+
 
 // add a shadow to a product
 
@@ -50,7 +64,7 @@ console.log(
 
 // on the fly background removal
 console.log(
-    cloudinary.url('banana', {
+    cloudinary.url('yoga', {
       transformation: [
         { effect: 'background_removal' },
         {crop: 'scale', width:400},
@@ -59,3 +73,4 @@ console.log(
     })
   );
 //   https://res.cloudinary.com/cloudinary-training/image/upload/e_background_removal/c_scale,w_400/u_space,w_600,c_scale/fl_layer_apply/banana
+
