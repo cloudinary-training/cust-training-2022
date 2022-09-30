@@ -91,6 +91,25 @@ console.log(
   })
 );
 
+// crop the bag with g_auto, you must supply at least one sizing parameter
+// to use g_auto
+console.log(
+  cloudinary.url('fashion-athena', {
+    crop: 'crop',
+    width: 400,
+    gravity: 'auto:bag',
+    sign_url: true,
+  })
+);
+
+console.log(
+  cloudinary.url('fashion-athena', {
+    crop: 'crop',
+    gravity: 'bag',
+    sign_url: true,
+  })
+);
+
 // crop all but the bag
 console.log(
     cloudinary.url('fashion-athena', {
@@ -101,11 +120,6 @@ console.log(
       sign_url: true,
     })
   );
-
-// crop other tagged items
-
-
-
 
 
 // all the tagged objects
