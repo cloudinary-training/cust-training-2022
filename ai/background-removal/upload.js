@@ -15,6 +15,29 @@ cloudinary.uploader
     console.log(error);
   });
 
+//upload the banana and apply
+cloudinary.uploader
+.upload("./assets/banana.jpg", {
+  public_id: "banana",
+  type: "upload",
+  resource_type: "image",
+})
+.then((result) => {
+
+  console.log(
+    cloudinary.url('banana', {
+      transformation: [
+        { effect: 'background_removal' },
+        {crop: 'scale', width:400},
+        { underlay: 'space',width:600, crop:'scale' },
+      ],
+    })
+  );
+})
+.catch((error) => {
+  console.log(error);
+});
+
 
   cloudinary.uploader
   .upload('./assets/space.jpg', {
