@@ -1,0 +1,12 @@
+require('dotenv').config()
+const cloudinary = require('cloudinary').v2
+
+console.log(
+
+    cloudinary.video('video/video-containers', {
+        resource_type: 'video',
+        controls: true,
+        transformation: { fetch_format: 'auto', quality: 'auto' }
+    })
+    )
+
