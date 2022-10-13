@@ -1,0 +1,45 @@
+{
+ "data": {
+  "name": "full_hd_wifi_vp9",
+  "display_name": "Full HD WiFi VP9 (1080p)",
+  "predefined": true,
+  "representations": [
+   {
+    "transformation": [
+     {
+      "width": 640,
+      "height": 360,
+      "video_codec": "vp9",
+      "bit_rate": "hd360",
+      "crop": "limit"
+     }
+    ]
+   },
+   {
+    "transformation": [
+     {
+      "width": 1280,
+      "height": 720,
+      "video_codec": "vp9",
+      "bit_rate": "hd720",
+      "crop": "limit"
+     }
+    ]
+   },
+   {
+    "transformation": [
+     {
+      "width": 1920,
+      "height": 1080,
+      "video_codec": "vp9",
+      "bit_rate": "hd1080",
+      "crop": "limit"
+     }
+    ]
+   }
+  ]
+ },
+ "rate_limit_allowed": 500,
+ "rate_limit_reset_at": "2022-08-03T02:00:00.000Z",
+ "rate_limit_remaining": 499
+}
