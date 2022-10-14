@@ -36,13 +36,13 @@
     var player = cloudinary.videoPlayer('example-player', {
         cloud_name: 'cloudinary-training', muted: true,
         controls: true,
-        transformation: {start_offset:8,duration:14}
+        transformation: { start_offset: 8, duration: 14 }
     })
     player.source('surfing').play();
 
-    // Log events (anaylytics)
+    // Log events (analytics)
     var autoEventTypes = ['sourcechanged', 'timeplayed', 'percentsplayed', 'ended'];
-
+    var manualEventTypes = ['play', 'pause', 'volumechange', 'mute', 'unmute', 'fullscreenchange', 'seek'];
 
     function checkTime(i) {
         return (i < 10) ? "0" + i : i;
@@ -64,8 +64,7 @@
         entry.appendChild(document.createTextNode(eventStr));
         list.appendChild(entry);
     }
-    var manualEventTypes = ['play', 'pause', 'volumechange', 'mute', 'unmute', 'fullscreenchange',
-        'seek'];
+
 
 
 
