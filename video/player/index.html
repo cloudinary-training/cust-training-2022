@@ -35,12 +35,10 @@
     // Initialize player
     var player = cloudinary.videoPlayer('example-player', {
         cloud_name: 'cloudinary-training', muted: true,
-        controls: true
+        controls: true,
+        transformation: {start_offset:8,duration:14}
     })
-
-    // Modify player source and play hls adaptive streaming
-    player.source('surfing', {
-    }).play();
+    player.source('surfing').play();
 
     // Log events (anaylytics)
     var autoEventTypes = ['sourcechanged', 'timeplayed', 'percentsplayed', 'ended'];
@@ -63,8 +61,6 @@
         console.log(eventStr)
         var list = document.querySelector('#events-list ul')
         var entry = document.createElement('li');
-        //   if(automatic)
-        //       entry.className = "orange";
         entry.appendChild(document.createTextNode(eventStr));
         list.appendChild(entry);
     }

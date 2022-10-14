@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Player</title>
+    <title>Video Player with Ads</title>
     <link href="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.css" rel="stylesheet">
     <script src="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.js"
         type="text/javascript"></script>
@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <h1>Cloudinary Video Player</h1>
+    <h1>Cloudinary Video Player Ads</h1>
     <div class="container">
         <video id="example-player" controls muted playsinline crossorigin="anonymous" data-cld-autoplay-mode="on-scroll"
             class="cld-video-player vjs-fluid cld-video-player-skin-dark video-ads"></video>
@@ -41,6 +41,7 @@
     var player = cloudinary.videoPlayer('example-player', {
         cloud_name: 'cloudinary-training', muted: true,
         controls: true,
+        transformation: {start_offset:8,duration:14},
         ads: {
             adTagUrl: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/nonlinear_ad_samples&sz=480x70&cust_params=sample_ct%3Dnonlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=',
             adsInPlaylist: 'every-video'
