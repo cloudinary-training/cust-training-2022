@@ -10,6 +10,31 @@ Look at optimizing images and video.
 
 How to secure your asset and deliver assets when they are restricted.
 
+## March: Vercel Integration
+
+## April: Webhooks
+
+
+## May: EXP
+
+Cloudinary Customer Education provided training at an EXP event in New York City.  
+You can find video from this event in the [Training Academy](https://training.cloudinary.com)
+
+
+## June: Vercel Integration
+
+## July: Product Gallery
+
+## August: Admin Search
+
+## September: Transformations
+
+## October: Artificial Intelligence
+
+## November: Video  
+
+## December: Migration
+
 ## Environment Setup
 
 ### Install Node.js and NPM
