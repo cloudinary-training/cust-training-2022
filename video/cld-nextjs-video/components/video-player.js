@@ -4,7 +4,7 @@ import React, { useRef, useEffect, useState } from 'react';
 const VideoPlayer = (props) => {
   const videoEl = useRef();
   const [cloud] = useState(props.cloudName);
-  const [id] = useState(props.publicId);
+  const [publicId] = useState(props.publicId);
   const [jsLoaded, setJSLoaded] = useState(false);
   const [vpScriptLoaded, setVPScriptLoaded] = useState(false);
 
@@ -34,7 +34,7 @@ const VideoPlayer = (props) => {
       width: '100%',
     });
     videoPlayer.source(
-      id,
+      publicId,
       {
         sourceTypes: ['dash/vp9', 'hls/h265', 'hls/h264', 'mp4'],
         sourceTransformation: {
@@ -44,7 +44,7 @@ const VideoPlayer = (props) => {
           mp4: [{ raw_transformation: 'q_auto' }],
         },
       },
-      [jsLoaded, cloud, id]
+      [jsLoaded, cloud, publicId]
     );
   });
   return (
