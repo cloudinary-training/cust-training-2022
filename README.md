@@ -143,17 +143,16 @@ vase.jpg [Photo by Beyza Efe from Pexels](https://www.pexels.com/photo/clay-vase
  
 Photo by Athena: https://www.pexels.com/photo/woman-wearing-pink-overcoat-and-black-inner-top-2043590/  
 
-Photo by Radomir Jordanovic: https://www.pexels.com/photo/three-women-smiling-1644888/    
+Photo by Radomir Jordanovic: https://www.pexels.com/photo/three-women-smiling-1644888/     
 
-Photo by Natalie: https://www.pexels.com/photo/photo-of-woman-meditating-3759657/ 
+Photo by Natalie: https://www.pexels.com/photo/photo-of-woman-meditating-3759657/  
 
-Photo by Faik  Akmd: https://www.pexels.com/photo/photo-of-night-sky-1025469/  
+Photo by Faik  Akmd: https://www.pexels.com/photo/photo-of-night-sky-1025469/    
 
-Photo by Shane Aldendorff: https://www.pexels.com/photo/white-hi-top-sneaker-1302321/
+Photo by Shane Aldendorff: https://www.pexels.com/photo/white-hi-top-sneaker-1302321/  
   
-Photo by Ron Lach : https://www.pexels.com/photo/woman-in-black-swimwear-relaxing-in-a-jacuzzi-8844601/  
+Photo by Ron Lach : https://www.pexels.com/photo/woman-in-black-swimwear-relaxing-in-a-jacuzzi-8844601/    
 
-Photo by Vijay Putra: https://www.pexels.com/photo/grayscale-photo-of-person-holding-a-gun-64699/
+Photo by Vijay Putra: https://www.pexels.com/photo/grayscale-photo-of-person-holding-a-gun-64699/  
 
- 
- 
+Video by Pixabay: https://www.pexels.com/video/close-up-skiing-footage-854878/   
