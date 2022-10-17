@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+    <link href="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.js"
+        type="text/javascript"></script>
+    <style>
+        .cld-video-player .vjs-control-bar .vjs-progress-control {
+            display: none;
+        }
+
+        div.vjs-control-bar>div.vjs-live-control.vjs-control {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cloudinary Video Player</h1>
+    <div style="max-width: 800px;">
+        <video id="example-player" class="cld-video-player cld-fluid"></video>
+        <div id="events-list">
+            <ul></ul>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    //original video: https://res.cloudinary.com/demo/video/upload/docs/hotel.mp4
+
+    document.addEventListener("DOMContentLoaded", e => {
+        // Initialize player
+        var player = cloudinary.videoPlayer('example-player', {
+            cloud_name: 'demo', muted: true,
+            controls: true,
+            transformation: { width: 800 }
+        })
+        player.source('docs/hotel');
+
+        player.on("play", function () {
+            var liveControls = document.getElementsByClassName("vjs-live-control");
+            liveControls[0].classList.remove("vjs-hidden");
+
+            // Set video time to offset from server.
+            // For demo purposes, if offset is greater than the duration of the video, start from 5 seconds.
+            // demoPlayer.duration = 87.487 seconds
+            // offsetTimeFromServer is difference between actual start and now >>> 87 seconds
+            player.currentTime(
+                offsetTimeFromServer() < player.duration() ? offsetTimeFromServer() : 5
+            );
+        });
+
+        let offsetTimeFromServer = function () {
+            var startTime = 1623765482; // Unix timestamp for actual date of event June 15, 2020
+            var timeNow = Math.floor(Date.now() / 1000);
+            return timeNow - startTime;  //  how many seconds between now and the actual event
+        };
+    })
+
+
+
+</script>
+
+</html>

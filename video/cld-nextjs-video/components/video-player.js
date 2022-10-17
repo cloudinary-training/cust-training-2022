@@ -22,7 +22,7 @@ const VideoPlayer = (props) => {
     return () => {
       setJSLoaded(false);
     };
-  }, [jsLoaded,vpScriptLoaded]);
+  }, [jsLoaded, vpScriptLoaded]);
 
   useEffect(() => {
     if (!jsLoaded) return;
@@ -43,10 +43,9 @@ const VideoPlayer = (props) => {
           'hls/h264': [{ streaming_profile: 'full_hd_wifi' }],
           mp4: [{ raw_transformation: 'q_auto' }],
         },
-      },
-      [jsLoaded, cloud, publicId]
+      }
     );
-  });
+  }, [jsLoaded, cloud, publicId]);
   return (
     <div>
       <video
