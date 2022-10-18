@@ -6,6 +6,7 @@ console.log(
     cloudinary.video('video/video-containers', {
         resource_type: 'video',
         controls: true,
+        secure: true,
         transformation: { fetch_format: 'auto', quality: 'auto' }
     })
     )
