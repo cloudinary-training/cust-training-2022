@@ -12,7 +12,8 @@ cloudinary.api
       { raw_transformation: "f_webp,fl_awebp,q_auto" },
       { raw_transformation: "f_avif,q_auto" },
       { raw_transformation: "f_mp4,vc_h265,q_auto" },
-      { raw_transformation: "f_webm,vc_vp9,q_auto" }
+      { raw_transformation: "f_webm,vc_vp9,q_auto" },
+      { raw_transformation: "f_mp4,vc_h265,q_auto" }
     ],
     eager_async: true,
     eager_notification_url: 'https://webhook.site/0057f756-8c9c-41d5-96e6-346f08e9cb59'
