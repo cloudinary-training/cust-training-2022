@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="icon" href="../../assets/favicon.png" type="image/png" />
+    <link
+      href="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://unpkg.com/cloudinary-video-player@latest/dist/cld-video-player.min.js"
+      type="text/javascript"
+    ></script>
+    <style>
+      .container {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Shoppable Video Player</h1>
+    <div class="container">
+      <video id="example-player" class="cld-video-player cld-fluid"></video>
+      <div id="events-list">
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    // Initialize player
+    var player = cloudinary.videoPlayer("example-player", {
+      cloud_name: "demo",
+      controls: true,
+      colors: {base: "#ffffff", text: "#000000"},
+      logoImageUrl:
+        "https://res.cloudinary.com/demo/image/upload/docs/shoppable_toggle",
+      playsinline: true,
+      playbackRates: [0.5, 1, 1.25, 1.5, 2],
+    });
+
+    var source = {
+      shoppable: {
+        showPostPlayOverlay: true,
+        transformation: {
+          crop: "pad",
+          aspect_ratio: "1",
+        },
+        products: [
+          {
+            productId: 1,
+            productName: "Sunglasses",
+            startTime: 0,
+            endTime: 2,
+            publicId: "docs/shoppable_sunglasses",
+            hotspots: [
+              {
+                time: "00:06",
+                x: "50%",
+                y: "25%",
+                tooltipPosition: "left",
+                clickUrl:
+                  "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
+              },
+            ],
+            onHover: {
+              action: "overlay",
+              args: "Click to see this product in the video",
+            },
+            onClick: {
+              action: "seek",
+              pause: 5,
+              args: {
+                time: "00:06",
+              },
+            },
+          },
+          {
+            productId: 2,
+            productName: "Green Dress",
+            startTime: 2,
+            endTime: 5,
+            publicId: "docs/shoppable_dress.jpg",
+            onClick: {
+              action: "goto",
+              pause: true,
+              args: {
+                url: "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
+              },
+            },
+          },
+          {
+            productId: 3,
+            productName: "Brown Bag",
+            startTime: 7,
+            endTime: 11,
+            publicId: "docs/shoppable_bag",
+            onHover: {
+              action: "switch",
+              args: {
+                publicId: "docs/shoppable_bag2",
+              },
+            },
+            onClick: {
+              action: "goto",
+              pause: true,
+              args: {
+                url: "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
+              },
+            },
+          },
+        ],
+      },
+    };
+
+    player.source("docs/shoppable_demo",source);
+  </script>
+</html>
