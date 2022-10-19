@@ -16,7 +16,7 @@
     ></script>
     <style>
       .container {
-        width: 80%;
+        width: 60%;
         margin: 20px auto;
       }
 
@@ -30,54 +30,46 @@
   <body>
     <h1>Shoppable Video Player</h1>
     <div class="container">
-      <video
-        id="example-player"
-        controls
-        muted
-        class="cld-video-player cld-fluid cld-video-player-skin-dark"
-        width="800"
-      ></video>
+      <video id="example-player" class="cld-video-player cld-fluid"></video>
       <div id="events-list">
         <ul></ul>
       </div>
     </div>
   </body>
   <script type="text/javascript">
+    // Initialize player
     var player = cloudinary.videoPlayer("example-player", {
-      cloud_name: "sabastyle",
+      cloud_name: "demo",
+      controls: true,
+      colors: {base: "#ffffff", text: "#000000"},
+      logoImageUrl:
+        "https://res.cloudinary.com/demo/image/upload/docs/shoppable_toggle",
       playsinline: true,
+      playbackRates: [0.5, 1, 1.25, 1.5, 2],
     });
 
     var source = {
       shoppable: {
-        startState: "openOnPlay",
-        autoClose: 2,
         showPostPlayOverlay: true,
-        width: "15%",
-        bannerMsg: "Start shopping for your outfit",
-        toggleIcon:
-          "https://media.saba.com.au/image/upload/v1659427460/media/SABA_small.png",
         transformation: {
-          quality: "auto:eco",
-          fetch_format: "auto",
           crop: "pad",
           aspect_ratio: "1",
         },
         products: [
           {
             productId: 1,
-            productName: "New Collection Dress",
+            productName: "Sunglasses",
             startTime: 0,
             endTime: 2,
-            publicId: "/media/image/WS22239_creamblack_b",
+            publicId: "docs/shoppable_sunglasses",
             hotspots: [
               {
-                time: "00:02",
+                time: "00:06",
                 x: "50%",
-                y: "50%",
+                y: "25%",
                 tooltipPosition: "left",
                 clickUrl:
-                  "https://www.saba.com.au/clothing/ines-gathered-bodice_ws22925-creamblack",
+                  "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
               },
             ],
             onHover: {
@@ -88,7 +80,7 @@
               action: "seek",
               pause: 5,
               args: {
-                time: "00:02",
+                time: "00:06",
               },
             },
           },
@@ -97,32 +89,32 @@
             productName: "Green Dress",
             startTime: 2,
             endTime: 5,
-            publicId: "media/image/ws22605_alabaster_b",
+            publicId: "docs/shoppable_dress.jpg",
             onClick: {
               action: "goto",
               pause: true,
               args: {
-                url: "https://www.saba.com.au/clothing/dharma-belted-pant_ws22605-alabaster",
+                url: "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
               },
             },
           },
           {
             productId: 3,
-            productName: "Brown Jacket",
+            productName: "Brown Bag",
             startTime: 7,
             endTime: 11,
-            publicId: "c0adbbq49olxq0umedwk",
+            publicId: "docs/shoppable_bag",
             onHover: {
               action: "switch",
               args: {
-                publicId: "c0adbbq49olxq0umedwk",
+                publicId: "docs/shoppable_bag2",
               },
             },
             onClick: {
               action: "goto",
               pause: true,
               args: {
-                url: "https://www.saba.com.au/clothing/elias-linen-cotton-jacket_ms21205-chambray",
+                url: "https://cloudinary.com/blog/get_interactive_with_cloudinary_s_shoppable_video_and_video_player",
               },
             },
           },
@@ -130,9 +122,6 @@
       },
     };
 
-    player.source(
-      "Marketing/SS22/risetotheoccasion/191_SB_wk4_Online_LookbookVideoSS22_2",
-      source
-    );
+    player.source("docs/shoppable_demo",source);
   </script>
 </html>
