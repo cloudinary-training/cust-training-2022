@@ -156,3 +156,4 @@ Photo by Ron Lach : https://www.pexels.com/photo/woman-in-black-swimwear-relaxin
 Photo by Vijay Putra: https://www.pexels.com/photo/grayscale-photo-of-person-holding-a-gun-64699/  
 
 Video by Pixabay: https://www.pexels.com/video/close-up-skiing-footage-854878/   
+Video by Yaroslav Shuraev: https://www.pexels.com/video/aerial-footage-of-foggy-area-5562986/   
