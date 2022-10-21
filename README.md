@@ -157,3 +157,4 @@ Photo by Vijay Putra: https://www.pexels.com/photo/grayscale-photo-of-person-hol
 
 Video by Pixabay: https://www.pexels.com/video/close-up-skiing-footage-854878/   
 Video by Yaroslav Shuraev: https://www.pexels.com/video/aerial-footage-of-foggy-area-5562986/   
+Video by Adrien JACTA: https://www.pexels.com/video/ski-montagne-skier-piste-de-ski-4274798/
