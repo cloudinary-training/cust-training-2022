@@ -75,7 +75,7 @@ console.log(
 console.log(
     cloudinary.url("video/snowboarding", {
       resource_type: "video",
-      transformation: [{duration: 7 }],
+      transformation: [{duration: 5 }],
     })
   );
 
@@ -84,7 +84,7 @@ console.log(
 console.log(
     cloudinary.url("video/snowboarding", {
       resource_type: "video",
-      transformation: [{ start_offset: 7 }],
+      transformation: [{ start_offset: 17 }],
     })
   );
 
@@ -92,7 +92,7 @@ console.log(
 console.log(
     cloudinary.url("video/snowboarding", {
       resource_type: "video",
-      transformation: [{ start_offset: 6, duration: 6 }],
+      transformation: [{ start_offset: 17, duration: 3 }],
     })
   );
 
@@ -100,6 +100,6 @@ console.log(
 console.log(
     cloudinary.url("video/snowboarding", {
       resource_type: "video",
-      transformation: [{ start_offset: 6, end_offset: 12 }],
+      transformation: [{ start_offset: 5, end_offset: 7 }],
     })
   );
