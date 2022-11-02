@@ -1,0 +1,706 @@
+[
+  {
+    "name": "1px.png",
+    "path": "assets/images/1px.png",
+    "sha": "046ecba29202522444765d3812b9f763584511a7",
+    "size": 649,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/1px.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/1px.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/046ecba29202522444765d3812b9f763584511a7",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/1px.png?token=AACWRDDLDHDX4LRPIT27KKLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/1px.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/046ecba29202522444765d3812b9f763584511a7",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/1px.png"
+    }
+  },
+  {
+    "name": "art-creative-graffiti.jpg",
+    "path": "assets/images/art-creative-graffiti.jpg",
+    "sha": "7bd27af3011a81756cb967d3ed7b6c0657aa3e24",
+    "size": 3241012,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/art-creative-graffiti.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/art-creative-graffiti.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7bd27af3011a81756cb967d3ed7b6c0657aa3e24",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/art-creative-graffiti.jpg?token=AACWRDCIGI2ZLMVJINPYZATDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/art-creative-graffiti.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7bd27af3011a81756cb967d3ed7b6c0657aa3e24",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/art-creative-graffiti.jpg"
+    }
+  },
+  {
+    "name": "banana.jpg",
+    "path": "assets/images/banana.jpg",
+    "sha": "893e1fab08684dbe5e01e931ae7fad3739945bfd",
+    "size": 28521,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/banana.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/banana.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/893e1fab08684dbe5e01e931ae7fad3739945bfd",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/banana.jpg?token=AACWRDFP5QGPRKKXQHLVFHTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/banana.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/893e1fab08684dbe5e01e931ae7fad3739945bfd",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/banana.jpg"
+    }
+  },
+  {
+    "name": "baseball-cap.png",
+    "path": "assets/images/baseball-cap.png",
+    "sha": "353f2fc3f05fd1c1bb1a9c95243faf450e7643eb",
+    "size": 18879,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/baseball-cap.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/baseball-cap.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/353f2fc3f05fd1c1bb1a9c95243faf450e7643eb",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/baseball-cap.png?token=AACWRDEPRGQZYDQ6XOZGUFTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/baseball-cap.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/353f2fc3f05fd1c1bb1a9c95243faf450e7643eb",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/baseball-cap.png"
+    }
+  },
+  {
+    "name": "big-glasses.jpg",
+    "path": "assets/images/big-glasses.jpg",
+    "sha": "88fdc010226c66796ec3a17d5c7eebe18c5e9823",
+    "size": 480963,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/big-glasses.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/big-glasses.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88fdc010226c66796ec3a17d5c7eebe18c5e9823",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/big-glasses.jpg?token=AACWRDGJ5MLS2XYQCZMG7ODDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/big-glasses.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88fdc010226c66796ec3a17d5c7eebe18c5e9823",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/big-glasses.jpg"
+    }
+  },
+  {
+    "name": "bird-close-up.jpg",
+    "path": "assets/images/bird-close-up.jpg",
+    "sha": "141de73e4c53b7124e986858df03d21e94092027",
+    "size": 656462,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/bird-close-up.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/bird-close-up.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/141de73e4c53b7124e986858df03d21e94092027",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/bird-close-up.jpg?token=AACWRDEXORQR3DLWX4OPCITDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/bird-close-up.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/141de73e4c53b7124e986858df03d21e94092027",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/bird-close-up.jpg"
+    }
+  },
+  {
+    "name": "black-purse-1.jpg",
+    "path": "assets/images/black-purse-1.jpg",
+    "sha": "e7913cefc4df59dd3834e48969f569d8cb79fdcb",
+    "size": 2412174,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/black-purse-1.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/black-purse-1.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e7913cefc4df59dd3834e48969f569d8cb79fdcb",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/black-purse-1.jpg?token=AACWRDGDGUZQVLQUTZR3XRDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/black-purse-1.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e7913cefc4df59dd3834e48969f569d8cb79fdcb",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/black-purse-1.jpg"
+    }
+  },
+  {
+    "name": "black-purse-2.jpg",
+    "path": "assets/images/black-purse-2.jpg",
+    "sha": "13419c5dd09447991affbd3e4e7fa018f4e1d141",
+    "size": 2385186,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/black-purse-2.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/black-purse-2.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/13419c5dd09447991affbd3e4e7fa018f4e1d141",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/black-purse-2.jpg?token=AACWRDDEBOQVYLB5YACIOOTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/black-purse-2.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/13419c5dd09447991affbd3e4e7fa018f4e1d141",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/black-purse-2.jpg"
+    }
+  },
+  {
+    "name": "blackberry.jpg",
+    "path": "assets/images/blackberry.jpg",
+    "sha": "45ce2f2f0e852f87da10fb8ec4e3cf23a57e5af8",
+    "size": 161560,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blackberry.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blackberry.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/45ce2f2f0e852f87da10fb8ec4e3cf23a57e5af8",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/blackberry.jpg?token=AACWRDAH7S5ZQIEKDXOOWZTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blackberry.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/45ce2f2f0e852f87da10fb8ec4e3cf23a57e5af8",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blackberry.jpg"
+    }
+  },
+  {
+    "name": "blue-chair.jpg",
+    "path": "assets/images/blue-chair.jpg",
+    "sha": "efc82eeb3740dbd54958956c402501d9b278b04d",
+    "size": 7788998,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blue-chair.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blue-chair.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/efc82eeb3740dbd54958956c402501d9b278b04d",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/blue-chair.jpg?token=AACWRDDYONEQQBWBVNEBHXTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blue-chair.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/efc82eeb3740dbd54958956c402501d9b278b04d",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blue-chair.jpg"
+    }
+  },
+  {
+    "name": "blurry-image.jpg",
+    "path": "assets/images/blurry-image.jpg",
+    "sha": "fcd75fddeef7aa5bb73c36053a55e30543c407b0",
+    "size": 36000,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blurry-image.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blurry-image.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/fcd75fddeef7aa5bb73c36053a55e30543c407b0",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/blurry-image.jpg?token=AACWRDEQ6DTFGT5EIDIZPYDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/blurry-image.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/fcd75fddeef7aa5bb73c36053a55e30543c407b0",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/blurry-image.jpg"
+    }
+  },
+  {
+    "name": "cc0.png",
+    "path": "assets/images/cc0.png",
+    "sha": "5cd64ae2ae771c0c9a21d83f42716ad5e162827a",
+    "size": 49123,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/cc0.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/cc0.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/5cd64ae2ae771c0c9a21d83f42716ad5e162827a",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/cc0.png?token=AACWRDDRPKWOAADKU3ZCU4TDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/cc0.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/5cd64ae2ae771c0c9a21d83f42716ad5e162827a",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/cc0.png"
+    }
+  },
+  {
+    "name": "ccby.png",
+    "path": "assets/images/ccby.png",
+    "sha": "b17111f4cae2692dd147c98440cb13fd59af5c24",
+    "size": 58505,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccby.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccby.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b17111f4cae2692dd147c98440cb13fd59af5c24",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/ccby.png?token=AACWRDCCOIY73CYQMOEJVUTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccby.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b17111f4cae2692dd147c98440cb13fd59af5c24",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccby.png"
+    }
+  },
+  {
+    "name": "ccbynd.png",
+    "path": "assets/images/ccbynd.png",
+    "sha": "88a33893a4b1742f33c55e0bed5a50d26c8e3895",
+    "size": 68804,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccbynd.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccbynd.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88a33893a4b1742f33c55e0bed5a50d26c8e3895",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/ccbynd.png?token=AACWRDBZP46IB27VGRYTDPLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccbynd.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88a33893a4b1742f33c55e0bed5a50d26c8e3895",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccbynd.png"
+    }
+  },
+  {
+    "name": "ccbysa.png",
+    "path": "assets/images/ccbysa.png",
+    "sha": "12ea1447cbc2401d84b3748d7daf3e52d386291c",
+    "size": 71271,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccbysa.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccbysa.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/12ea1447cbc2401d84b3748d7daf3e52d386291c",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/ccbysa.png?token=AACWRDAU7UIOM577YUHJCH3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/ccbysa.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/12ea1447cbc2401d84b3748d7daf3e52d386291c",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/ccbysa.png"
+    }
+  },
+  {
+    "name": "chalkboard.jpg",
+    "path": "assets/images/chalkboard.jpg",
+    "sha": "cc22b63134ef1bec6b06cfd64a76b266c897a7a4",
+    "size": 270812,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/chalkboard.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/chalkboard.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/cc22b63134ef1bec6b06cfd64a76b266c897a7a4",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/chalkboard.jpg?token=AACWRDE7NFV6UQ2BPTYFLJDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/chalkboard.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/cc22b63134ef1bec6b06cfd64a76b266c897a7a4",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/chalkboard.jpg"
+    }
+  },
+  {
+    "name": "clear-river.jpg",
+    "path": "assets/images/clear-river.jpg",
+    "sha": "da456f65e8b6d67e351bc31a2a6d8dc1d8d4bae3",
+    "size": 592194,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/clear-river.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/clear-river.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/da456f65e8b6d67e351bc31a2a6d8dc1d8d4bae3",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/clear-river.jpg?token=AACWRDCY7JVHPGI6OYI2273DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/clear-river.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/da456f65e8b6d67e351bc31a2a6d8dc1d8d4bae3",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/clear-river.jpg"
+    }
+  },
+  {
+    "name": "cloudinary-logo.png",
+    "path": "assets/images/cloudinary-logo.png",
+    "sha": "131255c0616a15fe9af326af1661d7a6a8170cf7",
+    "size": 9944,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/cloudinary-logo.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/cloudinary-logo.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/131255c0616a15fe9af326af1661d7a6a8170cf7",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/cloudinary-logo.png?token=AACWRDDNWEEXLO4CQIKIRTTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/cloudinary-logo.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/131255c0616a15fe9af326af1661d7a6a8170cf7",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/cloudinary-logo.png"
+    }
+  },
+  {
+    "name": "dolphin.jpg",
+    "path": "assets/images/dolphin.jpg",
+    "sha": "b48c0095bd5bcc1aa1a4047013fcf7ae91fed4b6",
+    "size": 103603,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/dolphin.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/dolphin.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b48c0095bd5bcc1aa1a4047013fcf7ae91fed4b6",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/dolphin.jpg?token=AACWRDEP4BPC2HF6ZAYJ4Z3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/dolphin.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b48c0095bd5bcc1aa1a4047013fcf7ae91fed4b6",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/dolphin.jpg"
+    }
+  },
+  {
+    "name": "fishing-boat.jpg",
+    "path": "assets/images/fishing-boat.jpg",
+    "sha": "8d3624bd3ea86b0bf0c4e9a69c27c836338a3e54",
+    "size": 50137,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/fishing-boat.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/fishing-boat.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/8d3624bd3ea86b0bf0c4e9a69c27c836338a3e54",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/fishing-boat.jpg?token=AACWRDDWZFGFASPAFZLN4BTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/fishing-boat.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/8d3624bd3ea86b0bf0c4e9a69c27c836338a3e54",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/fishing-boat.jpg"
+    }
+  },
+  {
+    "name": "forest-reflection.jpg",
+    "path": "assets/images/forest-reflection.jpg",
+    "sha": "55ab48cf5b7118b51087a9361025de90e5c61016",
+    "size": 1537182,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/forest-reflection.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/forest-reflection.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/55ab48cf5b7118b51087a9361025de90e5c61016",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/forest-reflection.jpg?token=AACWRDFZAWO7KRBOBR2YSKLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/forest-reflection.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/55ab48cf5b7118b51087a9361025de90e5c61016",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/forest-reflection.jpg"
+    }
+  },
+  {
+    "name": "funny-cow.jpg",
+    "path": "assets/images/funny-cow.jpg",
+    "sha": "55c9cfd878a248935c0ce7a85d809e4c174ef929",
+    "size": 985414,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/funny-cow.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/funny-cow.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/55c9cfd878a248935c0ce7a85d809e4c174ef929",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/funny-cow.jpg?token=AACWRDHC2V6K7LV6YLAL6E3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/funny-cow.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/55c9cfd878a248935c0ce7a85d809e4c174ef929",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/funny-cow.jpg"
+    }
+  },
+  {
+    "name": "goldfish.jpg",
+    "path": "assets/images/goldfish.jpg",
+    "sha": "dfb83c70560b075044c8693420daa83db02e134b",
+    "size": 331987,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/goldfish.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/goldfish.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/dfb83c70560b075044c8693420daa83db02e134b",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/goldfish.jpg?token=AACWRDCONNVCVI4JRRKP6PLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/goldfish.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/dfb83c70560b075044c8693420daa83db02e134b",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/goldfish.jpg"
+    }
+  },
+  {
+    "name": "gray-surface.jpg",
+    "path": "assets/images/gray-surface.jpg",
+    "sha": "7993c0a8a1cdb2ab94cd3d376ea182cbbaab469b",
+    "size": 577287,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/gray-surface.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/gray-surface.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7993c0a8a1cdb2ab94cd3d376ea182cbbaab469b",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/gray-surface.jpg?token=AACWRDFKOXHBQQFZC7EO2X3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/gray-surface.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7993c0a8a1cdb2ab94cd3d376ea182cbbaab469b",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/gray-surface.jpg"
+    }
+  },
+  {
+    "name": "image-from-tv.jpg",
+    "path": "assets/images/image-from-tv.jpg",
+    "sha": "e7e5c4f295bbd528d077e5d5d5588cfe8a9f37fa",
+    "size": 2536728,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/image-from-tv.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/image-from-tv.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e7e5c4f295bbd528d077e5d5d5588cfe8a9f37fa",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/image-from-tv.jpg?token=AACWRDFNR4LI24RNNC7BM43DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/image-from-tv.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e7e5c4f295bbd528d077e5d5d5588cfe8a9f37fa",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/image-from-tv.jpg"
+    }
+  },
+  {
+    "name": "jellyfish.jpg",
+    "path": "assets/images/jellyfish.jpg",
+    "sha": "88796750a4cb89add46999c213101c97fec47565",
+    "size": 462634,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/jellyfish.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/jellyfish.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88796750a4cb89add46999c213101c97fec47565",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/jellyfish.jpg?token=AACWRDHDHGZIMNQCK5AKED3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/jellyfish.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/88796750a4cb89add46999c213101c97fec47565",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/jellyfish.jpg"
+    }
+  },
+  {
+    "name": "killer-whale.jpg",
+    "path": "assets/images/killer-whale.jpg",
+    "sha": "6a58b4434e9127c2b7f5204d50b3d67d96c7cdb0",
+    "size": 336553,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/killer-whale.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/killer-whale.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/6a58b4434e9127c2b7f5204d50b3d67d96c7cdb0",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/killer-whale.jpg?token=AACWRDENGTIO6HXDR4U4FHTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/killer-whale.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/6a58b4434e9127c2b7f5204d50b3d67d96c7cdb0",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/killer-whale.jpg"
+    }
+  },
+  {
+    "name": "kiwi.jpg",
+    "path": "assets/images/kiwi.jpg",
+    "sha": "2c233bedb3c023a3fb482fa804432b59eabf2e61",
+    "size": 103756,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/kiwi.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/kiwi.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/2c233bedb3c023a3fb482fa804432b59eabf2e61",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/kiwi.jpg?token=AACWRDHLYASHM2CUQ5TZEQLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/kiwi.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/2c233bedb3c023a3fb482fa804432b59eabf2e61",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/kiwi.jpg"
+    }
+  },
+  {
+    "name": "koi.jpg",
+    "path": "assets/images/koi.jpg",
+    "sha": "3d9a8f95d88688f498701aae8713065a6eb71d33",
+    "size": 229072,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/koi.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/koi.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3d9a8f95d88688f498701aae8713065a6eb71d33",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/koi.jpg?token=AACWRDFAUSG7HHEANPCKM5TDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/koi.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3d9a8f95d88688f498701aae8713065a6eb71d33",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/koi.jpg"
+    }
+  },
+  {
+    "name": "lion-head.jpg",
+    "path": "assets/images/lion-head.jpg",
+    "sha": "47c4a0eb4282c67e3a7d7b9238671cb7c9839c4a",
+    "size": 371112,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/lion-head.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/lion-head.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/47c4a0eb4282c67e3a7d7b9238671cb7c9839c4a",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/lion-head.jpg?token=AACWRDDXTP3JI642ZEPA533DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/lion-head.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/47c4a0eb4282c67e3a7d7b9238671cb7c9839c4a",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/lion-head.jpg"
+    }
+  },
+  {
+    "name": "logo-big.png",
+    "path": "assets/images/logo-big.png",
+    "sha": "3ad78d3dcfe0fabced881bf21e52f0ff5a119625",
+    "size": 114814,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/logo-big.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/logo-big.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3ad78d3dcfe0fabced881bf21e52f0ff5a119625",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/logo-big.png?token=AACWRDD4ELNMN7X53GCCW23DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/logo-big.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3ad78d3dcfe0fabced881bf21e52f0ff5a119625",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/logo-big.png"
+    }
+  },
+  {
+    "name": "mask-green.png",
+    "path": "assets/images/mask-green.png",
+    "sha": "6ce9274cd751dbece46d1909922a78aa40202ceb",
+    "size": 345481,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/mask-green.png?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/mask-green.png",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/6ce9274cd751dbece46d1909922a78aa40202ceb",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/mask-green.png?token=AACWRDFGCPXXUBBT5OVDKCLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/mask-green.png?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/6ce9274cd751dbece46d1909922a78aa40202ceb",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/mask-green.png"
+    }
+  },
+  {
+    "name": "modern-art.jpg",
+    "path": "assets/images/modern-art.jpg",
+    "sha": "779532555d65f39af95cbce9b4f8d8b9436572df",
+    "size": 149928,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/modern-art.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/modern-art.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/779532555d65f39af95cbce9b4f8d8b9436572df",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/modern-art.jpg?token=AACWRDDI7HUWKK3DOO6THTDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/modern-art.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/779532555d65f39af95cbce9b4f8d8b9436572df",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/modern-art.jpg"
+    }
+  },
+  {
+    "name": "oranges.jpg",
+    "path": "assets/images/oranges.jpg",
+    "sha": "b1e7854b9920e7250f9da2ca732502320bb41e13",
+    "size": 124648,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/oranges.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/oranges.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b1e7854b9920e7250f9da2ca732502320bb41e13",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/oranges.jpg?token=AACWRDASQKSTF4MIAYA3YBTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/oranges.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/b1e7854b9920e7250f9da2ca732502320bb41e13",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/oranges.jpg"
+    }
+  },
+  {
+    "name": "pineapple.jpg",
+    "path": "assets/images/pineapple.jpg",
+    "sha": "5c410b67e052f4a3495767c68682c109257db88a",
+    "size": 234345,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/pineapple.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/pineapple.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/5c410b67e052f4a3495767c68682c109257db88a",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/pineapple.jpg?token=AACWRDH3YCQBGPEMKGG6WRLDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/pineapple.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/5c410b67e052f4a3495767c68682c109257db88a",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/pineapple.jpg"
+    }
+  },
+  {
+    "name": "sample.jpg",
+    "path": "assets/images/sample.jpg",
+    "sha": "f1ee261558cefdb33d9501451d6add561b4956f6",
+    "size": 109669,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/sample.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/sample.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/f1ee261558cefdb33d9501451d6add561b4956f6",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/sample.jpg?token=AACWRDC7VJ5HB2SJDECDXL3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/sample.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/f1ee261558cefdb33d9501451d6add561b4956f6",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/sample.jpg"
+    }
+  },
+  {
+    "name": "shark.jpg",
+    "path": "assets/images/shark.jpg",
+    "sha": "4b3dcb82fcb47a3044a5a67b301cc6718d87c6db",
+    "size": 1072498,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/shark.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/shark.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/4b3dcb82fcb47a3044a5a67b301cc6718d87c6db",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/shark.jpg?token=AACWRDHIFGELJ65OEGBCAA3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/shark.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/4b3dcb82fcb47a3044a5a67b301cc6718d87c6db",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/shark.jpg"
+    }
+  },
+  {
+    "name": "shell.jpg",
+    "path": "assets/images/shell.jpg",
+    "sha": "7bf462158416a5223db056e4212606a653c5a4b0",
+    "size": 148455,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/shell.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/shell.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7bf462158416a5223db056e4212606a653c5a4b0",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/shell.jpg?token=AACWRDAASABAXDYWP4R4IZDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/shell.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/7bf462158416a5223db056e4212606a653c5a4b0",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/shell.jpg"
+    }
+  },
+  {
+    "name": "snowboard.jpg",
+    "path": "assets/images/snowboard.jpg",
+    "sha": "3238ec265e71dc5719916fb33f5438b29b4561da",
+    "size": 167523,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/snowboard.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/snowboard.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3238ec265e71dc5719916fb33f5438b29b4561da",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/snowboard.jpg?token=AACWRDFWCGTPNIAI4CWQBO3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/snowboard.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/3238ec265e71dc5719916fb33f5438b29b4561da",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/snowboard.jpg"
+    }
+  },
+  {
+    "name": "special-fish.jpg",
+    "path": "assets/images/special-fish.jpg",
+    "sha": "d676a63b5fa0f6b1eed8d0ea40a3e86742c37619",
+    "size": 111950,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/special-fish.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/special-fish.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/d676a63b5fa0f6b1eed8d0ea40a3e86742c37619",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/special-fish.jpg?token=AACWRDE76UZR5INDWHLQSXDDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/special-fish.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/d676a63b5fa0f6b1eed8d0ea40a3e86742c37619",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/special-fish.jpg"
+    }
+  },
+  {
+    "name": "strawberry.jpg",
+    "path": "assets/images/strawberry.jpg",
+    "sha": "230375124ff8f9f4219104917c1db5897a59cc9e",
+    "size": 219620,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/strawberry.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/strawberry.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/230375124ff8f9f4219104917c1db5897a59cc9e",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/strawberry.jpg?token=AACWRDDMG5KIKRFBKKKF5M3DMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/strawberry.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/230375124ff8f9f4219104917c1db5897a59cc9e",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/strawberry.jpg"
+    }
+  },
+  {
+    "name": "tiger-lilly.jpg",
+    "path": "assets/images/tiger-lilly.jpg",
+    "sha": "bb07b98a3ca8cf8064a3182140676a255407f192",
+    "size": 74740,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/tiger-lilly.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/tiger-lilly.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/bb07b98a3ca8cf8064a3182140676a255407f192",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/tiger-lilly.jpg?token=AACWRDB4AZVAH6ZI5VZMT2TDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/tiger-lilly.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/bb07b98a3ca8cf8064a3182140676a255407f192",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/tiger-lilly.jpg"
+    }
+  },
+  {
+    "name": "woman-standing.jpg",
+    "path": "assets/images/woman-standing.jpg",
+    "sha": "66fc20b1f6376b98394a47f353ddb9579c24bf5b",
+    "size": 99469,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/woman-standing.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/woman-standing.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/66fc20b1f6376b98394a47f353ddb9579c24bf5b",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/woman-standing.jpg?token=AACWRDC35O6YWRMFX27XYFTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/woman-standing.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/66fc20b1f6376b98394a47f353ddb9579c24bf5b",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/woman-standing.jpg"
+    }
+  },
+  {
+    "name": "yellow-shoes.jpg",
+    "path": "assets/images/yellow-shoes.jpg",
+    "sha": "e196ddae57c348bd9d9bdec51c91e545c7b68c80",
+    "size": 110834,
+    "url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/yellow-shoes.jpg?ref=master",
+    "html_url": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/yellow-shoes.jpg",
+    "git_url": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e196ddae57c348bd9d9bdec51c91e545c7b68c80",
+    "download_url": "https://raw.githubusercontent.com/cloudinary-training/advanced-concepts/master/assets/images/yellow-shoes.jpg?token=AACWRDAFPG65UGB3LKWK2QTDMGPHE",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/cloudinary-training/advanced-concepts/contents/assets/images/yellow-shoes.jpg?ref=master",
+      "git": "https://api.github.com/repos/cloudinary-training/advanced-concepts/git/blobs/e196ddae57c348bd9d9bdec51c91e545c7b68c80",
+      "html": "https://github.com/cloudinary-training/advanced-concepts/blob/master/assets/images/yellow-shoes.jpg"
+    }
+  }
+]
