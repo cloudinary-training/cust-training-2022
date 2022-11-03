@@ -1,0 +1,222 @@
+[
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/1px.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/art-creative-graffiti.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/banana.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/baseball-cap.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/big-glasses.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/bird-close-up.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/black-purse-1.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/black-purse-2.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/blackberry.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/blue-chair.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/blurry-image.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/cc0.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/ccby.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/ccbynd.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/ccbysa.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/chalkboard.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/clear-river.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/cloudinary-logo.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/dolphin.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/fishing-boat.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/forest-reflection.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/funny-cow.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/goldfish.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/gray-surface.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/image-from-tv.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/jellyfish.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/killer-whale.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/kiwi.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/koi.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/lion-head.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/logo-big.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/mask-green.png"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/modern-art.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/oranges.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/pineapple.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/sample.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "large",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/shark.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/shell.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/snowboard.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/special-fish.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/strawberry.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/tiger-lilly.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "small",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/woman-standing.jpg"
+    },
+    {
+        "migration_date": "11/03/22",
+        "tshirt": "medium",
+        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/yellow-shoes.jpg"
+    }
+]

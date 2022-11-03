@@ -38,7 +38,7 @@ def uploadSingle(asset):
 
 start = time.time()
 
-f = open("./migration/input.json", 'r')
+f = open("./migration/upload-api/input.json", 'r')
 data_list = json.load(f)
 f.close()
 

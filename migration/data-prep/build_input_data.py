@@ -4,7 +4,7 @@ import json
 from datetime import date
 today = date.today()
 
-f = open("./migration/save.json", 'r')
+f = open("./migration/data-prep/save.json", 'r')
 data_list = json.load(f) #data becomes a array
 f.close()
 
@@ -27,10 +27,10 @@ for asset in data_list:
         asset_dict['tshirt'] = 'large'
     remote_assets.append(asset_dict.copy())
 # print(data_list[0])
-print(remote_assets)
+# print(remote_assets)
 
 
 # reopen in write mode and add new data
-f = open("./migration/input.json", 'w+')
+f = open("./migration/data-prep/input.json", 'w+')
 f.write(json.dumps(remote_assets, sort_keys=True, indent=4, separators=(',', ': ')))
 f.close()
