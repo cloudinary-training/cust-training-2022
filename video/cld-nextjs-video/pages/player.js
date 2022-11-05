@@ -10,8 +10,8 @@ const DynamicVideoPlayer = dynamic(() => import('../components/video-player'), {
 });
 
 export default function Home() {
-  const cloudName = "picturecloud7"
-  const publicId = "skiing-1659222720685"
+  const cloudName = "cloudinary-training"
+  const publicId = "diving"
   return (
     <div className={styles.container}>
        <Navigation />
