@@ -33,12 +33,13 @@ def uploadSingle(asset):
         use_filename=True,
         context=context,
         categorization = 'aws_rek_tagging',
+        notification_url = 'https://webhook.site/ad0238a9-bf83-4791-b649-98c18fe6e51c',
         unique_filename=False)
     dump_response(response)
 
 start = time.time()
 
-f = open("./migration/upload-api/input.json", 'r')
+f = open("./migration/data-prep/input.json", 'r')
 data_list = json.load(f)
 f.close()
 
@@ -48,4 +49,4 @@ for item in data_list:
 
 
 end = time.time()
-print(f"Time to complete: {round(end - start, 3)}")
+print(f"Time to complete (seconds): {round(end - start, 3)}")

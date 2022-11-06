@@ -1,11 +1,6 @@
 [
     {
         "migration_date": "11/02/22",
-        "tshirt": "small",
-        "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/1px.png"
-    },
-    {
-        "migration_date": "11/02/22",
         "tshirt": "large",
         "url": "https://cloudinary-training.github.io/advanced-concepts/assets/images/art-creative-graffiti.jpg"
     }

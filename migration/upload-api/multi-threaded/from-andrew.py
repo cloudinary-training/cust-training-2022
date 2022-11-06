@@ -1,6 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore")
-
 import asyncio
 
 from concurrent.futures import ThreadPoolExecutor
@@ -11,12 +8,14 @@ load_dotenv()
 
 from cloudinary.uploader import upload
 
-
 def dump_response(response):
     response_time = "{:5.2f}s".format(default_timer())
     print("Upload response: %s" % (response_time))
     for key in sorted(response.keys()):
         print("  %s: %s" % (key, response[key]))
+
+from dotenv import load_dotenv
+load_dotenv()
 
 def upload_files(url):
     response = upload(url)
@@ -24,9 +23,7 @@ def upload_files(url):
 
 async def get_data_asynchronous():
     urls_to_upload = [
-        "https://res.cloudinary.com/francistagbo/image/upload/sample.jpg",
-        "https://res.cloudinary.com/francistagbo/image/upload/sample.jpg",
-        "https://res.cloudinary.com/francistagbo/image/upload/sample.jpg",
+        "https://res.cloudinary.com/francistagbo/image/upload/sample.jpg"
     ]
 
     with ThreadPoolExecutor(max_workers=3) as executor:
@@ -38,8 +35,8 @@ async def get_data_asynchronous():
             )
             for url in urls_to_upload
         ]
-        for response in await asyncio.gather(tasks):
-            pass
+        # for response in await asyncio.gather(tasks):
+        #     pass
 
 def main():
     loop = asyncio.get_event_loop()
