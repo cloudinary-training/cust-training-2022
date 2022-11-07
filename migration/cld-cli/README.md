@@ -20,16 +20,28 @@ export CLOUDINARY_URL=cloudinary://123456789012345:abcdefghijklmnopqrstuvwxyzA@c
 set CLOUDINARY_URL=cloudinary://123456789012345:abcdefghijklmnopqrstuvwxyzA@cloud_name
 # run config to verify credentials
 cld config
+```
+### CLI Uploader Option
 
-# command to sync
-# cld [cli options] sync [command options] local_folder cloudinary_folder
-# run this from root
-cld sync --push ./migration/cld-cli/migration-assets cli-migration
+Anything that [you can do with the Upload API](https://cloudinary.com/documentation/image_upload_api_reference):
+- upload
+- explicit
+- rename
+- destroy
+- download_backup
+- context
+- metadata
+- tags
+- Asset Generation
 
-# and another file to the ./migration/cld-cli/migration-assets directory and run again
-cld sync --push ./migration/cld-cli/migration-assets cli-migration
+```zsh
+# 
+cld uploader -ls
+# -o optional raw string
+cld uploader upload ./migration/cld-cli/migration-assets/butterfly.jpg folder=migration-cli-upload invalidate=True
 
 ```
+
 
 ### CLI Upload-dir Option
 
@@ -38,8 +50,24 @@ Upload a directory and maintain folder structure.  If the folder you upload to d
 
 ```zsh
 # set up credentials as above
-
 # cld [cli options] upload_dir [command options] [local_folder]
+# -w --concurrent_workers (default 30 workers)
+# -o optional raw string
+# -p preset 
+# ommitting the folder to upload results in uploading the current folder
+cld upload_dir -f migration-upload-dir -o overwrite true ./migration/cld-cli/migration-assets
 
+```
+
+###  Sync Folder to Cloudinary
+
+```zsh
+# command to sync
+# cld [cli options] sync [command options] local_folder cloudinary_folder
+# run this from root
+cld sync --push ./migration/cld-cli/migration-assets cli-sync-migration
+
+# and another file to the ./migration/cld-cli/migration-assets directory and run again
+cld sync --push ./migration/cld-cli/migration-assets cli-migration
 
 ```
