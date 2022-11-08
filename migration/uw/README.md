@@ -1,0 +1,2 @@
+<!-- https://support.cloudinary.com/hc/en-us/community/posts/4417132447762-Upload-Widget-Can-t-add-context-metadata-with-prepareUploadParams- -->
+<!-- https://codesandbox.io/s/tdatu-js-upload-widget-cld-forked-g8djyq?file=/index.html:0-2316 -->
