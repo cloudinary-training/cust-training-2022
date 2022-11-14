@@ -112,8 +112,6 @@ Example: run image upload script in optimization directory
 node optimization/images/upload.js
 ```
 
-
-
 # Credits 
 
 ## assets/images  

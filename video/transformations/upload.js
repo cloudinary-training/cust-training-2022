@@ -17,3 +17,7 @@ cloudinary.uploader
     .catch(error => {
         console.log(error)
     })
+
+// Watermarking - overlay image over video
+console.log(cloudinary.url("downhill-skiing.mp4", {resource_type: "video", transformation: [{width: 400, crop: "scale"},
+{overlay: "cloudinary_logo", height: "40", gravity: "north_east", x: 10, y: 10}]}));
