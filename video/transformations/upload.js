@@ -1,7 +1,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-// 52 MB, 19 seconds
+52 MB, 19 seconds
 const upOptions = {
     public_id: 'video/downhill-skiing',
     resource_type: "video",
@@ -17,7 +17,3 @@ cloudinary.uploader
     .catch(error => {
         console.log(error)
     })
-
-// Watermarking - overlay image over video
-console.log(cloudinary.url("downhill-skiing.mp4", {resource_type: "video", transformation: [{width: 400, crop: "scale"},
-{overlay: "cloudinary_logo", height: "40", gravity: "north_east", x: 10, y: 10}]}));

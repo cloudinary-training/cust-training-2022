@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"index.js -> ../components/video-player":{"id":"index.js -> ../components/video-player","files":["static/chunks/components_video-player_js.js"]}}

@@ -73,33 +73,49 @@ console.log(
 
 // using duration from beginning
 console.log(
-    cloudinary.url("video/snowboarding", {
-      resource_type: "video",
-      transformation: [{duration: 5 }],
-    })
-  );
-
+  cloudinary.url("video/snowboarding", {
+    resource_type: "video",
+    transformation: [{ duration: 5 }],
+  })
+);
 
 // using start offset to end
 console.log(
-    cloudinary.url("video/snowboarding", {
-      resource_type: "video",
-      transformation: [{ start_offset: 17 }],
-    })
-  );
+  cloudinary.url("video/snowboarding", {
+    resource_type: "video",
+    transformation: [{ start_offset: 17 }],
+  })
+);
 
 // using start offset + duration
 console.log(
-    cloudinary.url("video/snowboarding", {
-      resource_type: "video",
-      transformation: [{ start_offset: 17, duration: 3 }],
-    })
-  );
+  cloudinary.url("video/snowboarding", {
+    resource_type: "video",
+    transformation: [{ start_offset: 17, duration: 3 }],
+  })
+);
 
 // using start offset + end offset
 console.log(
-    cloudinary.url("video/snowboarding", {
-      resource_type: "video",
-      transformation: [{ start_offset: 5, end_offset: 7 }],
-    })
-  );
+  cloudinary.url("video/snowboarding", {
+    resource_type: "video",
+    transformation: [{ start_offset: 5, end_offset: 7 }],
+  })
+);
+
+// Watermarking - overlay image over video
+console.log(
+  cloudinary.url("downhill-skiing.mp4", {
+    resource_type: "video",
+    transformation: [
+      { width: 400, crop: "scale" },
+      {
+        overlay: "cloudinary_logo",
+        height: "40",
+        gravity: "north_east",
+        x: 10,
+        y: 10,
+      },
+    ],
+  })
+);
