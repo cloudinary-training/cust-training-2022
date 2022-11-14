@@ -1,7 +1,7 @@
 require('dotenv').config()
 const cloudinary = require('cloudinary').v2
 
-52 MB, 19 seconds
+// 52 MB, 19 seconds
 const upOptions = {
     public_id: 'video/downhill-skiing',
     resource_type: "video",
