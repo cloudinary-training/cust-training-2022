@@ -23,8 +23,8 @@ def dump_response(response):
 
 def uploadSingle(asset):
     print(asset['url'],
-          asset['migration_date'], asset['tshirt'])
-    context = 'migration_date=%s|size=%s' % (asset['migration_date'],asset['tshirt'])
+          asset['migration_date'], asset['size'])
+    context = 'migration_date=%s|size=%s' % (asset['migration_date'],asset['size'])
     print(context)
     response = upload(asset["url"], 
         folder='migration',

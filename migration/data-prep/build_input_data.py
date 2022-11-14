@@ -20,11 +20,11 @@ for asset in data_list:
     asset_dict['url'] = makeURL(asset['path'])
     asset_dict['migration_date'] = today.strftime("%m/%d/%y")
     if asset['size'] < 100000:
-        asset_dict['tshirt'] = 'small'
+        asset_dict['size'] = 'small'
     elif asset['size'] < 1000000:
-        asset_dict['tshirt'] = 'medium'
+        asset_dict['size'] = 'medium'
     else:
-        asset_dict['tshirt'] = 'large'
+        asset_dict['size'] = 'large'
     remote_assets.append(asset_dict.copy())
 # print(data_list[0])
 # print(remote_assets)
