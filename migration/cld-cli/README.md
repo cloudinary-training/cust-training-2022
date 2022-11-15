@@ -35,15 +35,15 @@ Anything that [you can do with the Upload API](https://cloudinary.com/documentat
 - Asset Generation
 
 ```zsh
-# 
+# list what you can do with the upload API
 cld uploader -ls
-# -o optional raw string
+# upload local file to a folder
 cld uploader upload ./migration/cld-cli/migration-assets/butterfly.jpg folder=migration-cli-upload invalidate=True
 
 ```
 
 
-### CLI Upload-dir Option
+### CLI Upload_dir Option
 
 Upload a directory and maintain folder structure.  If the folder you upload to doesn't exist it will be created. You can use presets and on-the-fly transformations to files you upload.  You can also specify concurrent worker threads
 
