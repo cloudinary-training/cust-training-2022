@@ -9,6 +9,8 @@ from cloudinary.api import create_upload_preset
 cloudinary.api.create_upload_preset( name = "migration-unsigned-preset",
     unsigned = True, 
     use_filename=True,
+    gravity='custom',
+    crop='crop',
     notification_url = 'https://webhook.site/ad0238a9-bf83-4791-b649-98c18fe6e51c',
     folder="migration-uw",
     eval = "if (resource_info.width >= 1280) { upload_options['tags']='large'} else {upload_options['tags'] = 'small'}",
