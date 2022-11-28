@@ -30,16 +30,6 @@ def cld_upload_wrapper(name, **kwargs):
     print(f'DONE  ({name}) 🧵: {threading.active_count()}')
     return cld_api_resp
 
-# def get_upload_api_kwargs(upload_index):
-#     """
-#     This method prepares api parameters for the Cloudinary API call
-#     """
-#     return {
-#         'file'     : 'https://picsum.photos/200',
-#         'public_id': f'concurrent_{upload_index:03}',
-#         'folder'   : 'threadpooltest'
-#     }
-
 def get_upload_api_kwargs(upload_index):
     """
     This method prepares api parameters for the Cloudinary API call
