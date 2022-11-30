@@ -27,7 +27,7 @@ The input file is JSON with an array of data like the object shown below.  If yo
     },
 ```
 
-## CLOUDINARY_URL Environemnt Variable
+## Use CLOUDINARY_URL Environment Variable in Python
 
 ```bash
 pip3 install dotenv
