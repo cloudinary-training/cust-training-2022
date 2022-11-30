@@ -11,7 +11,7 @@ cloudinary.api.create_upload_preset( name = "migration-unsigned-preset",
     use_filename=True,
     gravity='custom',
     crop='crop',
-    notification_url = 'https://webhook.site/ad0238a9-bf83-4791-b649-98c18fe6e51c',
+    notification_url = 'https://webhook.site/5e86fa7e-25f5-44ac-8952-5d4bdf37c4d6',
     folder="migration-uw",
     eval = "if (resource_info.width >= 1280) { upload_options['tags']='large'} else {upload_options['tags'] = 'small'}",
     allowed_formats = "jpg,png,jpeg")

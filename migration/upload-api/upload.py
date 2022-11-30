@@ -33,7 +33,7 @@ def uploadSingle(asset):
         use_filename=True,
         context=context,
         categorization = 'aws_rek_tagging',
-        notification_url = 'https://webhook.site/ad0238a9-bf83-4791-b649-98c18fe6e51c',
+        notification_url = 'https://webhook.site/5e86fa7e-25f5-44ac-8952-5d4bdf37c4d6',
         unique_filename=False)
     dump_response(response)
 
