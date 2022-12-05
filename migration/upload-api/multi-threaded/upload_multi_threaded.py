@@ -6,6 +6,9 @@ Invokes cloudinary APIs (via Cloudinary Python SDK) using ThreadPoolExecutor
 
 Based on https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor
 """
+from dotenv import load_dotenv
+load_dotenv()
+
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from cloudinary.uploader import upload
@@ -48,6 +51,8 @@ def main():
     with ThreadPoolExecutor(max_workers=10) as executor:
         # Submitting api wrapper function and parameters with ThreadPoolExecutor
         future_to_index = {
+            # Schedules the callable, fn, to be executed as fn(*args, **kwargs) 
+            # and returns a Future object representing the execution of the callable.
             executor.submit(cld_upload_wrapper, f'upload#{i}', **get_upload_api_kwargs(i)): i 
             for i in range(url_count)
         }
