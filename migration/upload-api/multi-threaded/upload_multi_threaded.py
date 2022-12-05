@@ -38,7 +38,7 @@ def get_upload_api_kwargs(upload_index):
     This method prepares api parameters for the Cloudinary API call
     """
     url = urls_to_load[upload_index]
-    print(url)
+    # print(url)
     return {
         'file'     : url,
         'public_id': f'concurrent_{upload_index:03}',
