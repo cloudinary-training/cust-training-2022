@@ -18,6 +18,11 @@ print(config.cloud_name)
 
 # unique filename:false, and use_filename:true - expect just the filename
 def uploadSingle(url,overwrite=True,invalidate=False,use_filename=False,unique_filename=True):
+    print("overwrite:", overwrite)
+    print("invalidate:", invalidate)
+    print("use_filename:", use_filename)
+    print("unique_filename:", unique_filename)
+
     response = upload(url, 
         folder='test-unique',
         overwrite = overwrite,
