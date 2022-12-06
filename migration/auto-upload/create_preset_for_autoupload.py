@@ -14,6 +14,7 @@ cloudinary.api.create_upload_preset(
     categorization='aws_rek_tagging',
     unsigned=False,
     context="source=github",
+    eager_async=True,
     eager=[{"crop": "thumb", "height": "300",
             "width": "300", "gravity": "auto"
             }
